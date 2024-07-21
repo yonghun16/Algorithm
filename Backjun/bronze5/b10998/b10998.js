@@ -1,21 +1,21 @@
-const readline = require("readline");
-const rl = readline.createInterface({
+// AxB
+// https://www.acmicpc.net/problem/10998
+
+const readline = require('readline')
+
+const rl = readline.createInterface ({
   input: process.stdin,
-  output: process.output,
-});
+  output: process.stdout
+})
 
-const inputData = [];
-rl.on("line", function (line) {
-  inputData.push(line.trim());
-}).on("close", function () {
-  const inputVal = inputData[0].split(" ").map(Number);
-  main(inputVal);
-  process.exit();
-});
+let inputData = []
 
-function main(inputVal) {
-  const a = inputVal[0];
-  const b = inputVal[1];
+rl.on('line', (line) => {
+  inputData.push(line)
+})
 
-  console.log(a * b);
-}
+rl.on('close', () => {
+  const [a, b] = inputData[0].split(' ').map(Number)
+  const results = a * b
+  console.log(results)
+})
