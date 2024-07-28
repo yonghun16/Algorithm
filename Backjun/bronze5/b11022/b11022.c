@@ -15,7 +15,7 @@ int main() {
     for (int i = 0; i < t; i++) {
         scanf("%d %d", &a, &b);
         results[i] = a + b;
-        printf("Case #%d: %d + %d = %d\n", i+i, a, b, results[i]);
+        printf("Case #%d: %d + %d = %d\n", i+1, a, b, results[i]);
     }
 
     return 0;
