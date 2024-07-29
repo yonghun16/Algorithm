@@ -5,22 +5,19 @@ const readline = require('readline')
 
 const rl = readline.createInterface({
   input: process.stdin,
-  output: process.stdout
+  output: process.stdout,
 })
 
-let result = []
+let input = []
 
-rl.on('line', (input) => {
-    const n = parseInt(input.trim(), 10);
-
-    for (let i = 1; i <= n; i++) {
-      result.push(i)
-    }
-
-});
+rl.on('line', (line) => {
+  input.push(line)
+})
 
 rl.on('close', () => {
-    for (let i = 0; i < result.length; i++) {
-      console.log(result[i])
-    }
+  const n = parseInt(input[0], 10)
+
+  for (let i = 1; i <= n; i++) {
+    console.log(i)
+  }
 })
