@@ -16,7 +16,8 @@ function factorial(n) {
   return n * factorial(n - 1)
 }
 rl.on('close', () => {
-  const n = inputData[0].split(' ').map(Number)
+  const n = parseInt(inputData[0])
+  inputData[0]
   console.log(factorial(n))
 })
 
