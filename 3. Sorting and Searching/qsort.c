@@ -4,12 +4,16 @@
  * 구분 : 그리디, 정렬
 -----------------------------------------*/
 
+
 #include <stdio.h>
 #include <stdlib.h>
 
 int compare(const void *a, const void *b) {
     return *(int*)b - *(int*)a; // 내림차순 정렬
 }
+/* qsort의 다양한 정렬 조건
+ * 오름차순 정렬: compare 함수에서 int_a < int_b일 때 음수를 반환
+ * 내림차순 정렬: compare 함수에서 int_a > int_b일 때 음수를 반환 */
 
 int main() {
   int n, a, b, c;
