@@ -1,4 +1,4 @@
-const rl = require('readline').createinterface({
+const rl = require('readline').createInterface({
   input: process.stdin,
   output: process.stdout
 })
@@ -16,10 +16,10 @@ rl.on('close', () => {
   if ( x > 0 && y > 0) {
     console.log("1")
   }
-  if ( x < 0 && y > 0) {
+  else if ( x < 0 && y > 0) {
     console.log("2")
   }
-  if ( x < 0 && y < 0) {
+  else if ( x < 0 && y < 0) {
     console.log("3")
   }
   else console.log("4")
