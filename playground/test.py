@@ -8,4 +8,4 @@ elif x < 0 and y > 0 :
 elif x < 0 and y < 0 :
     print("3")
 else :
-    print("6")
+    print("4")
