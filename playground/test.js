@@ -9,19 +9,14 @@ rl.on('line', (line) => {
   inputData.push(line.trim())
 })
 
+function factorial(n) {
+  if (n === 0) {
+    return 1
+  }
+  return n * factorial(n - 1)
+}
 rl.on('close', () => {
-  const x = parseInt(inputData[0])
-  const y = parseInt(inputData[1])
-
-  if ( x > 0 && y > 0) {
-    console.log("1")
-  }
-  else if ( x < 0 && y > 0) {
-    console.log("2")
-  }
-  else if ( x < 0 && y < 0) {
-    console.log("3")
-  }
-  else console.log("4")
+  const n = inputData[0].split(' ').map(Number)
+  console.log(factorial(n))
 })
 
