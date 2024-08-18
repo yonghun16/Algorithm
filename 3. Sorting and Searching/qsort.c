@@ -1,7 +1,12 @@
 /* ----------------------------------------
- * [BOJ] 1448. 삼각형 만들기
- * https://www.acmicpc.net/problem/1448
- * 구분 : 그리디, 정렬
+- [BOJ] 1448. 삼각형 만들기(https://www.acmicpc.net/problem/1448)
+- Tag: c, greedy, sort
+-------------------------------------------
+- Memo:
+  - qsort의 다양한 정렬 조건(compare)
+    - 오름차순 정렬: compare 함수에서 int_a < int_b일 때 음수를 반환
+    - 내림차순 정렬: compare 함수에서 int_a > int_b일 때 음수를 반환
+    - qsort(array, n, sizeof(int), compare);
 -----------------------------------------*/
 
 
@@ -11,9 +16,6 @@
 int compare(const void *a, const void *b) {
     return *(int*)b - *(int*)a; // 내림차순 정렬
 }
-/* qsort의 다양한 정렬 조건
- * 오름차순 정렬: compare 함수에서 int_a < int_b일 때 음수를 반환
- * 내림차순 정렬: compare 함수에서 int_a > int_b일 때 음수를 반환 */
 
 int main() {
   int n, a, b, c;
