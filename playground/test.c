@@ -1,3 +1,6 @@
+// [BOJ] X보다 작은 수
+// https://www.acmicpc.net/problem/10871
+
 #include <stdio.h>
 #include <stdlib.h>
 
