@@ -1,13 +1,24 @@
 #include <stdio.h>
+#include <stdlib.h>
+
+int compare(const void *a, const void *b) {
+  return *(int *)a - *(int *)b;
+}
 
 int main() {
-    int x, y;
-    scanf("%d %d", &x, &y);
+  int n, x;
+  scanf("%d %d", &n, &x);
+  int *a = (int *)malloc(n * sizeof(int));
 
-    if ( x > 0 && y > 0) printf("1\n");
-    else if ( x < 0 && y > 0) printf("2\n");
-    else if ( x < 0 && y < 0) printf("3\n");
-    else printf("4\n");
+  for (int i=0; i<n; i++) {
+    scanf("%d", &a[i]);
+  }
 
-    return 0;
+  qsort(a, n, sizeof(int), compare);
+
+  for (int i=0; i<n; i++) {
+    if(a[i] < x) printf("%d ", a[i]); 
+  }
+
+  return 0;
 }
