@@ -1,6 +1,8 @@
 /*
 ----------------------------------------------
-Sub: [BOJ] 1448. 삼각형 만들기(https://www.acmicpc.net/problem/1448)
+[BOJ] 1448. 삼각형 만들기
+----------------------------------------------
+Link: https://www.acmicpc.net/problem/1448
 Tag: C, greedy, sort
 Memo:
   qsort의 다양한 정렬 조건(compare)
