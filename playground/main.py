@@ -1,4 +1,10 @@
-# input data for List
+'''
+----------------------------------------------
+Sub: [BOJ] 1448. 삼각형 만들기(https://www.acmicpc.net/problem/1448)
+Tag: py, greedy, sort
+Memo:
+----------------------------------------------
+'''
 
 import sys
 input = sys.stdin.read

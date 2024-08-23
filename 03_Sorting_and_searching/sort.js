@@ -1,10 +1,11 @@
-/* ----------------------------------------
-- [BOJ] 1448. 삼각형 만들기(https://www.acmicpc.net/problem/1448)
-- Tag: js. greedy, sort
--------------------------------------------
-- Memo:
+/*
+----------------------------------------------
+Sub: [BOJ] 1448. 삼각형 만들기(https://www.acmicpc.net/problem/1448)
+Tag: js, greedy, sort
+Memo:
   inputData.slice(1).sort((a, b) => b - a);  // 내림차순으로 정렬
------------------------------------------*/
+----------------------------------------------
+*/
  
 const rl = require('readline').createInterface({
   input: process.stdin,
