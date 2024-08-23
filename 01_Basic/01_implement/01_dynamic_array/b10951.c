@@ -6,24 +6,22 @@
 #include <stdlib.h>
 
 // 두 수를 더하는 함수
-int getSum(int a, int b) {
-    return a + b;
-}
+int getSum(int a, int b) { return a + b; }
 
 int main() {
-    int a, b;
-    int n = 0;
-    int *results = (int *)malloc(n * sizeof(int));
+  int a, b;
+  int n = 0;
+  int *results = (int *)malloc(n * sizeof(int));
 
-    while (scanf("%d %d", &a, &b) != EOF) {
-        results[n++] = getSum(a, b);
-    }
+  while (scanf("%d %d", &a, &b) != EOF) {
+    results[n++] = getSum(a, b);
+  }
 
-    for (int i = 0; i < n; i++) {
-        printf("%d\n", results[i]);
-    }
+  for (int i = 0; i < n; i++) {
+    printf("%d\n", results[i]);
+  }
 
-    free(results);
+  free(results);
 
-    return 0;
+  return 0;
 }
