@@ -1,0 +1,4 @@
+modules = ["c-clang14", "python-3.12", "nodejs-20", "java-graalvm22.3"]
+
+[nix]
+channel = "stable-24_05"

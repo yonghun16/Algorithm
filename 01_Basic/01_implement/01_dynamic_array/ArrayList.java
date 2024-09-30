@@ -5,7 +5,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main_b10951 {
+public class ArrayList {
 
   // 두 수를 더하는 함수
   public static int getSum(int a, int b) {
