@@ -1,6 +1,7 @@
 /*
 ----------------------------------------------
-Sub: [BOJ] 2736. 행렬 덧셈(https://www.acmicpc.net/problem/2738)
+Sub: [BOJ] 2738. 행렬 덧셈
+Link: https://www.acmicpc.net/problem/2738
 Tag: C, 구현, 동적 2차배열
 Memo
 ----------------------------------------------

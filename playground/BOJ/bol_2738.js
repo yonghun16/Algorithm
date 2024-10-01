@@ -1,8 +1,15 @@
-// 입력 받기 (Node.js 환경에서는 'fs' 모듈을 사용해서 입력을 받을 수 있음)
+/*
+----------------------------------------------
+Sub: [BOJ] 2738. 행렬 덧셈
+Link: https://www.acmicpc.net/problem/2738
+Tag: js, 2차원 배열
+Memo
+----------------------------------------------
+*/
+
 const fs = require("fs");
 const input = fs.readFileSync("/dev/stdin").toString().trim().split("\n");
 
-// N과 M을 가져오기
 const [N, M] = input[0].split(" ").map(Number);
 
 // 행렬 A와 B 가져오기
