@@ -1,10 +1,23 @@
 '''
 ----------------------------------------------
-Sub : [BOJ] 문자열
-Link: https://www.acmicpc.net/problem/9086
-Tag : Python, 문자열
+Sub : [BOJ] 
+Link: https://www.acmicpc.net/problem/
+Tag : Python, 
 Memo
 ----------------------------------------------
 '''
 
 
+
+
+/*
+----------------------------------------------
+Sub : [BOJ] 
+Link: https://www.acmicpc.net/problem/
+Tag : JS, 
+Memo
+----------------------------------------------
+*/
+
+const fs = require('fs');
+const input = fs.readFileSync('/dev/stdin').toString().trim().split('\n');
