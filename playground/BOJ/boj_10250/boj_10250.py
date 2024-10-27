@@ -10,7 +10,7 @@ Memo
 T = int(input())  # 테스트 케이스 개수 입력
 
 def sol(H, W, N):
-    number = 1;
+    number = 1
     for i in range(W):
         for j in range(H):
             if number == N:
