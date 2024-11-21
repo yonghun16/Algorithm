@@ -12,9 +12,9 @@ const input = fs.readFileSync('/dev/stdin').toString().trim().split('\n');
 
 
 function is_right_triangle(a, b, c) {
-    const sides = [a, b, c];
-    sides.sort((x, y) => x - y);
-    return sides[0] ** 2 + sides[1] ** 2 === sides[2] ** 2;
+  const sides = [a, b, c];
+  sides.sort((x, y) => x - y);
+  return sides[0] ** 2 + sides[1] ** 2 === sides[2] ** 2;
 }
 
 
@@ -25,9 +25,9 @@ while(true) {
       break;
     } else {
       if (is_right_triangle(a, b, c)) {
-          console.log('right');
-      } else {
-          console.log('wrong');
+        console.log('right');
+      }else{
+        console.log('wrong');
       }
     }
 }
