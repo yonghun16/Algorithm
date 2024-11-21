@@ -24,10 +24,10 @@ while(true) {
     if (a === 0 && b === 0 && c === 0) {
       break;
     } else {
-        if (is_right_triangle(a, b, c)) {
-            console.log('right');
-        } else {
-            console.log('wrong');
-        }
+      if (is_right_triangle(a, b, c)) {
+          console.log('right');
+      } else {
+          console.log('wrong');
+      }
     }
 }
