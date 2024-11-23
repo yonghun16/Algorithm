@@ -8,15 +8,15 @@ Memo
 '''
 
 n = int(input())
-student = list(map(int, input().split()))
+size = list(map(int, input().split()))
 t, p = map(int, input().split())
 
-t_count = 0
+min_tshirt_bundles = 0
 
-for i in student:
-    t_count += int(i/t)
+for i in size:
+    min_tshirt_bundles += int(i/t)
     if(i%t > 0):
-        t_count += 1
+        min_tshirt_bundles += 1
 
-print(t_count)
+print(min_tshirt_bundles)
 print(int(n/p), n%p)
