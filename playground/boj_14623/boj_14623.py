@@ -8,8 +8,8 @@ Memo
 '''
 
 # input
-b1 = input()
-b2 = input()
+b1 = input().strip()
+b2 = input().strip()
 
 result = int(b1, 2) * int(b2, 2)
 
