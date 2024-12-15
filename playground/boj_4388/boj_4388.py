@@ -10,10 +10,14 @@ Memo
 def carry(n, m):
     one_place = len(n) if len(n)>len(m) else len(m)
     count = 0
+    carry_number = 0
 
-    for i in range(one_place):
-        if int(n[i])+int(m[i])>=10:
+    for i in range(one_place-1, -1, -1):
+        if int(n[i]) + int(m[i]) + carry_number >=10:
             count += 1
+            carry_number = 1
+        else:
+            carry_number = 0
         
     return(count)
 
