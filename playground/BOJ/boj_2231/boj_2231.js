@@ -12,7 +12,7 @@ const input = fs.readFileSync('/dev/stdin').toString().trim().split('\n')
 
 const N = Number(input[0])
 
-let [cnt, minN] = [N, N]
+;[cnt, minN] = [N, N]
 
 // 생성자를 반환하는 함수
 const devideSum = (num) => {
