@@ -2,9 +2,9 @@
 Sub  : [BOJ] HI-ARC
 Link : https://www.acmicpc.net/problem/26004
 Level: B3
-Tag  : Python, 
+Tag  : Python, 구현, 문자열
 Memo
- - 
+ - 굳이 딕셔너리를 쓸 필요는 없다.
 ---------------------------------------------'''
 
 import sys
