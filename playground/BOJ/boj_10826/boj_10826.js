@@ -1,7 +1,7 @@
 /*----------------------------------------------
-Sub  : [BOJ] 피보나치 수
-Link : https://www.acmicpc.net/problem/4150
-Level: 브론즈 1
+Sub  : [BOJ] 피보나치 4
+Link : https://www.acmicpc.net/problem/10826
+Level: 실버 5
 Tag  : JS, 피보나치, 동적계획
 Memo
  -  BigInt 사용
