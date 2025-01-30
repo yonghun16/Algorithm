@@ -9,17 +9,17 @@ Memo
 
 const allNumberSet = new Set();
 for (let i = 1; i < 10000; i++) {
-    allNumberSet.add(i);
+  allNumberSet.add(i);
 }
 
 const createNumberSet = new Set();
 
 allNumberSet.forEach(i => {
-    let createNumber = i;
-    for (const digit of String(i)) {
-        createNumber += Number(digit);
-    }
-    createNumberSet.add(createNumber);
+  let createNumber = i;
+  for (const digit of String(i)) {
+    createNumber += Number(digit);
+  }
+  createNumberSet.add(createNumber);
 });
 
 const selfNumberSet = [...allNumberSet].filter(num => !createNumberSet.has(num))
