@@ -9,7 +9,7 @@ Memo
 import sys
 input = sys.stdin.readline
 
-# 입력
+# 입력 받기
 # n = 체스판의 세로의 길이, m = 체스판의 가로의 길이
 n, m = map (int, input().strip().split())
 board = []
@@ -37,4 +37,5 @@ for start_x in range(n-7):
                         whiteCase += 1
         result = min(result, blackCase, whiteCase)
 
+# 출력하기
 print(result)
