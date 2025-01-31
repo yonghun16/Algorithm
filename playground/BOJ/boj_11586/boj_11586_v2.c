@@ -4,15 +4,9 @@ Link : https://www.acmicpc.net/problem/11586
 Level: 브론즈 3
 Tag  : C, String
 Memo
- v1:
-   - 2차원 배열을 입력 받을 시 개행 처리가 중요
-     mirror[i][j] = getchar();
- v2:
-   - 2차원 배열 입력 시 '개행문자'를 포함해 받음. -> 더 간결 
-     scanf(" %c", &mirror[i][j]);
-   - char mirror[N][N];
-
-
+  - 2차원 배열 입력 시 '개행문자'를 포함해 받음. -> 더 간결 
+    scanf(" %c", &mirror[i][j]);
+  - char mirror[N][N];
 -----------------------------------------------------*/
 
 #include <stdio.h>
