@@ -12,6 +12,7 @@ typedef struct Stack {
     Node *top;
 } Stack;
 
+// 스택에 요소 넣기
 void push(Stack *stack, int data) {
     Node *curNode = (Node *)malloc(sizeof(Node));
     curNode->data = data;
@@ -19,6 +20,7 @@ void push(Stack *stack, int data) {
     stack->top = curNode;
 }
 
+// 스택에서 요소 빼기
 int pop(Stack *stack) {
     if (stack->top == NULL) {
         printf("스택 언더플로우가 발생했습니다. \n");
@@ -31,6 +33,7 @@ int pop(Stack *stack) {
     return data;
 }
 
+// 스택 출력
 void show(Stack *stack) {
     Node *curNode = stack->top;
     printf("\n   ↓ 스택의 최상단 \n");
@@ -48,7 +51,7 @@ int main(void) {
 
     int c, n;
     printf("──────────────────────────────────────\n");
-    printf("   연결 리스트를 이용한 스텍의 구현   \n");
+    printf("  Linked List를 이용한 Stackdml 구현  \n");
     printf("──────────────────────────────────────\n");
 
     while (1) {
@@ -65,6 +68,9 @@ int main(void) {
         } else if (c == 0) {
             printf("프로그램을 종료합니다.\n");
             break;
+        } else {
+            printf("메뉴의 숫자를 입력해 주세요.\n\n");
+            continue;
         }
     }
 
