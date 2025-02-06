@@ -6,7 +6,7 @@
 int stack[SIZE];
 int top = -1;
 
-// 스택 요소 넣기
+// 스택에 요소 넣기
 void push(int data) {
     if (top == SIZE - 1) {
         printf("스텍 오버플로우가 발생했습니다.\n");
@@ -15,7 +15,7 @@ void push(int data) {
     stack[++top] = data;
 }
 
-// 요소 빼기
+// 스택에서 요소 빼기
 int pop() {
     if (top == -1) {
         printf("스택 언더플로우가 발생했씁니다.\n");
@@ -24,7 +24,7 @@ int pop() {
     return stack[top--];
 }
 
-// 스택 보여주기
+// 스택 출력
 void display() {
     printf("\n   ↓ 스택의 최상단 \n");
     printf("│     │\n");

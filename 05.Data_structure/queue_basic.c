@@ -13,6 +13,7 @@ int isEmpty() {
     return front == rear;
 }
 
+// 큐에 요소 삽입
 void enqueue(int value) {
     if (isFull()) {
         printf("Queue is full!\n");
@@ -21,6 +22,7 @@ void enqueue(int value) {
     queue[rear++] = value;
 }
 
+// 큐에서 요소 제거
 int dequeue() {
     if (isEmpty()) {
         printf("Queue is empty!\n");
@@ -34,6 +36,7 @@ int dequeue() {
     return data;
 }
 
+// 큐 출력
 void display() {
     if (isEmpty()) {
         printf("Queue is empty!\n");
