@@ -51,7 +51,7 @@ int main() {
             push(n);
             display();
         } else if (c == 2) {
-            pop();
+            printf("* Pop value : %d\n", pop());
             display();
         } else if (c == 0) {
             printf("프로그램을 종료합니다.\n");

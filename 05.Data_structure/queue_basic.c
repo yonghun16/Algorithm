@@ -67,7 +67,7 @@ int main() {
             enqueue(n);
             display();
         } else if (c == 2) {
-            dequeue();
+            printf("* dequeue value : %d", dequeue());
             display();
         } else if (c == 0) {
             printf("프로그램을 종료합니다.\n");
