@@ -4,15 +4,16 @@ Link : https://www.acmicpc.net/problem/2775
 Level: Bronze 1
 Tag  : C, Dynamic Programming
 Memo
-  - 비슷한 문제
-    ACM 호텔 (10250)
+  - 1차원 동적 배열
+      int *results = (int *)malloc(n * sizeof(int));
+      free(results);
 -----------------------------------------------------*/
 
 #include <stdio.h>
 #include <stdlib.h>
 
 // 동적 2차원 배열 생성
-int **create2DArray(int rows, int cols) {
+int **create_2d_array(int rows, int cols) {
     int **array = (int **)malloc(rows * sizeof(int *));
     for (int i = 0; i < rows; i++) {
         array[i] = (int *)malloc(cols * sizeof(int));
@@ -21,7 +22,7 @@ int **create2DArray(int rows, int cols) {
 }
 
 // 동적 2차원 배열 해제
-void free2DArray(int **array, int rows) {
+void free_2d_array(int **array, int rows) {
     for (int i = 0; i < rows; i++) {
         free(array[i]);
     }
@@ -31,7 +32,7 @@ void free2DArray(int **array, int rows) {
 // 거주민 수 계산
 int get_resident(int k, int n) {
     // (k+1) x (n+1) 크기의 동적 배열 생성
-    int **apt_arr = create2DArray(k + 1, n + 1);
+    int **apt_arr = create_2d_array(k + 1, n + 1);
 
     // k층 0호,  0층 n호 초기화
     for (int i = 0; i <= k; i++) apt_arr[i][0] = 0;
@@ -45,7 +46,7 @@ int get_resident(int k, int n) {
     }
 
     int result = apt_arr[k][n];
-    free2DArray(apt_arr, k + 1);
+    free_2d_array(apt_arr, k + 1);
 
     return result;
 }

@@ -10,7 +10,7 @@ Memo
 #include <stdlib.h>
 
 // 동적 2차원 배열 생성
-int **create2DArray(int rows, int cols) {
+int **create_2d_array(int rows, int cols) {
   int **array = (int **)malloc(rows * sizeof(int *));
 
   for (int i = 0; i < rows; i++) {
@@ -21,7 +21,7 @@ int **create2DArray(int rows, int cols) {
 }
 
 // 메모리 해제
-void free2DArray(int **array, int rows) {
+void free_2d_array(int **array, int rows) {
   for (int i = 0; i < rows; i++) {
     free(array[i]);
   }
@@ -32,33 +32,33 @@ int main() {
   int n, m;
   scanf("%d %d", &n, &m);
 
-  int **arrayA = create2DArray(n, m);
-  int **arrayB = create2DArray(n, m);
+  int **array_a = create_2d_array(n, m);
+  int **array_b = create_2d_array(n, m);
 
   // 행렬A 입력
   for (int i = 0; i < n; i++) {
     for (int j = 0; j < m; j++) {
-      scanf("%d", &arrayA[i][j]);
+      scanf("%d", &array_a[i][j]);
     }
   }
 
   // 행렬B 입력
   for (int i = 0; i < n; i++) {
     for (int j = 0; j < m; j++) {
-      scanf("%d", &arrayB[i][j]);
+      scanf("%d", &array_b[i][j]);
     }
   }
 
   // 행렬A + 행렬B 결과값 출력
   for (int i = 0; i < n; i++) {
     for (int j = 0; j < m; j++) {
-      printf("%d ", arrayA[i][j] + arrayB[i][j]);
+      printf("%d ", array_a[i][j] + array_b[i][j]);
     }
     printf("\n");
   }
 
-  free2DArray(arrayA, n);
-  free2DArray(arrayB, n);
+  free_2d_array(array_a, n);
+  free_2d_array(array_b, n);
 
   return 0;
 }
