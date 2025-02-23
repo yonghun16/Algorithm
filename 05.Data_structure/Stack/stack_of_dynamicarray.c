@@ -48,7 +48,7 @@ int main() {
     printf("\n");
 
     int c, n;
-    int *stack = (int *)malloc(SIZE * sizeof(int));
+    int *stack = (int *)malloc(4000);
     static int top = -1;
 
     while (1) {
