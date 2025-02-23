@@ -51,7 +51,7 @@ int main(void) {
 
     int c, n;
     printf("──────────────────────────────────────\n");
-    printf("  Linked List를 이용한 Stackdml 구현  \n");
+    printf("  Linked List를 이용한 Stackd 구현  \n");
     printf("──────────────────────────────────────\n");
 
     while (1) {
