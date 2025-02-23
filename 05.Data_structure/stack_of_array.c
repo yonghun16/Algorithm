@@ -24,6 +24,11 @@ int pop() {
     return stack[top--];
 }
 
+// 스택의 최상단 요소 빼기
+int peek() {
+   return stack[top]; 
+}
+
 // 스택 출력
 void display() {
     printf("\n   ↓ 스택의 최상단 \n");
@@ -43,7 +48,7 @@ int main() {
     int c, n;
 
     while (1) {
-        printf("Push(1), Pop(2), EXIT(0) : ");
+        printf("Push(1), Pop(2), Peek(3), EXIT(0) : ");
         scanf("%d", &c);
         if (c == 1) {
             printf("Push 할 숫자를 적으세요 : ");
@@ -53,6 +58,8 @@ int main() {
         } else if (c == 2) {
             printf("* Pop value : %d\n", pop());
             display();
+        } else if (c == 3) {
+            printf("* Peek value : %d\n", peek());
         } else if (c == 0) {
             printf("프로그램을 종료합니다.\n");
             break;
