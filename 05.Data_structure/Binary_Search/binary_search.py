@@ -1,4 +1,6 @@
-arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+arr1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+arr2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+arr3 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
 
 def binary_search(arr, target):
     count = 0
@@ -20,5 +22,5 @@ def binary_search(arr, target):
     return -1  # 찾지 못한 경우
 
 
-result = binary_search(arr, 7)
-print(result+1)
+result = binary_search(arr3, 1)
+print(result)
