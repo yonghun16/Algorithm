@@ -13,7 +13,7 @@ def binary_search(arr, target):
             # return mid           # 찾은 경우 인덱스 반환
             return count
         elif arr[mid] < target:
-            left = mid + 1       # 오른쪽 반을 탐색
+            left = mid + 1        # 오른쪽 반을 탐색
         else:
             right = mid - 1       # 왼쪽 반을 탐색
 
