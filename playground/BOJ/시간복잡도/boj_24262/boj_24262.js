@@ -9,7 +9,7 @@ Memo
 const input = require('fs').readFileSync(0, 'utf-8').trim().split('\n');
 
 const n = Number(input[0]);
-const A = Array(n).fill(0).map(() => Math.floor(Math.random() * 10));
+const A = Array(n).fill(0).map(() => Math.floor(Math.random() * 11));
 
 /* 
 MenOfPassion(A[], n) {
