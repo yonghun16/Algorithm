@@ -10,7 +10,7 @@ import sys
 import random
 input = sys.stdin.readline
 
-n = int(input())
+n = int(input().strip())
 A = [random.randint(1, 10) for _ in range(n+1)]
 
 '''
