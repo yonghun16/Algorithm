@@ -22,5 +22,5 @@ def binary_search(arr, target):
     return -1  # 찾지 못한 경우
 
 
-result = binary_search(arr3, 1)
+result = binary_search(arr1, 9)
 print(result)

@@ -20,6 +20,7 @@ MenOfPassion(A[], n) {
 
 function MenOfPassion(A, n) {
   let count = 0;
+
   const i = Math.floor(n / 2);
   //return arr[i];
   count += 1;
@@ -31,5 +32,6 @@ const resultCount = MenOfPassion(A, n);
 
 // 결과출력
 // 시간복잡도 -> O(1)
-console.log(resultCount);   // 상수 시간
+//console.log(resultCount);   // 상수 시간
+console.log(1);   // 상수 시간
 console.log(0);             // O(1)의 차수 -> 0
