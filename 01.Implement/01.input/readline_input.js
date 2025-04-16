@@ -12,8 +12,8 @@ rl.on('line', (line) => {
 })
 
 rl.on('close', () => {
-  const n = data[0].split(' ').map(Number)
+  const input = data[0].split(' ').map(Number)
 
   console.log(data)
-  console.log(n)
+  console.log(input)
 });
