@@ -9,11 +9,12 @@ Memo
 import sys
 input = sys.stdin.readline
 
-
 N, K = map(int, input().strip().split())   # 입력 값
-maxNumber = 0
-answer = 0
+answer = 0                                 # 출력 값
 
+
+# 변수 선언
+maxNumber = 0    # 최대 값
 
 # 구구단 숫자를 거꾸로 구하기
 def reverseTimesTable(str):
