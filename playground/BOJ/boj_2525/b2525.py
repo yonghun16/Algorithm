@@ -21,7 +21,7 @@ class Answer:
 
 # 입력 검사
 def check_input(A, B, C):
-    if A < 0 or A > 23 or B < 0 or B > 59 or C < 0 or C > 1000:
+    if (A < 0 or A > 23) or (B < 0 or B > 59) or (C < 0 or C > 1000):
         raise ValueError("입력값이 허용 범위를 초과합니다.")
 
 check_input(A, B, C);

@@ -19,10 +19,11 @@ answer = {
 
 // 입력 검사
 const checkInput = (A, B, C) => {
-  if (A < 0 || A > 23 || B < 0 || B > 59 || C < 0 || C > 1000) {
+  if ((A < 0 || A > 23) || (B < 0 || B > 59) || (C < 0 || C > 1000)) {
     throw new Error("입력갑이 허용범위를 초과합니다.");
   }
 }
+
 checkInput(A, B, C);
 
 // 요리 후 시각 계산
