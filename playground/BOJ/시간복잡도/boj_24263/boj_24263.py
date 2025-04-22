@@ -36,6 +36,6 @@ result_count = MenOfPassion(A, n)
 
 # 결과 출력
 # 시간복잡도 -> O(n)
-print(result_count)  # O(n)
-# print(n)           # O(n)
+# print(result_count)  # O(n)
+print(n)             # O(1)
 print(1)             # O(n)의 차수 -> 1
