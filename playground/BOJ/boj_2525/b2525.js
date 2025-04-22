@@ -25,7 +25,7 @@ const checkInput = (A, B, C) => {
 }
 checkInput(A, B, C);
 
-// 알고리즘
+// 요리 후 시각 계산
 function solution(A, B, C) {
   // 분 단위로 변환 후 계산
   const oneDayMinute = 24 * 60;              // 하루 분
