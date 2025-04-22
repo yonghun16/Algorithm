@@ -13,13 +13,11 @@ input = sys.stdin.readline
 A, B = map(int, input().strip().split())  # 현재 시, 분
 C = int(input().strip())                  # 요리 시간 (분)
 
-
 # 출력 형식
 class Answer:
     def __init__(self, hour, min):
         self.hour = hour                  # 요리 종료 시
         self.min = min                    # 요리 종료 분
-
 
 # 입력 검사
 def check_input(A, B, C):
@@ -27,7 +25,6 @@ def check_input(A, B, C):
         raise ValueError("입력값이 허용 범위를 초과합니다.")
 
 check_input(A, B, C);
-
 
 # 알고리즘
 def solution(A, B, C):
@@ -41,7 +38,6 @@ def solution(A, B, C):
     min = total_minute % 60
 
     return hour, min
-
 
 # 결과 출력
 answer = Answer(*solution(A, B, C))
