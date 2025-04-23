@@ -29,7 +29,7 @@ check_input(A, B, C);
 # 요리 후 시각 계산
 def solution(A, B, C):
     # 분 단위로 변환 후 계산
-    one_day_minute = 24 * 60;              # 하루 분
+    one_day_minute = 24 * 60;              # 하루 분 1440
     total_minute = (A * 60) + B + C        # 요리 종료 시간
     total_minute %= one_day_minute         # 요리 종료 시각 : 하루가 넘어가는 경우는 하루 분(1440)으로 나누어 나머지 값으로 변경
 
