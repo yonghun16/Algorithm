@@ -30,6 +30,7 @@ def is_prime_number(num):
                     return False          # False를 반환(소수가 아님)
     return True                           # True를 반환(소수)
 
+# 소수 갯수 구하기
 for num in numbers:
     if is_prime_number(num):              # num이 소수이면
         count += 1                        # count에 1씩 더함.

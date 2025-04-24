@@ -32,8 +32,9 @@ def is_prime_number(num):
                     return 0
     return 1                              # 살아남는 숫자는 소수임.
 
+# 소수 갯수 구하기
 for num in numbers:
-    count += is_prime_number(num)         # num이 소수인 수를 count에 더함
+    count += is_prime_number(num)         # 소수이면 1을 리턴하며, 그 return 값들을 count에 누적함.
 
 # 출력
 answer = count                            # 최종 count를 answer에 할당

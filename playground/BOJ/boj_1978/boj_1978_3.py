@@ -27,6 +27,7 @@ def is_prime_number(num):
                 return False
     return True                           # 살아남는 숫자는 소수임.
 
+# 소수 갯수 구하기
 for num in numbers:
     if is_prime_number(num):              # num이 소수이면
         count += 1                        # count에 1씩 더함.
