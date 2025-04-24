@@ -1,3 +1,10 @@
+/* ----------------------------------------------
+Sub: [BOJ] 2738. 행렬 덧셈
+Link: https://www.acmicpc.net/problem/2738
+Tag: java, 2차원 배열
+Memo
+---------------------------------------------- */
+
 import java.util.Scanner;
 
 public class boj_2738 {
