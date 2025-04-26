@@ -14,14 +14,14 @@ import sys
 input = sys.stdin.readline
 
 # 입력 형식
-n = int(input().strip())                                  # n -> 입력 개수(100개이하)
-numbers = [int(_) for _ in input().strip().split()]       # 자연수(1000이하)
+n = int(input().strip())                              # n -> 입력 개수(100개이하)
+numbers = [int(_) for _ in input().strip().split()]   # 자연수(1000이하)
 
 # 출력 형식
-answer = 0                                                # 소수의 갯수
+answer = 0                                            # 소수의 갯수
 
 # 에라토스테네스의 체로 소수 찾기
-# 시간복잡도 -> O(m log log m)                            # m=1000 일 때, 1000 * log(log1000) = 약477.1
+# 시간복잡도 -> O(m log log m)                        # m=1000 일 때, 1000 * log(log1000) = 약477.1
 def eratostheneses_sieve(max_num):
     count = 0
     is_prime = [False, False] + [True] * (max_num - 1)    # numbers의 2부터 최대값까지 1로 초기화하여 소수일 가능성이 있다고 가정.

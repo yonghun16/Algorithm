@@ -24,19 +24,19 @@ MenOfPassion(A[], n) {
 }
 '''
 
-def MenOfPassion(A, n):
-    count = 0
-    sum = 0
-    for i in range(1, n):
-        for j in range(i + 1, n+1):
-            sum += A[i] * A[j]
-            count += 1
-    return count
-
-result_count = MenOfPassion(A, n)
+# def MenOfPassion(A, n):
+#     count = 0
+#     sum = 0
+#     for i in range(1, n):
+#         for j in range(i + 1, n+1):
+#             sum += A[i] * A[j]
+#             count += 1
+#     return count
+#
+# result_count = MenOfPassion(A, n)
 
 # 결과출력
-# 시간복잡도 -> O(n^2)
+# 시간복잡도 -> O(n^2)           // n=500,000일 때 최대 반복 횟수 n^2=250,000,000
 
 # print(result_count)
 print(n * (n - 1) // 2)    # n(n-1)/2 횟수 반복 O(1)

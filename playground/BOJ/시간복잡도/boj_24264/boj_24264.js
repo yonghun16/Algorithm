@@ -37,7 +37,7 @@ MenOfPassion(A[], n) {
 //const result_count = MenOfPassion(A, n);
 
 // 결과출력
-// 시간복잡도 -> O(n^2)
-//console.log(result_count);    // O(n^2)
+// 시간복잡도 -> O(n^2)           // n=500,000일 때 최대 반복 횟수 n^2=250,000,000
+//console.log(result_count);      // O(n^2)
 console.log(n**2);
-console.log(2);               // n^2의 차수 -> 2
+console.log(2);                   // n^2의 차수 -> 2

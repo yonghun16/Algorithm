@@ -18,13 +18,13 @@ answer = count = 0                        # 소수의 갯수
 # 소수 찾기 : 시간복잡도 -> O(n*m)        # n=100, m=1,000 일 때 100*1,000 = 100,000
 def is_prime_number(num):
     divided_count = 0                     # 나눈 횟수
-    if num <= 1:                          # num이 1보다 작으면 소수가 아님
+    if num <= 1:                          # num이 1보다 같거나 작으면 소수가 아님
         return False                      # False 반환(소수가 아님)
     elif num == 2:                        # num이 2이면 소수
         return True                       # True를 반환(소수)
     else:
-        for i in range(1, num+1):         # 1부터 num까지 순서대로 나누기
-            if num % i == 0:              # 나누어 떨어지면
+        for i in range(1, num+1):         # 1부터 num까지 순서대로 나누기 (i는 나누는 수, num을 나누려는 수)
+            if num % i == 0:              # num / i로 나누어 떨어지면
                 divided_count += 1        # 나눈 횟수
                 if divided_count > 2:     # 나눈 횟수가 2보다 크면, 즉 소수가 아니면
                     return False          # False를 반환(소수가 아님)

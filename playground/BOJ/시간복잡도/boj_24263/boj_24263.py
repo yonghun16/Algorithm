@@ -35,7 +35,7 @@ result_count = MenOfPassion(A, n)
 
 
 # 결과 출력
-# 시간복잡도 -> O(n)
+# 시간복잡도 -> O(n)             n=500,000 일 때 최대 반복횟수 -> 500,000
 # print(result_count)  # O(n)
-print(n)             # O(1)
-print(1)             # O(n)의 차수 -> 1
+print(n)               # O(1)
+print(1)               # O(n)의 차수 -> 1

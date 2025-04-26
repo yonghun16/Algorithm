@@ -38,7 +38,7 @@ MenOfPassion(A[], n) {
 # result_count = MenOfPassion(A, n)
 
 # 결과 출력
-# 시간복잡도 -> O(n^3)
+# 시간복잡도 -> O(n^3)             n=500,000 일 때 최대 반복횟수 -> 500,000^3(조낸 많음.)
 # print(result_count)
 print(n * (n-1) * (n-2) // 6)
 print(3)

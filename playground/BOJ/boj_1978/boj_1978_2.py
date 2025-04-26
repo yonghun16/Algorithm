@@ -25,8 +25,8 @@ def is_prime_number(num):
     elif num % 2 == 0:                    # num이 짝수이면 소수가 아님
         return 0
     else:
-        for i in range(1, num+1, 2):      # 1부터 num까지 홀수로 나누기
-            if num % i == 0:              # 나누어 떨어지면
+        for i in range(1, num+1, 2):      # 1부터 num까지 홀수로 나누기 (i는 나누는 수, num은 나누려는 수)
+            if num % i == 0:              # num / i로 나누어 떨어지면
                 divided_count += 1        # 나눈 횟수
                 if divided_count > 2:     # 나눈 횟수가 2보다 크면 소수가 아님
                     return 0
