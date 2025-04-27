@@ -7,13 +7,18 @@ Memo
  - 
 ----------------------------------------------*/
 
-const fs = require('fs')
-const input = fs.readFileSync(0, 'utf-8').trim().split('\n')
+const input = require('fs').readFileSync(0, 'utf-8').trim().split('\n')
 
 // 입력 받기
-const [N, M] = input[0].split(" ").map(Number);
-const cards = input[1].split(" ").map(Number);
+const [N, M] = input[0].split(" ").map(Number);     //  3 <= N <= 100
+const cards = input[1].split(" ").map(Number);      // 10 <= M <= 300,000
 
+// 출력 변수
+answer = 0;
+
+// 블랙잭 카드 3장 선택
+// 시간복잡도 : O(N^3)          -> 100^3 = 10,000,000
+//              n(n-1)(n-2)/6   -> 100*99*98/6 = 99,800
 function blackjack(N, M, cards) {
   let maxSum = 0;
 
@@ -33,4 +38,5 @@ function blackjack(N, M, cards) {
 }
 
 // 결과 출력
-console.log(blackjack(N, M, cards));
+answer = blackjack(N, M, cards);
+console.log(answer);
