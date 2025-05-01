@@ -24,7 +24,7 @@ while b < MAX:
         count += 1
         b += 1
         a = b
-    if a**2 > b**2 + n:
+    elif a**2 > b**2 + n:
         b += 1
         a = b
         continue
