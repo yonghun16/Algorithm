@@ -18,18 +18,12 @@ B = list(map(int, input().strip().split()))
 answer = 0
 
 # process
-C = []
+C = A + B
 
-for a in A:
-    C.append(a)
-    if C.count(a) >= 2:
-        C.remove(a)
-        C.remove(a)
-
-for b in B:
-    C.append(b)
-    if C.count(b) >= 2:
-        C.remove(b)
-        C.remove(b)
+for c in C:
+    C.append(c)
+    if C.count(c) >= 2:
+        C.remove(c)
+        C.remove(c)
 
 print(len(C))
