@@ -1,25 +1,30 @@
 class Stack:
+    # 스택 생성(List)
     def __init__(self):
         self.stack = []
 
+    # 1. 스텍에 원소 추가(append)
     def push(self, data):
-        # 스텍에 원소 추가
         self.stack.append(data)
 
+    # 2.스텍에서 원소 추출(pop)
     def pop(self):
         if self.is_empty():
             return None
-        # 스텍에서 원소 추출
         return self.stack.pop()
 
+    # 3. 스텍의 최상단 원소 반환(index -1)
     def peek(self):
         if self.is_empty():
             return None
-        # 스텍의 최상단 원소 반환
         return self.stack[-1]
 
+    # 4. 스택의 원소 개수 반환(len)
+    def size(self):
+        return len(self.stack)
+
+    # 스텍 출력
     def display(self):
-        # 스텍 출력
         print("\n   ↓ 스택의 최상단 ");
         print("│     │");
         for i in range(len(self.stack) - 1, -1, -1):
@@ -38,7 +43,7 @@ print();
 stack = Stack()
 
 while(True):
-    menu = int(input("Push(1), Pop(2), Peek(3), len(4), EXIT(0) : "))
+    menu = int(input("Push(1), Pop(2), Peek(3), Size(4), EXIT(0) : "))
 
     if menu == 1:
         stack.push(int(input("Input Data : ")))
@@ -50,7 +55,7 @@ while(True):
         print("Peek Data : ", stack.peek())
         print()
     elif menu == 4:
-        print("Stack Length : ", len(stack.stack))
+        print("Stack Length : ", stack.size())
         print()
     elif menu == 0:
         break
