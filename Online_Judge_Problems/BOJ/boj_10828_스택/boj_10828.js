@@ -8,6 +8,7 @@ Memo
 
 const input = require('fs').readFileSync(0, 'utf-8').trim().split('\n');
 
+
 // 스택 클래스 정의
 class Stack {
   constructor() {

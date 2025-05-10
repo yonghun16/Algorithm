@@ -1,9 +1,14 @@
 '''----------------------------------------------------
 Sub : [BOJ] Caesar Cipher
 Link: https://www.acmicpc.net/problem/15874
-Tag : Python, 
+Level: 브론즈 2
+Tag  : Python, math 
 Memo
 ----------------------------------------------------'''
+
+import sys
+input = sys.stdin.readline
+
 
 import sys
 input = sys.stdin.readline

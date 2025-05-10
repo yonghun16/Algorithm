@@ -1,11 +1,15 @@
-'''
-----------------------------------------------
+'''----------------------------------------------------
+Sub  : [BOJ] 
 Sub : [BOJ] 모비스
+Link : https://www.acmicpc.net/problem/
 Link: https://www.acmicpc.net/problem/28074
-Tag : Python, String
+Level: 브론즈 4
+Tag  : Python, String
 Memo
-----------------------------------------------
-'''
+----------------------------------------------------'''
+
+import sys
+input = sys.stdin.readline
 
 def can_form_mobis(string):
     required_chars = "MOBIS"
