@@ -71,7 +71,7 @@ def collect_all_problems():
 def write_readme(path, title, problems_by_oj):
     with open(path, 'w', encoding='utf-8') as f:
         f.write(f'# {title}\n\n')
-        f.write('최근에 해결한 온라인 저지 문제 목록입니다. \n\n**Online_Judge_Problems** 디렉토리 각 온라인 저지별로 풀이가 있습니다.\n\n')
+        f.write('최근에 해결한 온라인 저지 문제 목록입니다. \n\n**Online_Judge_Problems** 디렉토리에 문제 풀이 소스가 있습니다.\n\n')
 
         for oj, problems in problems_by_oj.items():
             f.write(f'## {oj}\n\n')
