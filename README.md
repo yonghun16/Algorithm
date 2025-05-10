@@ -10,10 +10,11 @@
 
 | 온라인 저지 | 번호 | 제목 | 난이도 | 태그 | 링크 |
 |------|------|------|--------|------|------|
-| boj | 9469 | 폰노이만 |  | Python, | [바로가기](https://www.acmicpc.net/problem/9469) |
-| boj | 15874 | CaesarCipher |  | Python, | [바로가기](https://www.acmicpc.net/problem/15874) |
-| boj | 2231 | 분해합 | 브론즈 2 | Python, brute force | [바로가기](https://www.acmicpc.net/problem/2231) |
 | boj | 10828 | 스택 | 실버 4 | JS, Stack | [바로가기](https://www.acmicpc.net/problem/10828) |
+| boj | 28074 | 모비스 | 브론즈 4 | Python, String | [바로가기](https://www.acmicpc.net/problem/) |
+| boj | 15874 | CaesarCipher | 브론즈 2 | Python, math | [바로가기](https://www.acmicpc.net/problem/15874) |
+| boj | 9469 | 폰노이만 | 브론즈 3 | Python, math | [바로가기](https://www.acmicpc.net/problem/9469) |
+| boj | 2231 | 분해합 | 브론즈 2 | Python, brute force | [바로가기](https://www.acmicpc.net/problem/2231) |
 | boj | 2309 | 일곱난쟁이 | 브론즈 1 | Python, 브루투 포스 | [바로가기](https://www.acmicpc.net/problem/2309) |
 | boj | 17614 | 369 | 브론즈 3 | JS, 브루투포스 | [바로가기](https://www.acmicpc.net/problem/17614) |
 | boj | 13410 | 거꾸로구구단 | 브론즈 2 | Python, 구현 | [바로가기](https://www.acmicpc.net/problem/13410) |
@@ -27,7 +28,6 @@
 | boj | 30019 | 강의실예약시스템 | 브론즈 2 | Python, 구현, 그리디 | [바로가기](https://www.acmicpc.net/problem/30019) |
 | boj | 4150 | 피보나치수 | 브론즈 1 | JS, 피보나치, 동적계획 | [바로가기](https://www.acmicpc.net/problem/4150) |
 | boj | 2292 | 벌집 | B2 | Python, 수학 | [바로가기](https://www.acmicpc.net/problem/2292) |
-| boj | 28074 | 모비스 |  | Python, String | [바로가기](https://www.acmicpc.net/problem/28074) |
 
 ## programmers
 
@@ -47,6 +47,6 @@
 
 | 온라인 저지 | 번호 | 제목 | 난이도 | 태그 | 링크 |
 |------|------|------|--------|------|------|
-| goorm | 150332 | 구름크기측정하기 |  |  | [바로가기]() |
+| goorm | 150332 | 구름크기측정하기 | 1 | C, math | [바로가기](https://level.goorm.io/exam/150332/%ED%98%84%EB%8C%80%EB%AA%A8%EB%B9%84%EC%8A%A4-%EB%AA%A8%EC%9D%98%ED%85%8C%EC%8A%A4%ED%8A%B8-%EA%B5%AC%EB%A6%84-%ED%81%AC%EA%B8%B0-%EC%B8%A1%EC%A0%95%ED%95%98%EA%B8%B0/quiz/1) |
 | goorm | 48193 | 막대기 | 1 | C, | [바로가기](https://level.goorm.io/exam/48193/막대기/quiz/1) |
 
