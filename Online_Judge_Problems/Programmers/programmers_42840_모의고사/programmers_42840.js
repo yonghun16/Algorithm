@@ -1,5 +1,12 @@
-// https://programmers.co.kr/learn/courses/30/lessons/42840
+/*-----------------------------------------------------
+Sub  : [Programmers] 모의고사
+Link : https://programmers.co.kr/learn/courses/30/lessons/42840
+Level: 1
+Tag  : JS, 완전탐색
+Memo
+-----------------------------------------------------*/
 
+const input = require('fs').readFileSync(0, 'utf-8').trim().split('\n');
 function solution(answers) {
     var answer = [];
     var user = 

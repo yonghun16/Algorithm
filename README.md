@@ -10,6 +10,8 @@
 
 | 온라인 저지 | 번호 | 제목 | 난이도 | 태그 | 링크 |
 |------|------|------|--------|------|------|
+| boj | 9469 | 폰노이만 |  | Python, | [바로가기](https://www.acmicpc.net/problem/9469) |
+| boj | 15874 | CaesarCipher |  | Python, | [바로가기](https://www.acmicpc.net/problem/15874) |
 | boj | 2231 | 분해합 | 브론즈 2 | Python, brute force | [바로가기](https://www.acmicpc.net/problem/2231) |
 | boj | 10828 | 스택 | 실버 4 | JS, Stack | [바로가기](https://www.acmicpc.net/problem/10828) |
 | boj | 2309 | 일곱난쟁이 | 브론즈 1 | Python, 브루투 포스 | [바로가기](https://www.acmicpc.net/problem/2309) |
@@ -25,9 +27,7 @@
 | boj | 30019 | 강의실예약시스템 | 브론즈 2 | Python, 구현, 그리디 | [바로가기](https://www.acmicpc.net/problem/30019) |
 | boj | 4150 | 피보나치수 | 브론즈 1 | JS, 피보나치, 동적계획 | [바로가기](https://www.acmicpc.net/problem/4150) |
 | boj | 2292 | 벌집 | B2 | Python, 수학 | [바로가기](https://www.acmicpc.net/problem/2292) |
-| boj | 15874 | CaesarCipher |  | Python, | [바로가기](https://www.acmicpc.net/problem/15874) |
 | boj | 28074 | 모비스 |  | Python, String | [바로가기](https://www.acmicpc.net/problem/28074) |
-| boj | 9469 | 폰노이만 |  | Python, | [바로가기](https://www.acmicpc.net/problem/9469) |
 
 ## programmers
 
@@ -35,8 +35,11 @@
 
 | 온라인 저지 | 번호 | 제목 | 난이도 | 태그 | 링크 |
 |------|------|------|--------|------|------|
+| programmers | 70128 | 내적 | 1 | JS, Math | [바로가기](https://programmers.co.kr/learn/courses/30/lessons/70128) |
+| programmers | 42840 | 모의고사 | 1 | JS, 완전탐색 | [바로가기](https://programmers.co.kr/learn/courses/30/lessons/42840) |
+| programmers | 86051 | 없는숫자더하기 | 1 | C, math | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/86051) |
+| programmers | 12977 | 소수만들기 | 1 | Python, math | [바로가기](https://programmers.co.kr/learn/courses/30/lessons/12977) |
 | programmers | 68644 | 두개뽑아서더하기 | 1 | JS, | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/68644) |
-| programmers | 86051 | 없는숫자더하기 |  |  | [바로가기]() |
 
 ## goorm
 
@@ -44,5 +47,6 @@
 
 | 온라인 저지 | 번호 | 제목 | 난이도 | 태그 | 링크 |
 |------|------|------|--------|------|------|
+| goorm | 150332 | 구름크기측정하기 |  |  | [바로가기]() |
 | goorm | 48193 | 막대기 | 1 | C, | [바로가기](https://level.goorm.io/exam/48193/막대기/quiz/1) |
 

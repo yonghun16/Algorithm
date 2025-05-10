@@ -1,5 +1,14 @@
-# https://programmers.co.kr/learn/courses/30/lessons/12977
 
+'''----------------------------------------------------
+Sub  : [Programmers] 소수 만들기
+Link : https://programmers.co.kr/learn/courses/30/lessons/12977
+Level: 1
+Tag  : Python, math
+Memo
+----------------------------------------------------'''
+
+import sys
+input = sys.stdin.readline
 def solution(nums):
     length = len(nums)
     answer = 0
