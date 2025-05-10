@@ -77,7 +77,11 @@ def write_readme(path, title, problems_by_oj):
             f.write(f'## {oj}\n\n')
 
             if oj == 'boj':
-                f.write('<p> <a href="https://solved.ac/profile/yonghun16"><img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=yonghun16" width="348em"></a> <a href="https://www.acmicpc.net/user/yonghun16"><img src="http://mazandi.herokuapp.com/api?handle=yonghun16&theme=warm" width="348em"></a> </p><br />\n\n')
+                f.write('<p> <a href="https://solved.ac/profile/yonghun16"><img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=yonghun16" width="348em"></a> <a href="https://www.acmicpc.net/user/yonghun16"><img src="http://mazandi.herokuapp.com/api?handle=yonghun16&theme=warm" width="348em"></a> </p>\n\n')
+            elif oj == 'programmers':
+                f.write('<img src="https://github.com/yonghun16/Algorithm/blob/main/Online_Judge_Problems/Programmers/score.png" width="350em">\n\n')
+            elif oj == 'goorm':
+                f.write('<img src="https://github.com/yonghun16/Algorithm/blob/main/Online_Judge_Problems/Goorm/score.png">\n\n')
 
             f.write('| 온라인 저지 | 번호 | 제목 | 난이도 | 태그 | 링크 |\n')
             f.write('|------|------|------|--------|------|------|\n')
