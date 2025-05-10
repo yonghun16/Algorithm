@@ -1,8 +1,24 @@
-/* 
- * KOI 2019 초등부 막대기
- * 난이도 1
- * https://level.goorm.io/exam/48193/%EB%A7%89%EB%8C%80%EA%B8%B0/quiz/1
- */
+/*-----------------------------------------------------
+Sub  : [Goorm] 막대기
+Link : https://level.goorm.io/exam/48193/막대기/quiz/1
+Level: 1
+Tag  : C, 
+Memo
+-----------------------------------------------------*/
+
+#include <stdio.h>
+
+int main() {
+
+    return 0;
+}
+
+#include <stdio.h>
+
+int main() {
+
+    return 0;
+}
 
 #include <stdio.h>
 int main() {

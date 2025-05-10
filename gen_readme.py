@@ -3,7 +3,7 @@ import re
 from collections import defaultdict
 
 MAX_COUNT = 50
-OJ_LIST = ['BOJ', 'Goorm', 'JOL', 'Programmers']
+OJ_LIST = ['BOJ', 'Programmers', 'Goorm', 'JOL']
 
 # ✅ 문제 루트 디렉토리 (수동으로 지정)
 PROBLEM_ROOT = os.path.join('.', 'Online_Judge_Problems')
@@ -19,14 +19,25 @@ def extract_info_from_file(folder_path):
     try:
         for filename in os.listdir(folder_path):
             file_path = os.path.join(folder_path, filename)
-            if os.path.isfile(file_path) and filename.endswith(('.py', '.txt', '.cpp', '.js', '.java')):
+            if os.path.isfile(file_path) and filename.endswith(('.py', '.c', '.cpp', '.js', '.java')):
                 with open(file_path, 'r', encoding='utf-8') as f:
                     lines = f.readlines()
-                    if lines and lines[0].startswith("'''") and "Level" in "".join(lines[:10]):
-                        block = "".join(lines[:10])
-                        level = re.search(r'Level\s*:\s*(.+)', block)
-                        tags = re.search(r'Tag\s*:\s*(.+)', block)
-                        link = re.search(r'Link\s*:\s*(.+)', block)
+                    if not lines:
+                        continue
+
+                    content = "".join(lines[:20])
+
+                    # 주석 블록 추출
+                    if filename.endswith('.py'):
+                        block = re.search(r"'''(.*?)'''", content, re.DOTALL)
+                    else:  # C, C++, Java, JS
+                        block = re.search(r"/\*(.*?)\*/", content, re.DOTALL)
+
+                    if block:
+                        comment_block = block.group(1)
+                        level = re.search(r'Level\s*:\s*(.+)', comment_block)
+                        tags = re.search(r'Tag\s*:\s*(.+)', comment_block)
+                        link = re.search(r'Link\s*:\s*(.+)', comment_block)
                         return (
                             level.group(1).strip() if level else '',
                             tags.group(1).strip() if tags else '',
@@ -60,10 +71,14 @@ def collect_all_problems():
 def write_readme(path, title, problems_by_oj):
     with open(path, 'w', encoding='utf-8') as f:
         f.write(f'# {title}\n\n')
-        f.write('온라인 저지 문제 목록입니다. \n\n**Online_Judge_Problems** 디렉토리 안에 풀어본 알고리즘 문제를 아래에 나열하였습니다.\n\n')
+        f.write('최근에 해결한 온라인 저지 문제 목록입니다. \n\n**Online_Judge_Problems** 디렉토리 각 온라인 저지별로 풀이가 있습니다.\n\n')
 
         for oj, problems in problems_by_oj.items():
             f.write(f'## {oj}\n\n')
+
+            if oj == 'boj':
+                f.write('<p> <a href="https://solved.ac/profile/yonghun16"><img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=yonghun16" width="348em"></a> <a href="https://www.acmicpc.net/user/yonghun16"><img src="http://mazandi.herokuapp.com/api?handle=yonghun16&theme=warm" width="348em"></a> </p>\n')
+
             f.write('| 온라인 저지 | 번호 | 제목 | 난이도 | 태그 | 링크 |\n')
             f.write('|------|------|------|--------|------|------|\n')
             for oj, number, title, level, tags, link, _ in problems:
