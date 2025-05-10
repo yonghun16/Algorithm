@@ -1,7 +1,7 @@
 '''----------------------------------------------------
 Sub : [BOJ] 분해합
 Link: https://www.acmicpc.net/problem/2231
-Level: 실버 1
+Level: 브론즈 2
 Tag : Python, brute force
 Memo
 ----------------------------------------------------'''
