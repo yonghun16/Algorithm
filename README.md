@@ -6,7 +6,8 @@
 
 ## boj
 
-<p> <a href="https://solved.ac/profile/yonghun16"><img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=yonghun16" width="348em"></a> <a href="https://www.acmicpc.net/user/yonghun16"><img src="http://mazandi.herokuapp.com/api?handle=yonghun16&theme=warm" width="348em"></a> </p>
+<p> <a href="https://solved.ac/profile/yonghun16"><img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=yonghun16" width="348em"></a> <a href="https://www.acmicpc.net/user/yonghun16"><img src="http://mazandi.herokuapp.com/api?handle=yonghun16&theme=warm" width="348em"></a> </p><br />
+
 | 온라인 저지 | 번호 | 제목 | 난이도 | 태그 | 링크 |
 |------|------|------|--------|------|------|
 | boj | 2231 | 분해합 | 브론즈 2 | Python, brute force | [바로가기](https://www.acmicpc.net/problem/2231) |
