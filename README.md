@@ -10,6 +10,7 @@
 
 | 온라인 저지 | 번호 | 제목 | 난이도 | 태그 | 링크 |
 |------|------|------|--------|------|------|
+| boj | 10799 | 쇠막대기 | 실버 2 | Python, Stack | [바로가기](https://www.acmicpc.net/problem/10799) |
 | boj | 10828 | 스택 | 실버 4 | JS, Stack | [바로가기](https://www.acmicpc.net/problem/10828) |
 | boj | 28074 | 모비스 | 브론즈 4 | Python, String | [바로가기](https://www.acmicpc.net/problem/) |
 | boj | 15874 | CaesarCipher | 브론즈 2 | Python, math | [바로가기](https://www.acmicpc.net/problem/15874) |
