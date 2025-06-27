@@ -43,7 +43,7 @@ console.log(a, b);
 // ABCDEF
 // BCDEFA
 // CDEFAB  (Ctrl + D)
-const str = Array.from({ length: 3 }, (_, i) => input[i]);
+const str = Array.from({ length: 3 }, (_, i) => input[i].trim());
 
 console.log(str);
 
@@ -95,7 +95,7 @@ const lines = require('fs').readFileSync(filePath, 'utf-8').trim().split('\n');
 
 const T = Number(lines[0]);
 
-const numbers = Array.from({ length: T }, (_, i) => Number(lines[i + 1])
+const numbers = Array.from({ length: T }, (_, i) => Number(lines[i + 1].trim())
 );
 
 console.log(numbers);
