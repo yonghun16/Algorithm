@@ -74,3 +74,31 @@ for i in range(3):
     for j in range(4):
         print(arr[i][j], end=' ')
     print()
+
+
+
+# === 8. 파일 한 줄씩 읽기 ===
+f = open('input.txt', 'r')
+line = f.readline()
+print(line)
+f.close()
+
+
+
+# === 9. 파일 여러 줄씩 읽기 ===
+# 리스트로 저장됨.
+f = open('input.txt', 'r')
+lines = f.readlines()
+T = int(lines[0])
+
+# 다음 줄부터 숫자 읽기
+for i in range(1, T + 1):
+    n = int(lines[i])
+    print(f"#{i}: {n}")
+
+
+# === 10. 전체 내용 한 번에 읽기 ===
+f = open('input.txt', 'r')
+data = f.read()
+print(data)
+f.close()

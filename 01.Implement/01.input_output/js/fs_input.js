@@ -10,9 +10,8 @@ Memo : 입력 받기 (Node.js 환경에서는 'fs' 모듈을 사용해서 입력
   console.log(inputVal)
 ----------------------------------------------
 */
+const input = require('fs').readFileSync(0, 'utf-8').trim().split('\n');
 
-const fs = require("fs");
-const input = fs.readFileSync("/dev/stdin").toString().trim().split("\n");
 
 // N과 M을 가져오기
 const [N, M] = input[0].split(" ").map(Number);

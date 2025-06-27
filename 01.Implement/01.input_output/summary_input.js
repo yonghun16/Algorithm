@@ -57,3 +57,24 @@ for (let i = 0; i < 3; i++) {
   arr.push(input[i]);
 }
 console.log(arr);
+
+
+// === 6. 파일 여러 줄씩 읽기 ===
+const filePath = require('path').join(__dirname, 'input.txt');
+const lines = require('fs').readFileSync(filePath, 'utf-8').trim().split('\n');
+
+// 예: 첫 줄에 테스트 케이스 개수, 이후 줄마다 숫자 한 개씩 들어 있다고 가정
+/* -----------
+// input.txt 
+3
+1
+2
+3
+--------------*/
+
+const T = Number(lines[0]);
+for (let i = 1; i <= T; i++) {
+  const n = Number(lines[i]);
+  console.log(`#${i}:`, n);
+}
+

@@ -15,9 +15,11 @@ const [N, M] = input[0].split(" ").map(Number);
 console.log(N +" "+ typeof(N), M +" "+ typeof(M));
 // H, W, N = map(int, input().split())   참고: python
 
+
 // D숫자를 object타입으로 가져오기
 const D = input[1].split().map(Number);
 console.log(D + " " + typeof(D));
+
 
 // O숫자를 number타입으로 가져오기
 let O = Number(input[2]);
