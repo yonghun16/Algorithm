@@ -1,6 +1,7 @@
 import os
 import re
 from collections import defaultdict
+import urllib.parse
 
 MAX_COUNT = 50
 OJ_LIST = ['boj', 'programmers', 'goorm', 'jol']
@@ -83,10 +84,11 @@ def write_readme(path, title, problems_by_oj):
             elif oj == 'goorm':
                 f.write('<img src="https://github.com/yonghun16/Algorithm/blob/main/Online_Judge_Problems/goorm/score.png">\n\n')
 
+            encoded_title = urllib.parse.quote(title)
             f.write('| 온라인 저지 | 번호 | 제목 | 난이도 | 태그 | 링크 |\n')
             f.write('|------|------|------|--------|------|------|\n')
             for oj, number, title, level, tags, link, _ in problems:
-                f.write(f'| {oj} | {number} | [{title}]({link}) | {level} | {tags} | [바로가기](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/{oj}/{oj}_{number}_{title}) |\n')
+                f.write(f'| {oj} | {number} | [{title}]({link}) | {level} | {tags} | [바로가기](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/{oj}/{oj}_{number}_{encoded_title}) |\n')
             f.write('\n')
 
 def main():
