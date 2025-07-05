@@ -13,7 +13,7 @@ def parse_folder_name(folder_name):
     match = re.match(r'^(\w+)_(\d+)_([\w가-힣_]+)$', folder_name)
     if match:
         oj, number, title = match.groups()
-        return oj, number, title.replace('_', ' ')
+        return oj, number, title
     return None
 
 def extract_info_from_file(folder_path):
