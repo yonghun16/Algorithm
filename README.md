@@ -25,7 +25,7 @@
 | boj | 1546 | [average](https://www.acmicpc.net/problem/1546) | 브론즈 1 | C, | [바로가기](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/BOJ/boj_1546_average) |
 | boj | 1018 | [체스판다시칠하기](https://www.acmicpc.net/problem/1018) | 실버 4 | Python, 부루트포스 | [바로가기](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/BOJ/boj_1018_체스판다시칠하기) |
 | boj | 1316 | [그룹단어체커](https://www.acmicpc.net/problem/1316) | 실버 5 | C, String | [바로가기](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/BOJ/boj_1316_그룹단어체커) |
-| boj | 4673 | [Self number](https://www.acmicpc.net/problem/4673) | 실버 5 | C, Brute Force | [바로가기](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/BOJ/boj_4673_Self number) |
+| boj | 4673 | [셀프넘버](https://www.acmicpc.net/problem/4673) | 실버 5 | C, Brute Force | [바로가기](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/BOJ/boj_4673_셀프넘버) |
 | boj | 30019 | [강의실예약시스템](https://www.acmicpc.net/problem/30019) | 브론즈 2 | Python, 구현, 그리디 | [바로가기](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/BOJ/boj_30019_강의실예약시스템) |
 | boj | 4150 | [피보나치수](https://www.acmicpc.net/problem/4150) | 브론즈 1 | JS, 피보나치, 동적계획 | [바로가기](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/BOJ/boj_4150_피보나치수) |
 | boj | 2292 | [벌집](https://www.acmicpc.net/problem/2292) | B2 | Python, 수학 | [바로가기](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/BOJ/boj_2292_벌집) |
