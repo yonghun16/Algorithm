@@ -28,7 +28,7 @@ const merge = (left, right) => {
   }
 
   // 남은 요소 추가
-  return result.concat(left.slice(i)).concat(right.slice(j));
+  return [...result, ...left.slice(i), ...right.slice(j)];
 }
 
 // 테스트: 길이 10의 배열
