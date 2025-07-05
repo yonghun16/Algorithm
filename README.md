@@ -38,9 +38,9 @@
 |------|------|------|--------|------|------|
 | programmers | 70128 | [내적](https://programmers.co.kr/learn/courses/30/lessons/70128) | 1 | JS, Math | [바로가기](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/programmers/programmers_70128_%EB%82%B4%EC%A0%81) |
 | programmers | 42840 | [모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840) | 1 | JS, 완전탐색 | [바로가기](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/programmers/programmers_42840_%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC) |
-| programmers | 86051 | [없는숫자더하기](https://school.programmers.co.kr/learn/courses/30/lessons/86051) | 1 | C, math | [바로가기](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/programmers/programmers_86051_%E1%84%8B%E1%85%A5%E1%86%B9%E1%84%82%E1%85%B3%E1%86%AB%E1%84%89%E1%85%AE%E1%86%BA%E1%84%8C%E1%85%A1%E1%84%83%E1%85%A5%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5) |
-| programmers | 12977 | [소수만들기](https://programmers.co.kr/learn/courses/30/lessons/12977) | 1 | Python, math | [바로가기](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/programmers/programmers_12977_%E1%84%89%E1%85%A9%E1%84%89%E1%85%AE%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%86%AF%E1%84%80%E1%85%B5) |
-| programmers | 68644 | [두개뽑아서더하기](https://school.programmers.co.kr/learn/courses/30/lessons/68644) | 1 | JS, | [바로가기](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/programmers/programmers_68644_%E1%84%83%E1%85%AE%E1%84%80%E1%85%A2%E1%84%88%E1%85%A9%E1%86%B8%E1%84%8B%E1%85%A1%E1%84%89%E1%85%A5%E1%84%83%E1%85%A5%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5) |
+| programmers | 86051 | [없는숫자 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/86051) | 1 | C, math | [바로가기](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/programmers/programmers_86051_%EC%97%86%EB%8A%94%EC%88%AB%EC%9E%90_%EB%8D%94%ED%95%98%EA%B8%B0) |
+| programmers | 12977 | [소수 만들기](https://programmers.co.kr/learn/courses/30/lessons/12977) | 1 | Python, math | [바로가기](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/programmers/programmers_12977_%EC%86%8C%EC%88%98_%EB%A7%8C%EB%93%A4%EA%B8%B0) |
+| programmers | 68644 | [두 개 뽑아서 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/68644) | 1 | JS, | [바로가기](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/programmers/programmers_68644_%EB%91%90_%EA%B0%9C_%EB%BD%91%EC%95%84%EC%84%9C_%EB%8D%94%ED%95%98%EA%B8%B0) |
 
 ## goorm
 
@@ -48,6 +48,6 @@
 
 | 온라인 저지 | 번호 | 제목 | 난이도 | 태그 | 링크 |
 |------|------|------|--------|------|------|
-| goorm | 150332 | [구름크기측정하기](https://level.goorm.io/exam/150332/%ED%98%84%EB%8C%80%EB%AA%A8%EB%B9%84%EC%8A%A4-%EB%AA%A8%EC%9D%98%ED%85%8C%EC%8A%A4%ED%8A%B8-%EA%B5%AC%EB%A6%84-%ED%81%AC%EA%B8%B0-%EC%B8%A1%EC%A0%95%ED%95%98%EA%B8%B0/quiz/1) | 1 | C, math | [바로가기](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/goorm/goorm_150332_%EA%B5%AC%EB%A6%84%ED%81%AC%EA%B8%B0%EC%B8%A1%EC%A0%95%ED%95%98%EA%B8%B0) |
+| goorm | 150332 | [구름크기 측정하기](https://level.goorm.io/exam/150332/%ED%98%84%EB%8C%80%EB%AA%A8%EB%B9%84%EC%8A%A4-%EB%AA%A8%EC%9D%98%ED%85%8C%EC%8A%A4%ED%8A%B8-%EA%B5%AC%EB%A6%84-%ED%81%AC%EA%B8%B0-%EC%B8%A1%EC%A0%95%ED%95%98%EA%B8%B0/quiz/1) | 1 | C, math | [바로가기](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/goorm/goorm_150332_%EA%B5%AC%EB%A6%84%ED%81%AC%EA%B8%B0_%EC%B8%A1%EC%A0%95%ED%95%98%EA%B8%B0) |
 | goorm | 48193 | [막대기](https://level.goorm.io/exam/48193/막대기/quiz/1) | 1 | C, | [바로가기](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/goorm/goorm_48193_%EB%A7%89%EB%8C%80%EA%B8%B0) |
 
