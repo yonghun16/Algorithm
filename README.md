@@ -1,10 +1,10 @@
-# 알고리즘 문제 목록 (최근 50개)
+# 알고리즘 문제 목록 (최근 30개)
 
 최근에 해결한 온라인 저지 문제 목록입니다. 
 
 **Online_Judge_Problems** 디렉토리에 문제 풀이 소스가 있습니다.
 
-## boj
+## 백준 온라인 저지
 
 <p> <a href="https://solved.ac/profile/yonghun16"><img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=yonghun16" width="348em"></a> <a href="https://www.acmicpc.net/user/yonghun16"><img src="http://mazandi.herokuapp.com/api?handle=yonghun16&theme=warm" width="348em"></a> </p>
 
@@ -30,7 +30,7 @@
 | boj | 4150 | [피보나치수](https://www.acmicpc.net/problem/4150) | 브론즈 1 | JS, 피보나치, 동적계획 | [바로가기](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_4150_%E1%84%91%E1%85%B5%E1%84%87%E1%85%A9%E1%84%82%E1%85%A1%E1%84%8E%E1%85%B5%E1%84%89%E1%85%AE) |
 | boj | 2292 | [벌집](https://www.acmicpc.net/problem/2292) | B2 | Python, 수학 | [바로가기](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_2292_%E1%84%87%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%B5%E1%86%B8) |
 
-## programmers
+## 프로그래머스
 
 <img src="https://github.com/yonghun16/Algorithm/blob/main/Online_Judge_Problems/programmers/score.png" width="350em">
 
@@ -42,7 +42,7 @@
 | programmers | 12977 | [소수 만들기](https://programmers.co.kr/learn/courses/30/lessons/12977) | 1 | Python, math | [바로가기](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/programmers/programmers_12977_%EC%86%8C%EC%88%98_%EB%A7%8C%EB%93%A4%EA%B8%B0) |
 | programmers | 68644 | [두 개 뽑아서 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/68644) | 1 | JS, | [바로가기](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/programmers/programmers_68644_%EB%91%90_%EA%B0%9C_%EB%BD%91%EC%95%84%EC%84%9C_%EB%8D%94%ED%95%98%EA%B8%B0) |
 
-## goorm
+## 구름
 
 <img src="https://github.com/yonghun16/Algorithm/blob/main/Online_Judge_Problems/goorm/score.png">
 

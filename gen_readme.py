@@ -3,7 +3,7 @@ import re
 from collections import defaultdict
 import urllib.parse
 
-MAX_COUNT = 50
+MAX_COUNT = 30
 OJ_LIST = ['boj', 'programmers', 'goorm', 'jol']
 
 # ✅ 문제 루트 디렉토리 (수동으로 지정)
@@ -75,13 +75,14 @@ def write_readme(path, title, problems_by_oj):
         f.write('최근에 해결한 온라인 저지 문제 목록입니다. \n\n**Online_Judge_Problems** 디렉토리에 문제 풀이 소스가 있습니다.\n\n')
 
         for oj, problems in problems_by_oj.items():
-            f.write(f'## {oj}\n\n')
-
             if oj == 'boj':
+                f.write(f'## 백준 온라인 저지\n\n')
                 f.write('<p> <a href="https://solved.ac/profile/yonghun16"><img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=yonghun16" width="348em"></a> <a href="https://www.acmicpc.net/user/yonghun16"><img src="http://mazandi.herokuapp.com/api?handle=yonghun16&theme=warm" width="348em"></a> </p>\n\n')
             elif oj == 'programmers':
+                f.write(f'## 프로그래머스\n\n')
                 f.write('<img src="https://github.com/yonghun16/Algorithm/blob/main/Online_Judge_Problems/programmers/score.png" width="350em">\n\n')
             elif oj == 'goorm':
+                f.write(f'## 구름\n\n')
                 f.write('<img src="https://github.com/yonghun16/Algorithm/blob/main/Online_Judge_Problems/goorm/score.png">\n\n')
 
             f.write('| 온라인 저지 | 번호 | 제목 | 난이도 | 태그 | 링크 |\n')
