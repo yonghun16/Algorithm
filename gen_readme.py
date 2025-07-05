@@ -86,7 +86,7 @@ def write_readme(path, title, problems_by_oj):
             f.write('| 온라인 저지 | 번호 | 제목 | 난이도 | 태그 | 링크 |\n')
             f.write('|------|------|------|--------|------|------|\n')
             for oj, number, title, level, tags, link, _ in problems:
-                f.write(f'| {oj} | {number} | {title} | {level} | {tags} | [바로가기]({link}) |\n')
+                f.write(f'| {oj} | {number} | [{title}]({link}) | {level} | {tags} | [바로가기](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/{oj.upper()}/boj_{number}_{title}) |\n')
             f.write('\n')
 
 def main():
