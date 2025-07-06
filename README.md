@@ -10,6 +10,8 @@
 
 | 온라인 저지 | 번호 | 제목 | 난이도 | 태그 | 링크 |
 |------|------|------|--------|------|------|
+| boj | 1181 | [단어 정렬](https://www.acmicpc.net/problem/1181) | 실버 5 | JS, Sort | [바로가기](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1181_%EB%8B%A8%EC%96%B4_%EC%A0%95%EB%A0%AC) |
+| boj | 11651 | [좌표 정렬하기 2](https://www.acmicpc.net/problem/11651) | 실버 5 | JS, Sort | [바로가기](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_11651_%EC%A2%8C%ED%91%9C_%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0_2) |
 | boj | 11650 | [좌표 정렬하기](https://www.acmicpc.net/problem/11650) | 실버 5 | JS, Sort | [바로가기](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_11650_%EC%A2%8C%ED%91%9C_%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0) |
 | boj | 2751 | [수 정렬하기 2](https://www.acmicpc.net/problem/2751) | 실버 5 | JS, sort | [바로가기](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_2751_%EC%88%98_%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0_2) |
 | boj | 10799 | [쇠막대기](https://www.acmicpc.net/problem/10799) | 실버 2 | Python, Stack | [바로가기](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_10799_%EC%87%A0%EB%A7%89%EB%8C%80%EA%B8%B0) |
