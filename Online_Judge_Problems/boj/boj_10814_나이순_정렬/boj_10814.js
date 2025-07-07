@@ -1,6 +1,6 @@
 /*-----------------------------------------------------
 Sub  : [BOJ] 나이순 정렬
-Link : https://www.acmicpc.net/problem/
+Link : https://www.acmicpc.net/problem/10814
 Level: 실버 5
 Tag  : JS, 정렬, 집합, 맵
 Memo
