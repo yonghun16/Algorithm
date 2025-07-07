@@ -85,12 +85,12 @@ def write_readme(path, title, problems_by_oj):
                 f.write(f'## 구름\n\n')
                 f.write('<img src="https://github.com/yonghun16/Algorithm/blob/main/Online_Judge_Problems/goorm/score.png">\n\n')
 
-            f.write('| 온라인 저지 | 번호 | 제목 | 난이도 | 태그 | 링크 |\n')
+            f.write('| 온라인 저지 | 번호 | 제목 | 난이도 | 태그 | 소스 |\n')
             f.write('|------|------|------|--------|------|------|\n')
             for oj, number, title, level, tags, link, _ in problems:
                 visible_title = title.replace('_', ' ')
                 encoded_title = urllib.parse.quote(title)
-                f.write(f'| {oj} | {number} | [{visible_title}]({link}) | {level} | {tags} | [바로가기](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/{oj}/{oj}_{number}_{encoded_title}) |\n')
+                f.write(f'| {oj} | {number} | [{visible_title}]({link}) | {level} | {tags} | [풀이 코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/{oj}/{oj}_{number}_{encoded_title}) |\n')
             f.write('\n')
 
 def main():
