@@ -10,6 +10,7 @@
 
 | 온라인 저지 | 번호 | 제목 | 난이도 | 태그 | 링크 |
 |------|------|------|--------|------|------|
+| boj | 10814 | [나이순 정렬](https://www.acmicpc.net/problem/) | 실버 5 | JS, 정렬, 집합, 맵 | [바로가기](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_10814_%EB%82%98%EC%9D%B4%EC%88%9C_%EC%A0%95%EB%A0%AC) |
 | boj | 18870 | [좌표 압축](https://www.acmicpc.net/problem/18870) | 실버 2 | JS, Array, Sort | [바로가기](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_18870_%EC%A2%8C%ED%91%9C_%EC%95%95%EC%B6%95) |
 | boj | 1181 | [단어 정렬](https://www.acmicpc.net/problem/1181) | 실버 5 | JS, Sort | [바로가기](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1181_%EB%8B%A8%EC%96%B4_%EC%A0%95%EB%A0%AC) |
 | boj | 11651 | [좌표 정렬하기 2](https://www.acmicpc.net/problem/11651) | 실버 5 | JS, Sort | [바로가기](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_11651_%EC%A2%8C%ED%91%9C_%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0_2) |
