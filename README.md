@@ -10,6 +10,7 @@
 
 | 온라인 저지 | 번호 | 제목 | 난이도 | 태그 | 소스 |
 |------|------|------|--------|------|------|
+| boj | 16953 | [A B](https://www.acmicpc.net/problem/16953) | 실버 2 | JS, greedy, DFS | [풀이 코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_16953_A_B) |
 | boj | 2839 | [설탕 배달](https://www.acmicpc.net/problem/2839) | 실버 4 | JS, 그리디 | [풀이 코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_2839_%EC%84%A4%ED%83%95_%EB%B0%B0%EB%8B%AC) |
 | boj | 1541 | [잃어버린 괄호](https://www.acmicpc.net/problem/1541) | 실버 2 | JS, 그리디 | [풀이 코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1541_%EC%9E%83%EC%96%B4%EB%B2%84%EB%A6%B0_%EA%B4%84%ED%98%B8) |
 | boj | 11399 | [ATM](https://www.acmicpc.net/problem/11399) | 실버 4 | JS, 그리디 | [풀이 코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_11399_ATM) |
@@ -39,7 +40,6 @@
 | boj | 4673 | [셀프 넘버](https://www.acmicpc.net/problem/4673) | 실버 5 | C, Brute Force | [풀이 코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_4673_%EC%85%80%ED%94%84_%EB%84%98%EB%B2%84) |
 | boj | 30019 | [강의실 예약 시스템](https://www.acmicpc.net/problem/30019) | 브론즈 2 | Python, 구현, 그리디 | [풀이 코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_30019_%EA%B0%95%EC%9D%98%EC%8B%A4_%EC%98%88%EC%95%BD_%EC%8B%9C%EC%8A%A4%ED%85%9C) |
 | boj | 4150 | [피보나치수](https://www.acmicpc.net/problem/4150) | 브론즈 1 | JS, 피보나치, 동적계획 | [풀이 코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_4150_%E1%84%91%E1%85%B5%E1%84%87%E1%85%A9%E1%84%82%E1%85%A1%E1%84%8E%E1%85%B5%E1%84%89%E1%85%AE) |
-| boj | 2292 | [벌집](https://www.acmicpc.net/problem/2292) | B2 | Python, 수학 | [풀이 코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_2292_%E1%84%87%E1%85%A5%E1%86%AF%E1%84%8C%E1%85%B5%E1%86%B8) |
 
 ## 프로그래머스
 
