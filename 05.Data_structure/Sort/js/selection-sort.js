@@ -8,19 +8,16 @@ Memo
 -----------------------------------------------------*/
 
 // 선택 정렬 함수
-const selectionSort = (arr) => {
-  for (let i = 0; i < arr.length - 1; i++) {
-    let min = i;  // 가장 작은 원소의 인덱스
-    for (let j = i + 1; j < arr.length; j++) {
-      if (arr[j] < arr[min]) {
-        min = j;
+function selectionSort(arr) {
+  const n = arr.length;
+  for (let i = 0; i < n - 1; i++) {
+    let minIdx = i;
+    for (let j = i + 1; j < n; j++) {
+      if (arr[j] < arr[minIdx]) {
+        minIdx = j;
       }
     }
-    if (min !== i) {
-      const temp = arr[i];
-      arr[i] = arr[min];
-      arr[min] = temp;
-    }
+    [arr[i], arr[minIdx]] = [arr[minIdx], arr[i]];
   }
   return arr;
 }

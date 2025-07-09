@@ -1,7 +1,8 @@
-// Linked List
+// singly Linked List
+
 class Node {
   constructor(data) {
-    this.data = data;
+    this.data = null;
     this.next = null;
   }
 }
@@ -11,17 +12,17 @@ class LinkedList {
     this.head = null;
   }
 
-  // 맨 앞에 노드 삽입
+  // 맨 앞의 노드 삽입
   insertAtHead(data) {
     const newNode = new Node(data);
     newNode.next = this.head;
     this.head = newNode;
   }
 
-  // 맨 뒤 노드 삽입
+  // 맨 뒤에 노드 삽입
   insertAtTail(data) {
     const newNode = new Node(data);
-    if (!this.head) {
+    if (!this.head) {  // 비어있는 리스트의 경우
       this.head = newNode;
       return;
     }
@@ -38,20 +39,21 @@ class LinkedList {
     this.head = this.head.next;
   }
 
+
   // 맨 뒤 노드 삭제
   deleteAtTail() {
-    if (!this.head) return;
-    if (!this.head.next) {
+    if (!this.head) return;  // 비어있는 리스트의 경우 -> 삭제 할게 없다.
+    if (!this.head.next) {   // 리스트에 1개만 있는 경우 -> head를 삭제한다.
       this.head = null;
       return;
     }
     let prev = null;
     let curr = this.head;
-    while (curr.next) {
+    while (curr.next) {     // 다음 노드로 넘김.
       prev = curr;
       curr = curr.next;
     }
-    prev.next = null;
+    prev.next = null; 
   }
 
   // 노트 탐색

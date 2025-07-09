@@ -6,19 +6,19 @@ Memo
 -----------------------------------------------------*/
 
 // 버블정렬 함수
-const bubbleSort = (arr) => {
-  for (let i = 0; i < arr.length - 1; i++) {
-    for (let j = 0; j < arr.length - i - 1; j++) {
+function bubbleSort(arr) {
+  const n = arr.length;
+  for (let i = 0; i < n - 1; i++) {
+    let swapped = false;
+    for (let j = 0; j < n - 1 - i; j++) {
       if (arr[j] > arr[j + 1]) {
-        const temp = arr[j];
-        arr[j] = arr[j + 1];
-        arr[j + 1] = temp;
+        [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];
+        swapped = true;
       }
     }
+    if (!swapped) break; // 이미 정렬된 경우
   }
   return arr;
 }
 
-// 테스트
-const arr = [1, 10, 5, 8, 7, 6, 4, 3, 2, 9]
-console.log(bubbleSort(arr))
+console.log(bubbleSort([5, 1, 4, 2, 8])); // [1, 2, 4, 5, 8]
