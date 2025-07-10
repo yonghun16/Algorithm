@@ -20,7 +20,7 @@ def extract_info_from_file(folder_path):
     try:
         for filename in os.listdir(folder_path):
             file_path = os.path.join(folder_path, filename)
-            if os.path.isfile(file_path) and filename.endswith(('.c', '.java', '.cpp', '.js', '.py')):
+            if os.path.isfile(file_path) and filename.endswith(('.c', '.java', '.cpp', '.py', '.js')):
                 with open(file_path, 'r', encoding='utf-8') as f:
                     lines = f.readlines()
                     if not lines:
