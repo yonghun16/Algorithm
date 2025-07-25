@@ -10,6 +10,8 @@
 
 | 온라인 저지 | 번호 | 제목 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
+| boj | 11050 | [이항 계수1](https://www.acmicpc.net/problem/11050) | 브론즈 1 | Python, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_11050_%EC%9D%B4%ED%95%AD_%EA%B3%84%EC%88%981) |
+| boj | 10989 | [수 정렬하기3](https://www.acmicpc.net/problem/10989) | 브론즈 1 | Python, sort | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_10989_%EC%88%98_%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B03) |
 | boj | 1946 | [신입 사원](https://www.acmicpc.net/problem/1946) | 실버 1 | JS, greedy | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1946_%EC%8B%A0%EC%9E%85_%EC%82%AC%EC%9B%90) |
 | boj | 1789 | [수들의 합](https://www.acmicpc.net/problem/1789) | 실버 5 | Python, greedy | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1789_%EC%88%98%EB%93%A4%EC%9D%98_%ED%95%A9) |
 | boj | 16953 | [A B](https://www.acmicpc.net/problem/16953) | 실버 2 | Py, greedy | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_16953_A_B) |
@@ -38,8 +40,6 @@
 | boj | 2609 | [GCDLCM](https://www.acmicpc.net/problem/2609) | 브론즈 1 | C, | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_2609_GCDLCM) |
 | boj | 1546 | [average](https://www.acmicpc.net/problem/1546) | 브론즈 1 | C, | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1546_average) |
 | boj | 1018 | [체스판 다시 칠하기](https://www.acmicpc.net/problem/1018) | 실버 4 | Python, 부루트포스 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1018_%EC%B2%B4%EC%8A%A4%ED%8C%90_%EB%8B%A4%EC%8B%9C_%EC%B9%A0%ED%95%98%EA%B8%B0) |
-| boj | 1316 | [그룹 단어 체커](https://www.acmicpc.net/problem/1316) | 실버 5 | C, String | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1316_%EA%B7%B8%EB%A3%B9_%EB%8B%A8%EC%96%B4_%EC%B2%B4%EC%BB%A4) |
-| boj | 4673 | [셀프 넘버](https://www.acmicpc.net/problem/4673) | 실버 5 | C, Brute Force | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_4673_%EC%85%80%ED%94%84_%EB%84%98%EB%B2%84) |
 
 ## 프로그래머스
 
