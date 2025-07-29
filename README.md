@@ -10,6 +10,8 @@
 
 | 온라인 저지 | 번호 | 제목 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
+| boj | 1931 | [회의실 배정](https://www.acmicpc.net/problem/1939) | 골드 5 | Python, greddy | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1931_%ED%9A%8C%EC%9D%98%EC%8B%A4_%EB%B0%B0%EC%A0%95) |
+| boj | 13305 | [주유소](https://www.acmicpc.net/problem/13305) | 실버 3 | JS, greedy | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_13305_%EC%A3%BC%EC%9C%A0%EC%86%8C) |
 | boj | 28702 | [FizzBuzz](https://www.acmicpc.net/problem/28702) | 브론즈 1 | JS, 문자열 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_28702_FizzBuzz) |
 | boj | 2309 | [일곱난쟁이](https://www.acmicpc.net/problem/2309) | 브론즈 1 | Python, 브루투 포스 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_2309_%EC%9D%BC%EA%B3%B1%EB%82%9C%EC%9F%81%EC%9D%B4) |
 | boj | 11050 | [이항 계수1](https://www.acmicpc.net/problem/11050) | 브론즈 1 | Python, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_11050_%EC%9D%B4%ED%95%AD_%EA%B3%84%EC%88%981) |
@@ -38,8 +40,6 @@
 | boj | 13410 | [거꾸로구구단](https://www.acmicpc.net/problem/13410) | 브론즈 2 | Python, 구현 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_13410_%EA%B1%B0%EA%BE%B8%EB%A1%9C%EA%B5%AC%EA%B5%AC%EB%8B%A8) |
 | boj | 2775 | [부녀회장이 될꺼야](https://www.acmicpc.net/problem/2775) | Bronze 1 | C, Dynamic Programming | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_2775_%EB%B6%80%EB%85%80%ED%9A%8C%EC%9E%A5%EC%9D%B4_%EB%90%A0%EA%BA%BC%EC%95%BC) |
 | boj | 32979 | [APT](https://www.acmicpc.net/problem/32927) | 실버 5 | C, Stack | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_32979_APT) |
-| boj | 2609 | [GCDLCM](https://www.acmicpc.net/problem/2609) | 브론즈 1 | C, | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_2609_GCDLCM) |
-| boj | 1546 | [average](https://www.acmicpc.net/problem/1546) | 브론즈 1 | C, | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1546_average) |
 
 ## 프로그래머스
 
