@@ -21,9 +21,8 @@ else {
 
 
 /*----------------------------------
-      front end Data handling 
+      front-end Data handling 
 -----------------------------------*/
-
 const trees = input
 const totalTrees = trees.length;
 
@@ -37,27 +36,39 @@ for (const tree of trees) {
   }
 }
 
-// Map -> Object -> JSON
+// Map -> Object
 const treeObject = Object.fromEntries(treeMap);
-const treeJSON = JSON.stringify(treeObject, null, 2);
+
+// 전송할 데이터 셋팅
+const data = [
+  { "Total Trees": totalTrees },
+  treeObject
+]
+
+// Array[Object] -> JSON
+const dataJSON = JSON.stringify(data, null, 2);
+// console.log("전송할 데이터", dataJSON);
 
 
 
 /*----------------------------------
-      back end Data handling 
+      back-end Data handling 
 -----------------------------------*/
 
-// JSON -> Object -> Map
-const treeObjectBackend = JSON.parse(treeJSON);
-const treeMapBackend = new Map(Object.entries(treeObjectBackend));
+// JSON -> Array[Object]
+const receivedData = JSON.parse(dataJSON);
+// console.log("전송받은 데이터", receivedData);
+
+const totalTreesBackend = receivedData[0]["Total Trees"];
+const treeMapBackend = new Map(Object.entries(receivedData[1]));
 
 // 나무 이름만 정렬
 const sortedTreeNames = Array.from(treeMapBackend.keys()).sort();
 
 const result = [];
 for (const name of sortedTreeNames) {
-  const count = treeMap.get(name);
-  const percentage = ((count / totalTrees) * 100).toFixed(4);
+  const count = treeMapBackend.get(name);
+  const percentage = ((count / totalTreesBackend) * 100).toFixed(4);
 
   result.push(`${name} ${percentage}`);
 }
