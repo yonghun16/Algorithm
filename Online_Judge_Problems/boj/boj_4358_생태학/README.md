@@ -76,23 +76,15 @@ Yellow Birch 3.4483
 
 ## 3. 계획 
 ### Front-end
-- Data를 정제하여 JSON형식으로 자료를 줘야 한다.
 - input Data를 배열로 입력받는다.
-- (treeMap 객체) : Map자료구조를 정의한다.
-- Map에 key는 "나무 종", value는 "등장 횟수"로 저장한다.
-- if (treeMap.has(tree)) {}를 사용하여 만약 이미 tree(나무 종)이 있으면, 기존의 tree key의 value에 +1을 해주고,
-- 만약 없다면, 기본값으로 1을 준다.
-- 완성된 map을 JSON으로 변환하기 위해 object로 변환한다.
-- (total Trees 객체) :문제를 풀기 위해선 "전체 받은 나무 종"의 수도 필요하니, 이 정보도 object로 만든다.
-- total Trees 객체와 treeMap 객체를 합쳐 JSON으로 만들고 전송한다.
+- (treeMap 객체) : Map자료구조를 정의한다. -> Map에 key는 "나무 종", value는 "등장 횟수"로 저장한다.
+- input Data를 순회 하면서 이미 있는 key면 value를 1 더하고, 만약 없다면, 기본값으로 1을 준다.
+- totalTree(전체 나무 종 수)와 treeMap 객체를 합쳐 JSON으로 만들고 전송한다.
 
 ### Back-end
-- JSON형식으로 받은 Data를 object로 변환한다.
-- totalTrees 변수에 "전체 나무 종"의 수를 넣는다.
-- treeMapBackend 객체를 분리하고, "나무 종"을 사전 순으로 정렬하고 이름만 배열에 저장한다.
-- 정렬된 배열을 순환문을 돌리고, Map.get(treeName)을 사용하여 "등장 횟수"를 출력한다.
+- JSON형식으로 받은 Data에서 totalTrees(전체 나무 종 수)와 treeMap(나무 종)을 분리한다.
+- "나무 종"을 사전 순으로 정렬하고 순환문을 돌리고, Map.get(treeName)을 사용하여 "등장 횟수"를 출력한다.
 - (등장횟수/전체 나무 종 수)*100.toFiexed(4)를 적용하여 출력형식을 구현한다.
-- result 배열에 차곡차곡 적재한 뒤 배열을 출력한다. -> console.log(result.join('\n'));
 
 ## 4. 수행
 ### (FE)Map 자료형에 데이터 적재
@@ -105,7 +97,7 @@ for (const tree of trees) {
   }
 }
 ```
-### (FE)데이터 JSON 변환
+### (FE)데이터 JSON 변환 후 전송
 ```js
 // Map -> Object
 const treeObject = Object.fromEntries(treeMap);
@@ -117,7 +109,7 @@ const data = [
 ]
 ```
 
-### (BE) 데이터 추출
+### (BE) 전송받은 데이터 분리
 ```js
 // JSON -> Array[Object]
 const receivedData = JSON.parse(dataJSON);
