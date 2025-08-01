@@ -1,0 +1,6 @@
+5
+start menu-coffee cafe-latte cart payment
+start menu-dessert cheesecake menu-coffee cafe-latte cart payment
+start search cafe-latte cart payment
+start menu-ade lemon-ade cart
+start menu-coffee ice-americano cart payment

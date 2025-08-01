@@ -1,0 +1,26 @@
+25
+start menu-coffee cafe-latte cart payment
+start menu-coffee ice-americano cart payment
+start menu-ade strawberry-ade cart
+start menu-new mint-choco-latte cart payment
+start menu-coffee cafe-latte menu-coffee cafe-latte cart payment
+start menu-coffee ice-americano menu-coffee ice-americano cart payment
+start menu-recommend cafe-latte cart payment
+start menu-coffee cafe-latte cart menu-coffee cafe-latte cart payment
+start menu-ade strawberry-ade cart payment
+start search ice-americano
+start menu-new mint-choco-latte start menu-new mint-choco-latte cart payment
+start menu-coffee cafe-latte cart payment
+start menu-coffee cafe-latte cart menu-ade strawberry-ade cart payment
+start menu-coffee ice-americano cart
+start menu-recommend cafe-latte
+start menu-ade strawberry-ade cart menu-ade cart payment
+start menu-new mint-choco-latte cart payment
+start menu-coffee ice-americano cart payment
+start search mint-choco-latte cart payment
+start menu-coffee ice-americano cart payment
+start menu-coffee cafe-latte cart payment
+start menu-ade strawberry-ade cart payment
+start menu-coffee ice-americano cart menu-new mint-choco-latte cart payment
+start menu-recommend cafe-latte cart payment
+start menu-new mint-choco-latte cart
