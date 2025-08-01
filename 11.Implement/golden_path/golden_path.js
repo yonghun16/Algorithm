@@ -65,8 +65,13 @@ const menuData = {
      front-end Data handling
 -----------------------------------*/
 
+const N = parseInt(input[0]);
 const rawPaths = input.slice(1);   // 전체 경로들 받기
-const totalPaths = rawPaths.length;
+// const rawPaths = [];
+// for (let i = 1; i <= N; i++) {
+//   rawPaths.push(input[i]);
+// }
+
 const pathHistoryMap = new Map();  // 구매 건별 경로를 저장하는 Map
 const allMenuItems = new Set(Object.values(menuData).flat());   // 모든 메뉴 아이템을 빠르게 조회할 수 있도록 Set으로 만듬.
 
@@ -132,7 +137,7 @@ const pathHistoryObject = Object.fromEntries(pathHistoryMap);
 
 // 전송할 데이터 셋팅
 const data = [
-  { "Total Paths": totalPaths },
+  { "Total Paths": N },
   pathHistoryObject
 ]
 
