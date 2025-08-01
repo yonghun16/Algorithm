@@ -10,6 +10,7 @@
 
 | 온라인 저지 | 번호 | 제목 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
+| boj | 14725 | [개미굴](https://www.acmicpc.net/problem/14725) | 골드 3 | JS, 자료구조, 집합, 트라이 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_14725_%EA%B0%9C%EB%AF%B8%EA%B5%B4) |
 | boj | 4358 | [생태학](https://www.acmicpc.net/problem/4358) | 실버 2 | JS, Map | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_4358_%EC%83%9D%ED%83%9C%ED%95%99) |
 | boj | 13305 | [주유소](https://www.acmicpc.net/problem/13305) | 실버 3 | JS, greedy | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_13305_%EC%A3%BC%EC%9C%A0%EC%86%8C) |
 | boj | 1931 | [회의실 배정](https://www.acmicpc.net/problem/1939) | 골드 5 | Python, greddy | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1931_%ED%9A%8C%EC%9D%98%EC%8B%A4_%EB%B0%B0%EC%A0%95) |
@@ -39,7 +40,6 @@
 | boj | 2231 | [분해합](https://www.acmicpc.net/problem/2231) | 브론즈 2 | Python, brute force | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_2231_%EB%B6%84%ED%95%B4%ED%95%A9) |
 | boj | 17614 | [369](https://www.acmicpc.net/problem/17614) | 브론즈 3 | JS, 브루투포스 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_17614_369) |
 | boj | 13410 | [거꾸로구구단](https://www.acmicpc.net/problem/13410) | 브론즈 2 | Python, 구현 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_13410_%EA%B1%B0%EA%BE%B8%EB%A1%9C%EA%B5%AC%EA%B5%AC%EB%8B%A8) |
-| boj | 2775 | [부녀회장이 될꺼야](https://www.acmicpc.net/problem/2775) | Bronze 1 | C, Dynamic Programming | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_2775_%EB%B6%80%EB%85%80%ED%9A%8C%EC%9E%A5%EC%9D%B4_%EB%90%A0%EA%BA%BC%EC%95%BC) |
 
 ## 프로그래머스
 
