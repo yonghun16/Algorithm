@@ -10,10 +10,10 @@
 
 | 온라인 저지 | 번호 | 제목 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
-| boj | 14725 | [개미굴](https://www.acmicpc.net/problem/14725) | 골드 3 | JS, 자료구조, 집합, 트라이 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_14725_%EA%B0%9C%EB%AF%B8%EA%B5%B4) |
-| boj | 4358 | [생태학](https://www.acmicpc.net/problem/4358) | 실버 2 | JS, Map | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_4358_%EC%83%9D%ED%83%9C%ED%95%99) |
-| boj | 13305 | [주유소](https://www.acmicpc.net/problem/13305) | 실버 3 | JS, greedy | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_13305_%EC%A3%BC%EC%9C%A0%EC%86%8C) |
 | boj | 1931 | [회의실 배정](https://www.acmicpc.net/problem/1939) | 골드 5 | Python, greddy | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1931_%ED%9A%8C%EC%9D%98%EC%8B%A4_%EB%B0%B0%EC%A0%95) |
+| boj | 4358 | [생태학](https://www.acmicpc.net/problem/4358) | 실버 2 | JS, Map | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_4358_%EC%83%9D%ED%83%9C%ED%95%99) |
+| boj | 14725 | [개미굴](https://www.acmicpc.net/problem/14725) | 골드 3 | JS, 자료구조, 집합, 트라이 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_14725_%EA%B0%9C%EB%AF%B8%EA%B5%B4) |
+| boj | 13305 | [주유소](https://www.acmicpc.net/problem/13305) | 실버 3 | JS, greedy | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_13305_%EC%A3%BC%EC%9C%A0%EC%86%8C) |
 | boj | 28702 | [FizzBuzz](https://www.acmicpc.net/problem/28702) | 브론즈 1 | JS, 문자열 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_28702_FizzBuzz) |
 | boj | 2309 | [일곱난쟁이](https://www.acmicpc.net/problem/2309) | 브론즈 1 | Python, 브루투 포스 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_2309_%EC%9D%BC%EA%B3%B1%EB%82%9C%EC%9F%81%EC%9D%B4) |
 | boj | 11050 | [이항 계수1](https://www.acmicpc.net/problem/11050) | 브론즈 1 | Python, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_11050_%EC%9D%B4%ED%95%AD_%EA%B3%84%EC%88%981) |
