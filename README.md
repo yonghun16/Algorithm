@@ -8,8 +8,9 @@
 
 <p> <a href="https://solved.ac/profile/yonghun16"><img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=yonghun16" width="348em"></a> <a href="https://www.acmicpc.net/user/yonghun16"><img src="http://mazandi.herokuapp.com/api?handle=yonghun16&theme=warm" width="348em"></a> </p>
 
-| 온라인 저지 | 번호 | 제목 | 난이도 | 태그 | 풀이 |
+| 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
+| boj | 9009 | [피보나치](https://www.acmicpc.net/problem/9009) | 실버 1 | JS, greedy | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_9009_%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98) |
 | boj | 11509 | [풍선 맞추기](https://www.acmicpc.net/problem/11509) | 골드5 | Python, greedy | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_11509_%ED%92%8D%EC%84%A0_%EB%A7%9E%EC%B6%94%EA%B8%B0) |
 | boj | 1931 | [회의실 배정](https://www.acmicpc.net/problem/1939) | 골드 5 | Python, greddy | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1931_%ED%9A%8C%EC%9D%98%EC%8B%A4_%EB%B0%B0%EC%A0%95) |
 | boj | 4358 | [생태학](https://www.acmicpc.net/problem/4358) | 실버 2 | JS, Map | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_4358_%EC%83%9D%ED%83%9C%ED%95%99) |
@@ -39,13 +40,12 @@
 | boj | 15874 | [CaesarCipher](https://www.acmicpc.net/problem/15874) | 브론즈 2 | Python, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_15874_CaesarCipher) |
 | boj | 9469 | [폰 노이만](https://www.acmicpc.net/problem/9469) | 브론즈 3 | Python, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_9469_%ED%8F%B0_%EB%85%B8%EC%9D%B4%EB%A7%8C) |
 | boj | 2231 | [분해합](https://www.acmicpc.net/problem/2231) | 브론즈 2 | Python, brute force | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_2231_%EB%B6%84%ED%95%B4%ED%95%A9) |
-| boj | 17614 | [369](https://www.acmicpc.net/problem/17614) | 브론즈 3 | JS, 브루투포스 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_17614_369) |
 
 ## 프로그래머스
 
 <img src="https://github.com/yonghun16/Algorithm/blob/main/Online_Judge_Problems/programmers/score.png" width="350em">
 
-| 온라인 저지 | 번호 | 제목 | 난이도 | 태그 | 풀이 |
+| 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
 | programmers | 70128 | [내적](https://programmers.co.kr/learn/courses/30/lessons/70128) | 1 | JS, Math | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/programmers/programmers_70128_%EB%82%B4%EC%A0%81) |
 | programmers | 42840 | [모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840) | 1 | JS, 완전탐색 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/programmers/programmers_42840_%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC) |
@@ -57,7 +57,7 @@
 
 <img src="https://github.com/yonghun16/Algorithm/blob/main/Online_Judge_Problems/goorm/score.png">
 
-| 온라인 저지 | 번호 | 제목 | 난이도 | 태그 | 풀이 |
+| 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
 | goorm | 150332 | [구름크기 측정하기](https://level.goorm.io/exam/150332/%ED%98%84%EB%8C%80%EB%AA%A8%EB%B9%84%EC%8A%A4-%EB%AA%A8%EC%9D%98%ED%85%8C%EC%8A%A4%ED%8A%B8-%EA%B5%AC%EB%A6%84-%ED%81%AC%EA%B8%B0-%EC%B8%A1%EC%A0%95%ED%95%98%EA%B8%B0/quiz/1) | 1 | C, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/goorm/goorm_150332_%EA%B5%AC%EB%A6%84%ED%81%AC%EA%B8%B0_%EC%B8%A1%EC%A0%95%ED%95%98%EA%B8%B0) |
 | goorm | 48193 | [막대기](https://level.goorm.io/exam/48193/막대기/quiz/1) | 1 | C, | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/goorm/goorm_48193_%EB%A7%89%EB%8C%80%EA%B8%B0) |
