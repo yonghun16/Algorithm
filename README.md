@@ -10,6 +10,7 @@
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
+| boj | 1676 | [팩토리얼 0의 개수](https://www.acmicpc.net/problem/1676) | 실버 5 | Python, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1676_%ED%8C%A9%ED%86%A0%EB%A6%AC%EC%96%BC_0%EC%9D%98_%EA%B0%9C%EC%88%98) |
 | boj | 1436 | [영화감독 숌](https://www.acmicpc.net/problem/1436) | 실버 5 | JS, brute force | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1436_%EC%98%81%ED%99%94%EA%B0%90%EB%8F%85_%EC%88%8C) |
 | boj | 9009 | [피보나치](https://www.acmicpc.net/problem/9009) | 실버 1 | JS, greedy | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_9009_%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98) |
 | boj | 11509 | [풍선 맞추기](https://www.acmicpc.net/problem/11509) | 골드5 | Python, greedy | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_11509_%ED%92%8D%EC%84%A0_%EB%A7%9E%EC%B6%94%EA%B8%B0) |
@@ -39,7 +40,6 @@
 | boj | 10828 | [스택](https://www.acmicpc.net/problem/10828) | 실버 4 | JS, Stack | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_10828_%EC%8A%A4%ED%83%9D) |
 | boj | 28074 | [모비스](https://www.acmicpc.net/problem/) | 브론즈 4 | Python, String | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_28074_%E1%84%86%E1%85%A9%E1%84%87%E1%85%B5%E1%84%89%E1%85%B3) |
 | boj | 15874 | [CaesarCipher](https://www.acmicpc.net/problem/15874) | 브론즈 2 | Python, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_15874_CaesarCipher) |
-| boj | 9469 | [폰 노이만](https://www.acmicpc.net/problem/9469) | 브론즈 3 | Python, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_9469_%ED%8F%B0_%EB%85%B8%EC%9D%B4%EB%A7%8C) |
 
 ## 프로그래머스
 
