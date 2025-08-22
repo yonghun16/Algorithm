@@ -10,7 +10,7 @@
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
-| boj | 18110 | [solved ac](https://www.acmicpc.net/problem/18810) | 실버 4 | Python, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_18110_solved_ac) |
+| boj | 18110 | [solved ac](https://www.acmicpc.net/problem/18110) | 실버 4 | Python, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_18110_solved_ac) |
 | boj | 11866 | [요세푸스 문제0](https://www.acmicpc.net/problem/11866) | 실버 4 | JS, Queue | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_11866_%EC%9A%94%EC%84%B8%ED%91%B8%EC%8A%A4_%EB%AC%B8%EC%A0%9C0) |
 | boj | 10845 | [큐](https://www.acmicpc.net/problem/10845) | 실버 4 | Python, Queue | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_10845_%ED%81%90) |
 | boj | 9012 | [괄호](https://www.acmicpc.net/problem/9012) | 실버 4 | Python, Stack | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_9012_%EA%B4%84%ED%98%B8) |

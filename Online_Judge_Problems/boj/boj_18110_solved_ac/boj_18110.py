@@ -1,6 +1,6 @@
 '''----------------------------------------------------
 Sub  : [BOJ] Solved.ac
-Link : https://www.acmicpc.net/problem/18810
+Link : https://www.acmicpc.net/problem/18110
 Level: 실버 4
 Tag  : Python, math
 Memo
