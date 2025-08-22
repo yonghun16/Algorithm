@@ -10,6 +10,7 @@
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
+| boj | 18110 | [solved ac](https://www.acmicpc.net/problem/18810) | 실버 4 | Python, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_18110_solved_ac) |
 | boj | 11866 | [요세푸스 문제0](https://www.acmicpc.net/problem/11866) | 실버 4 | JS, Queue | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_11866_%EC%9A%94%EC%84%B8%ED%91%B8%EC%8A%A4_%EB%AC%B8%EC%A0%9C0) |
 | boj | 10845 | [큐](https://www.acmicpc.net/problem/10845) | 실버 4 | Python, Queue | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_10845_%ED%81%90) |
 | boj | 9012 | [괄호](https://www.acmicpc.net/problem/9012) | 실버 4 | Python, Stack | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_9012_%EA%B4%84%ED%98%B8) |
@@ -39,7 +40,6 @@
 | boj | 10814 | [나이순 정렬](https://www.acmicpc.net/problem/10814) | 실버 5 | JS, 정렬, 집합, 맵 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_10814_%EB%82%98%EC%9D%B4%EC%88%9C_%EC%A0%95%EB%A0%AC) |
 | boj | 1427 | [소트인사이드](https://www.acmicpc.net/problem/1427) | 실버 5 | JS, 정렬, 문자열 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1427_%EC%86%8C%ED%8A%B8%EC%9D%B8%EC%82%AC%EC%9D%B4%EB%93%9C) |
 | boj | 18870 | [좌표 압축](https://www.acmicpc.net/problem/18870) | 실버 2 | JS, Array, Sort | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_18870_%EC%A2%8C%ED%91%9C_%EC%95%95%EC%B6%95) |
-| boj | 1181 | [단어 정렬](https://www.acmicpc.net/problem/1181) | 실버 5 | JS, Sort | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1181_%EB%8B%A8%EC%96%B4_%EC%A0%95%EB%A0%AC) |
 
 ## 프로그래머스
 
