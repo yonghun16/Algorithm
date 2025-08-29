@@ -3,49 +3,36 @@ class Stack {
     this.items = [];
   }
 
-  // 스택에 요소 추가 (push)
   push(element) {
     this.items.push(element);
   }
-
-  // 스택에서 요소 제거 및 반환 (pop)
   pop() {
     if (this.isEmpty()) {
       return null;
     }
     return this.items.pop();
   }
-
-  // 스택 최상단 요소 반환 (peek)
   peek() {
     if (this.isEmpty()) {
       return null;
     }
     return this.items[this.items.length - 1];
   }
-
-  // 스택이 비었는지 확인 (isEmpty)
   isEmpty() {
     return this.items.length === 0;
   }
-
-  // 스택의 크기 확인 (size)
   size() {
     return this.items.length;
   }
-
-  // 스택 비우기 (clear)
   clear() {
     this.items = [];
   }
-
-  // 스택 전체 출력 (for debugging)
   print() {
     console.log(this.items.join(' <- '));
   }
 }
 
-// 예시 사용
+// 사용 예시
 const stack = new Stack();
 
 stack.push(10);
