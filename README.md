@@ -10,6 +10,7 @@
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
+| boj | 1966 | [프린터 큐](https://www.acmicpc.net/problem/1966) | 실버 3 | JS, queue | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1966_%ED%94%84%EB%A6%B0%ED%84%B0_%ED%81%90) |
 | boj | 17609 | [회문](https://www.acmicpc.net/problem/17609) | 골드 5 | JS, greedy, string | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_17609_%ED%9A%8C%EB%AC%B8) |
 | boj | 19939 | [박 터뜨리기](https://www.acmicpc.net/problem/19939) | 실버 4 | JS, greedy | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_19939_%EB%B0%95_%ED%84%B0%EB%9C%A8%EB%A6%AC%EA%B8%B0) |
 | boj | 18110 | [solved ac](https://www.acmicpc.net/problem/18110) | 실버 4 | Python, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_18110_solved_ac) |
@@ -39,7 +40,6 @@
 | boj | 1541 | [잃어버린 괄호](https://www.acmicpc.net/problem/1541) | 실버 2 | JS, 그리디 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1541_%EC%9E%83%EC%96%B4%EB%B2%84%EB%A6%B0_%EA%B4%84%ED%98%B8) |
 | boj | 11399 | [ATM](https://www.acmicpc.net/problem/11399) | 실버 4 | JS, 그리디 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_11399_ATM) |
 | boj | 11047 | [동전 0](https://www.acmicpc.net/problem/11047) | 실버 4 | JS, 그리디 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_11047_%EB%8F%99%EC%A0%84_0) |
-| boj | 10814 | [나이순 정렬](https://www.acmicpc.net/problem/10814) | 실버 5 | JS, 정렬, 집합, 맵 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_10814_%EB%82%98%EC%9D%B4%EC%88%9C_%EC%A0%95%EB%A0%AC) |
 
 ## 프로그래머스
 
