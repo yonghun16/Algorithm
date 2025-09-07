@@ -10,6 +10,7 @@
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
+| boj | 1874 | [스택 수열](https://www.acmicpc.net/problem/1874) | 실버 2 | Python, Stack | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1874_%EC%8A%A4%ED%83%9D_%EC%88%98%EC%97%B4) |
 | boj | 1966 | [프린터 큐](https://www.acmicpc.net/problem/1966) | 실버 3 | JS, queue | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1966_%ED%94%84%EB%A6%B0%ED%84%B0_%ED%81%90) |
 | boj | 17609 | [회문](https://www.acmicpc.net/problem/17609) | 골드 5 | JS, greedy, string | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_17609_%ED%9A%8C%EB%AC%B8) |
 | boj | 19939 | [박 터뜨리기](https://www.acmicpc.net/problem/19939) | 실버 4 | JS, greedy | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_19939_%EB%B0%95_%ED%84%B0%EB%9C%A8%EB%A6%AC%EA%B8%B0) |
@@ -39,7 +40,6 @@
 | boj | 2839 | [설탕 배달](https://www.acmicpc.net/problem/2839) | 실버 4 | JS, 그리디 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_2839_%EC%84%A4%ED%83%95_%EB%B0%B0%EB%8B%AC) |
 | boj | 1541 | [잃어버린 괄호](https://www.acmicpc.net/problem/1541) | 실버 2 | JS, 그리디 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1541_%EC%9E%83%EC%96%B4%EB%B2%84%EB%A6%B0_%EA%B4%84%ED%98%B8) |
 | boj | 11399 | [ATM](https://www.acmicpc.net/problem/11399) | 실버 4 | JS, 그리디 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_11399_ATM) |
-| boj | 11047 | [동전 0](https://www.acmicpc.net/problem/11047) | 실버 4 | JS, 그리디 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_11047_%EB%8F%99%EC%A0%84_0) |
 
 ## 프로그래머스
 
