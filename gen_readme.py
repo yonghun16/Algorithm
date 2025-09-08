@@ -3,8 +3,8 @@ import re
 from collections import defaultdict
 import urllib.parse
 
-MAX_COUNT = 30
-OJ_LIST = ['boj', 'programmers', 'goorm', 'jol']
+MAX_COUNT = 50
+OJ_LIST = ['boj', 'programmers']
 
 # ✅ 문제 루트 디렉토리 (수동으로 지정)
 PROBLEM_ROOT = os.path.join('.', 'Online_Judge_Problems')
@@ -81,9 +81,9 @@ def write_readme(path, title, problems_by_oj):
             elif oj == 'programmers':
                 f.write(f'## 프로그래머스\n\n')
                 f.write('<img src="https://github.com/yonghun16/Algorithm/blob/main/Online_Judge_Problems/programmers/score.png" width="350em">\n\n')
-            elif oj == 'goorm':
-                f.write(f'## 구름\n\n')
-                f.write('<img src="https://github.com/yonghun16/Algorithm/blob/main/Online_Judge_Problems/goorm/score.png">\n\n')
+            # elif oj == 'goorm':
+            #     f.write(f'## 구름\n\n')
+            #     f.write('<img src="https://github.com/yonghun16/Algorithm/blob/main/Online_Judge_Problems/goorm/score.png">\n\n')
 
             f.write('| 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |\n')
             f.write('|------|------|------|--------|------|------|\n')
@@ -103,7 +103,7 @@ def main():
     for oj in problems_by_oj:
         problems_by_oj[oj] = sorted(problems_by_oj[oj], key=lambda x: x[6], reverse=True)[:MAX_COUNT]
 
-    write_readme('README.md', f'알고리즘 문제 목록 (최근 {MAX_COUNT}개)', problems_by_oj)
+    write_readme('README.md', f'알고리즘 문제 목록 (온라인 저지 별 최근 {MAX_COUNT}개)', problems_by_oj)
 
 if __name__ == '__main__':
     main()
