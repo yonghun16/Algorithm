@@ -10,6 +10,7 @@
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
+| boj | 1764 | [듣보잡](https://www.acmicpc.net/problem/1764) | 실버 4 | JS, map, 자료구조 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1764_%EB%93%A3%EB%B3%B4%EC%9E%A1) |
 | boj | 1620 | [포멧몬 마스터 이다솜](https://www.acmicpc.net/problem/1620) | 실버 4 |  | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1620_%ED%8F%AC%EB%A9%A7%EB%AA%AC_%EB%A7%88%EC%8A%A4%ED%84%B0_%EC%9D%B4%EB%8B%A4%EC%86%9C) |
 | boj | 11509 | [풍선 맞추기](https://www.acmicpc.net/problem/11509) | 골드 5 | JS, greedy | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_11509_%ED%92%8D%EC%84%A0_%EB%A7%9E%EC%B6%94%EA%B8%B0) |
 | boj | 11723 | [집합]() |  |  | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_11723_%EC%A7%91%ED%95%A9) |
@@ -59,7 +60,6 @@
 | boj | 17614 | [369](https://www.acmicpc.net/problem/17614) | 브론즈 3 | JS, 브루투포스 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_17614_369) |
 | boj | 13410 | [거꾸로구구단](https://www.acmicpc.net/problem/13410) | 브론즈 2 | Python, 구현 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_13410_%EA%B1%B0%EA%BE%B8%EB%A1%9C%EA%B5%AC%EA%B5%AC%EB%8B%A8) |
 | boj | 2775 | [부녀회장이 될꺼야](https://www.acmicpc.net/problem/2775) | Bronze 1 | C, Dynamic Programming | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_2775_%EB%B6%80%EB%85%80%ED%9A%8C%EC%9E%A5%EC%9D%B4_%EB%90%A0%EA%BA%BC%EC%95%BC) |
-| boj | 32979 | [APT](https://www.acmicpc.net/problem/32927) | 실버 5 | C, Stack | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_32979_APT) |
 
 ## 프로그래머스
 
