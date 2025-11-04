@@ -10,11 +10,12 @@
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
-| boj | 17219 | [비밀번호 찾기]() |  |  | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_17219_%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8_%EC%B0%BE%EA%B8%B0) |
+| boj | 17219 | [비밀번호 찾기](https://www.acmicpc.net/problem/17219) | 실버 4 | Python, map | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_17219_%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8_%EC%B0%BE%EA%B8%B0) |
+| boj | 1003 | [피보나치 함수](https://www.acmicpc.net/problem/1003) | 실버 3 | Python, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1003_%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98_%ED%95%A8%EC%88%98) |
 | boj | 11282 | [한글]() |  |  | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_11282_%ED%95%9C%EA%B8%80) |
 | boj | 1764 | [듣보잡](https://www.acmicpc.net/problem/1764) | 실버 4 | JS, map, 자료구조 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1764_%EB%93%A3%EB%B3%B4%EC%9E%A1) |
 | boj | 1620 | [포멧몬 마스터 이다솜](https://www.acmicpc.net/problem/1620) | 실버 4 |  | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1620_%ED%8F%AC%EB%A9%A7%EB%AA%AC_%EB%A7%88%EC%8A%A4%ED%84%B0_%EC%9D%B4%EB%8B%A4%EC%86%9C) |
-| boj | 11509 | [풍선 맞추기](https://www.acmicpc.net/problem/11509) | 골드 5 | JS, greedy | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_11509_%ED%92%8D%EC%84%A0_%EB%A7%9E%EC%B6%94%EA%B8%B0) |
+| boj | 11509 | [풍선 맞추기](https://www.acmicpc.net/problem/11509) | 골드5 | Python, greedy | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_11509_%ED%92%8D%EC%84%A0_%EB%A7%9E%EC%B6%94%EA%B8%B0) |
 | boj | 11723 | [집합]() |  |  | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_11723_%EC%A7%91%ED%95%A9) |
 | boj | 1874 | [스택 수열](https://www.acmicpc.net/problem/1874) | 실버 2 | Python, Stack | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1874_%EC%8A%A4%ED%83%9D_%EC%88%98%EC%97%B4) |
 | boj | 1966 | [프린터 큐](https://www.acmicpc.net/problem/1966) | 실버 3 | JS, queue | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1966_%ED%94%84%EB%A6%B0%ED%84%B0_%ED%81%90) |
@@ -59,7 +60,6 @@
 | boj | 15874 | [CaesarCipher](https://www.acmicpc.net/problem/15874) | 브론즈 2 | Python, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_15874_CaesarCipher) |
 | boj | 9469 | [폰 노이만](https://www.acmicpc.net/problem/9469) | 브론즈 3 | Python, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_9469_%ED%8F%B0_%EB%85%B8%EC%9D%B4%EB%A7%8C) |
 | boj | 2231 | [분해합](https://www.acmicpc.net/problem/2231) | 브론즈 2 | Python, brute force | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_2231_%EB%B6%84%ED%95%B4%ED%95%A9) |
-| boj | 17614 | [369](https://www.acmicpc.net/problem/17614) | 브론즈 3 | JS, 브루투포스 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_17614_369) |
 
 ## 프로그래머스
 
