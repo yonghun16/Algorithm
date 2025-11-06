@@ -1,10 +1,12 @@
 from typing import Optional
 
+
 # Node 클래스: 연결 리스트의 노드를 나타냄
 class Node:
     def __init__(self, data):
         self.data = data  # 노드의 데이터
         self.next: Optional["Node"] = None  # 다음 노드를 가리키는 포인터
+
 
 # Stack 클래스: 연결 리스트를 이용한 스택 구현
 class Stack:
@@ -44,6 +46,7 @@ class Stack:
             print(cur.data, end=" ")
             cur = cur.next
         print()  # 줄바꿈
+
 
 # 사용 예시
 stack = Stack()

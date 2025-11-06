@@ -25,24 +25,24 @@ class Stack:
 
     # 스텍 출력
     def display(self):
-        print("\n   ↓ 스택의 최상단 ");
-        print("│     │");
+        print("\n   ↓ 스택의 최상단 ")
+        print("│     │")
         for i in range(len(self.stack) - 1, -1, -1):
-            print("│%4d │" % self.stack[i]);
-        print("└─────┘");
+            print("│%4d │" % self.stack[i])
+        print("└─────┘")
 
     def is_empty(self):
         return len(self.stack) == 0
 
 
-print("───────────────────────────────\n");
-print("   List을 이용한 Stack의 구현  \n");
-print("───────────────────────────────\n");
-print();
+print("───────────────────────────────\n")
+print("   List을 이용한 Stack의 구현  \n")
+print("───────────────────────────────\n")
+print()
 
 stack = Stack()
 
-while(True):
+while True:
     menu = int(input("Push(1), Pop(2), Peek(3), Size(4), EXIT(0) : "))
 
     if menu == 1:
