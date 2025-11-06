@@ -10,6 +10,7 @@
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
+| boj | 2579 | [계단 오르기](https://www.acmicpc.net/problem/2579) | 실버 3 | Python, DP | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_2579_%EA%B3%84%EB%8B%A8_%EC%98%A4%EB%A5%B4%EA%B8%B0) |
 | boj | 1463 | [1로 만들기](https://www.acmicpc.net/problem/1463) | 실버3 | Python, DP | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1463_1%EB%A1%9C_%EB%A7%8C%EB%93%A4%EA%B8%B0) |
 | boj | 17219 | [비밀번호 찾기](https://www.acmicpc.net/problem/17219) | 실버 4 | Python, map | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_17219_%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8_%EC%B0%BE%EA%B8%B0) |
 | boj | 1003 | [피보나치 함수](https://www.acmicpc.net/problem/1003) | 실버 3 | Python, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1003_%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98_%ED%95%A8%EC%88%98) |
@@ -59,7 +60,6 @@
 | boj | 10828 | [스택](https://www.acmicpc.net/problem/10828) | 실버 4 | JS, Stack | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_10828_%EC%8A%A4%ED%83%9D) |
 | boj | 28074 | [모비스](https://www.acmicpc.net/problem/) | 브론즈 4 | Python, String | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_28074_%E1%84%86%E1%85%A9%E1%84%87%E1%85%B5%E1%84%89%E1%85%B3) |
 | boj | 15874 | [CaesarCipher](https://www.acmicpc.net/problem/15874) | 브론즈 2 | Python, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_15874_CaesarCipher) |
-| boj | 9469 | [폰 노이만](https://www.acmicpc.net/problem/9469) | 브론즈 3 | Python, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_9469_%ED%8F%B0_%EB%85%B8%EC%9D%B4%EB%A7%8C) |
 
 ## 프로그래머스
 
