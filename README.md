@@ -10,6 +10,7 @@
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
+| boj | 9095 | [123더하기](https://www.acmicpc.net/problem/9095) | 실버 3 | Python, DP | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_9095_123%EB%8D%94%ED%95%98%EA%B8%B0) |
 | boj | 2606 | [바이러스](https://www.acmicpc.net/problem/2606) | 실버 3 | Python, DFS | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_2606_%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4) |
 | boj | 9375 | [패션왕 신해빈](https://www.acmicpc.net/problem/9375) | 실버 3 | Python, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_9375_%ED%8C%A8%EC%85%98%EC%99%95_%EC%8B%A0%ED%95%B4%EB%B9%88) |
 | boj | 2579 | [계단 오르기](https://www.acmicpc.net/problem/2579) | 실버 3 | Python, DP | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_2579_%EA%B3%84%EB%8B%A8_%EC%98%A4%EB%A5%B4%EA%B8%B0) |
@@ -59,7 +60,6 @@
 | boj | 11650 | [좌표 정렬하기](https://www.acmicpc.net/problem/11650) | 실버 5 | JS, Sort | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_11650_%EC%A2%8C%ED%91%9C_%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0) |
 | boj | 2751 | [수 정렬하기 2](https://www.acmicpc.net/problem/2751) | 실버 5 | JS, sort | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_2751_%EC%88%98_%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0_2) |
 | boj | 10799 | [쇠막대기](https://www.acmicpc.net/problem/10799) | 실버 2 | Python, Stack | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_10799_%EC%87%A0%EB%A7%89%EB%8C%80%EA%B8%B0) |
-| boj | 10828 | [스택](https://www.acmicpc.net/problem/10828) | 실버 4 | JS, Stack | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_10828_%EC%8A%A4%ED%83%9D) |
 
 ## 프로그래머스
 
