@@ -10,7 +10,7 @@
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
-| boj | 11659 | [구간합 구하기4](https://www.acmicpc.net/problem/11659) | Silver 3 | Python, sum | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_11659_%EA%B5%AC%EA%B0%84%ED%95%A9_%EA%B5%AC%ED%95%98%EA%B8%B04) |
+| boj | 11659 | [구간합 구하기 4](https://www.acmicpc.net/problem/11659) | Silver 3 | Python, sum | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_11659_%EA%B5%AC%EA%B0%84%ED%95%A9_%EA%B5%AC%ED%95%98%EA%B8%B04) |
 | boj | 9375 | [패션왕 신해빈](https://www.acmicpc.net/problem/9375) | 실버 3 | Python, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_9375_%ED%8C%A8%EC%85%98%EC%99%95_%EC%8B%A0%ED%95%B4%EB%B9%88) |
 | boj | 9469 | [폰 노이만](https://www.acmicpc.net/problem/9469) | 브론즈 3 | Python, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_9469_%ED%8F%B0_%EB%85%B8%EC%9D%B4%EB%A7%8C) |
 | boj | 9095 | [123더하기](https://www.acmicpc.net/problem/9095) | 실버 3 | C, DP | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_9095_123%EB%8D%94%ED%95%98%EA%B8%B0) |
