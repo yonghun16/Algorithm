@@ -39,8 +39,10 @@ MOD = 10007
 
 if n == 1:
     print(1)
+    sys.exit(0)
 if n == 2:
     print(3)
+    sys.exit(0)
 
 dp = [0] * (n + 1)
 dp[1] = 1
