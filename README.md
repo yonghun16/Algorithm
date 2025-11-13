@@ -10,6 +10,7 @@
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
+| boj | 11726 | [2xn타일링](https://www.acmicpc.net/problem/11726) | Silver 3 | JS, DP | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_11726_2xn%ED%83%80%EC%9D%BC%EB%A7%81) |
 | boj | 11659 | [구간합 구하기4](https://www.acmicpc.net/problem/11659) | Silver 3 | Python, sum | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_11659_%EA%B5%AC%EA%B0%84%ED%95%A9_%EA%B5%AC%ED%95%98%EA%B8%B04) |
 | boj | 9375 | [패션왕 신해빈](https://www.acmicpc.net/problem/9375) | 실버 3 | Python, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_9375_%ED%8C%A8%EC%85%98%EC%99%95_%EC%8B%A0%ED%95%B4%EB%B9%88) |
 | boj | 9469 | [폰 노이만](https://www.acmicpc.net/problem/9469) | 브론즈 3 | Python, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_9469_%ED%8F%B0_%EB%85%B8%EC%9D%B4%EB%A7%8C) |
@@ -59,7 +60,6 @@
 | boj | 1541 | [잃어버린 괄호](https://www.acmicpc.net/problem/1541) | 실버 2 | JS, 그리디 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1541_%EC%9E%83%EC%96%B4%EB%B2%84%EB%A6%B0_%EA%B4%84%ED%98%B8) |
 | boj | 1546 | [average](https://www.acmicpc.net/problem/1546) | 브론즈 1 | C, | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1546_average) |
 | boj | 15874 | [CaesarCipher](https://www.acmicpc.net/problem/15874) | 브론즈 2 | Python, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_15874_CaesarCipher) |
-| boj | 1620 | [포멧몬 마스터 이다솜](https://www.acmicpc.net/problem/1620) | 실버 4 |  | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1620_%ED%8F%AC%EB%A9%A7%EB%AA%AC_%EB%A7%88%EC%8A%A4%ED%84%B0_%EC%9D%B4%EB%8B%A4%EC%86%9C) |
 
 ## 프로그래머스
 
