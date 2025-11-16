@@ -10,6 +10,7 @@
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
+| boj | 17626 | [Four Squares](https://www.acmicpc.net/problem/17626) | 실버 3 | Python, DP | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_17626_Four_Squares) |
 | boj | 11727 | [2xn타일링 2](https://www.acmicpc.net/problem/11727) | 실버 3 | Python, DP | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_11727_2xn%ED%83%80%EC%9D%BC%EB%A7%81_2) |
 | boj | 11726 | [2xn타일링](https://www.acmicpc.net/problem/11726) | Silver 3 | JS, DP | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_11726_2xn%ED%83%80%EC%9D%BC%EB%A7%81) |
 | boj | 11659 | [구간합 구하기4](https://www.acmicpc.net/problem/11659) | Silver 3 | Python, sum | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_11659_%EA%B5%AC%EA%B0%84%ED%95%A9_%EA%B5%AC%ED%95%98%EA%B8%B04) |
@@ -59,7 +60,6 @@
 | boj | 1427 | [소트인사이드](https://www.acmicpc.net/problem/1427) | 실버 5 | JS, 정렬, 문자열 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1427_%EC%86%8C%ED%8A%B8%EC%9D%B8%EC%82%AC%EC%9D%B4%EB%93%9C) |
 | boj | 18870 | [좌표 압축](https://www.acmicpc.net/problem/18870) | 실버 2 | JS, Array, Sort | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_18870_%EC%A2%8C%ED%91%9C_%EC%95%95%EC%B6%95) |
 | boj | 1181 | [단어 정렬](https://www.acmicpc.net/problem/1181) | 실버 5 | JS, Sort | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1181_%EB%8B%A8%EC%96%B4_%EC%A0%95%EB%A0%AC) |
-| boj | 11651 | [좌표 정렬하기 2](https://www.acmicpc.net/problem/11651) | 실버 5 | JS, Sort | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_11651_%EC%A2%8C%ED%91%9C_%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0_2) |
 
 ## 프로그래머스
 
