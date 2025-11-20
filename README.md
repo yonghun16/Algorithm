@@ -10,6 +10,7 @@
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
+| boj | 1927 | [최소힙](https://www.acmicpc.net/problem/1927) | 실버 2 | Python, heap | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1927_%EC%B5%9C%EC%86%8C%ED%9E%99) |
 | boj | 1260 | [DFS와BFS](https://www.acmicpc.net/problem/1260) | 실버 2 | Python, DFS, BFS | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1260_DFS%EC%99%80BFS) |
 | boj | 1654 | [랜선자르기](https://www.acmicpc.net/problem/1654) | 실버 2 | Python, Binary search | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1654_%EB%9E%9C%EC%84%A0%EC%9E%90%EB%A5%B4%EA%B8%B0) |
 | boj | 1012 | [유기농배추](https://www.acmicpc.net/problem/1012) | 실버 2 | Python, DFS | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1012_%EC%9C%A0%EA%B8%B0%EB%86%8D%EB%B0%B0%EC%B6%94) |
@@ -59,7 +60,6 @@
 | boj | 1541 | [잃어버린 괄호](https://www.acmicpc.net/problem/1541) | 실버 2 | JS, 그리디 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1541_%EC%9E%83%EC%96%B4%EB%B2%84%EB%A6%B0_%EA%B4%84%ED%98%B8) |
 | boj | 11399 | [ATM](https://www.acmicpc.net/problem/11399) | 실버 4 | JS, 그리디 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_11399_ATM) |
 | boj | 11047 | [동전 0](https://www.acmicpc.net/problem/11047) | 실버 4 | JS, 그리디 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_11047_%EB%8F%99%EC%A0%84_0) |
-| boj | 10814 | [나이순 정렬](https://www.acmicpc.net/problem/10814) | 실버 5 | JS, 정렬, 집합, 맵 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_10814_%EB%82%98%EC%9D%B4%EC%88%9C_%EC%A0%95%EB%A0%AC) |
 
 ## 프로그래머스
 
