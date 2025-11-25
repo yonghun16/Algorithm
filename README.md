@@ -10,6 +10,7 @@
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
+| boj | 9625 | [BABBA](https://www.acmicpc.net/problem/9625) | 실버 5 | JS, DP | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_9625_BABBA) |
 | boj | 1149 | [RGB거리](https://www.acmicpc.net/problem/1149) | 실버 1 | Python, DP | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1149_RGB%EA%B1%B0%EB%A6%AC) |
 | boj | 1004 | [어린왕자]() |  |  | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1004_%EC%96%B4%EB%A6%B0%EC%99%95%EC%9E%90) |
 | boj | 2776 | [암기왕](https://www.acmicpc.net/problem/2776) | 실버 4 | Python, 이진 탐색 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_2776_%EC%95%94%EA%B8%B0%EC%99%95) |
@@ -59,7 +60,6 @@
 | boj | 10989 | [수 정렬하기3](https://www.acmicpc.net/problem/10989) | 브론즈 1 | Python, sort | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_10989_%EC%88%98_%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B03) |
 | boj | 1946 | [신입 사원](https://www.acmicpc.net/problem/1946) | 실버 1 | JS, greedy | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1946_%EC%8B%A0%EC%9E%85_%EC%82%AC%EC%9B%90) |
 | boj | 1789 | [수들의 합](https://www.acmicpc.net/problem/1789) | 실버 5 | Python, greedy | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1789_%EC%88%98%EB%93%A4%EC%9D%98_%ED%95%A9) |
-| boj | 16953 | [A B](https://www.acmicpc.net/problem/16953) | 실버 2 | Py, greedy | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_16953_A_B) |
 
 ## 프로그래머스
 
