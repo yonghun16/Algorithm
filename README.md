@@ -10,6 +10,7 @@
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
+| boj | 1051 | [숫자 정사각형](https://www.acmicpc.net/problem/1051) | 실버 3 | Python, brute force | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1051_%EC%88%AB%EC%9E%90_%EC%A0%95%EC%82%AC%EA%B0%81%ED%98%95) |
 | boj | 1026 | [보물](https://www.acmicpc.net/problem/1026) | 실버 4 | JS, Greedy | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1026_%EB%B3%B4%EB%AC%BC) |
 | boj | 1024 | [수열의합](https://www.acmicpc.net/problem/1024) | 실버 2 | Python, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1024_%EC%88%98%EC%97%B4%EC%9D%98%ED%95%A9) |
 | boj | 9625 | [BABBA](https://www.acmicpc.net/problem/9625) | 실버 5 | JS, DP | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_9625_BABBA) |
@@ -59,7 +60,6 @@
 | boj | 28702 | [FizzBuzz](https://www.acmicpc.net/problem/28702) | 브론즈 1 | JS, 문자열 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_28702_FizzBuzz) |
 | boj | 2309 | [일곱난쟁이](https://www.acmicpc.net/problem/2309) | 브론즈 1 | Python, 브루투 포스 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_2309_%EC%9D%BC%EA%B3%B1%EB%82%9C%EC%9F%81%EC%9D%B4) |
 | boj | 11050 | [이항 계수1](https://www.acmicpc.net/problem/11050) | 브론즈 1 | Python, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_11050_%EC%9D%B4%ED%95%AD_%EA%B3%84%EC%88%981) |
-| boj | 10989 | [수 정렬하기3](https://www.acmicpc.net/problem/10989) | 브론즈 1 | Python, sort | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_10989_%EC%88%98_%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B03) |
 
 ## 프로그래머스
 
