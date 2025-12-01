@@ -10,6 +10,7 @@
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
+| boj | 1065 | [한수](https://www.acmicpc.net/problem/1065) | 실버 4 | C, brute force | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1065_%ED%95%9C%EC%88%98) |
 | boj | 1049 | [기타줄](https://www.acmicpc.net/problem/1049) | 실버 4 | Python, greedy | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1049_%EA%B8%B0%ED%83%80%EC%A4%84) |
 | boj | 1010 | [다리놓기](https://www.acmicpc.net/problem/1010) | silver 5 | Python, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1010_%EB%8B%A4%EB%A6%AC%EB%86%93%EA%B8%B0) |
 | boj | 1051 | [숫자 정사각형](https://www.acmicpc.net/problem/1051) | 실버 3 | Python, brute force | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1051_%EC%88%AB%EC%9E%90_%EC%A0%95%EC%82%AC%EA%B0%81%ED%98%95) |
@@ -59,7 +60,6 @@
 | boj | 4358 | [생태학](https://www.acmicpc.net/problem/4358) | 실버 2 | JS, Map | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_4358_%EC%83%9D%ED%83%9C%ED%95%99) |
 | boj | 14725 | [개미굴](https://www.acmicpc.net/problem/14725) | 골드 3 | JS, 자료구조, 집합, 트라이 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_14725_%EA%B0%9C%EB%AF%B8%EA%B5%B4) |
 | boj | 13305 | [주유소](https://www.acmicpc.net/problem/13305) | 실버 3 | JS, greedy | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_13305_%EC%A3%BC%EC%9C%A0%EC%86%8C) |
-| boj | 28702 | [FizzBuzz](https://www.acmicpc.net/problem/28702) | 브론즈 1 | JS, 문자열 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_28702_FizzBuzz) |
 
 ## 프로그래머스
 
