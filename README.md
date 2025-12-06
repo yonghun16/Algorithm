@@ -10,6 +10,7 @@
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
+| boj | 1094 | [막대기](https://www.acmicpc.net/problem/1094) | 실버 5 | C, 수학 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1094_%EB%A7%89%EB%8C%80%EA%B8%B0) |
 | boj | 1057 | [토너먼트](https://www.acmicpc.net/problem/1057) | 실버 4 | JS, Math | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1057_%ED%86%A0%EB%84%88%EB%A8%BC%ED%8A%B8) |
 | boj | 1205 | [등수구하기](https://www.acmicpc.net/problem/1205) | 실버 4 | C, 구현 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1205_%EB%93%B1%EC%88%98%EA%B5%AC%ED%95%98%EA%B8%B0) |
 | boj | 1064 | [평행사변형](https://www.acmicpc.net/problem/1064) | 실버 4 | Python, | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1064_%ED%8F%89%ED%96%89%EC%82%AC%EB%B3%80%ED%98%95) |
@@ -59,7 +60,6 @@
 | boj | 1676 | [팩토리얼 0의 개수](https://www.acmicpc.net/problem/1676) | 실버 5 | Python, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1676_%ED%8C%A9%ED%86%A0%EB%A6%AC%EC%96%BC_0%EC%9D%98_%EA%B0%9C%EC%88%98) |
 | boj | 1436 | [영화감독 숌](https://www.acmicpc.net/problem/1436) | 실버 5 | JS, brute force | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1436_%EC%98%81%ED%99%94%EA%B0%90%EB%8F%85_%EC%88%8C) |
 | boj | 9009 | [피보나치](https://www.acmicpc.net/problem/9009) | 실버 1 | JS, greedy | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_9009_%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98) |
-| boj | 1931 | [회의실 배정](https://www.acmicpc.net/problem/1939) | 골드 5 | Python, greddy | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1931_%ED%9A%8C%EC%9D%98%EC%8B%A4_%EB%B0%B0%EC%A0%95) |
 
 ## 프로그래머스
 
