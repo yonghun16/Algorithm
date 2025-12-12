@@ -1,7 +1,7 @@
 import os
 import re
-from collections import defaultdict
 import urllib.parse
+from collections import defaultdict
 
 MAX_COUNT = 50
 OJ_LIST = ["boj", "programmers"]
