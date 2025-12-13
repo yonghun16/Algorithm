@@ -1,17 +1,23 @@
-// A+B -4
-// https://www.acmicpc.net/problem/10951
-// ArrayList를 활용한 동적배열
+/* ------------------------------------------------------------
+ * File     : ArrayListBasic.java
+ * Brief    : ArrayList 연습용 기본 클래스
+ * ------------------------------------------------------------
+ * Details
+ *
+ * ------------------------------------------------------------ */
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class ArrayList {
+/** ArrayList 연습용 기본 클래스. */
+public class ArrayListBasic {
 
-  // 두 수를 더하는 함수
+  /** 두 수를 더하는 함수. */
   public static int getSum(int a, int b) {
     return a + b;
   }
 
+  /** 프로그램 시작점. */
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     ArrayList<Integer> results = new ArrayList<>();
