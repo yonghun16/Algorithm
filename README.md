@@ -10,6 +10,7 @@
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
+| boj | 3273 | [두수의합](https://www.acmicpc.net/problem/3273) | 실버 3 | JS, sort | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_3273_%EB%91%90%EC%88%98%EC%9D%98%ED%95%A9) |
 | boj | 1120 | [문자열](https://www.acmicpc.net/problem/) | 실버 4 | JS, brute force | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1120_%EB%AC%B8%EC%9E%90%EC%97%B4) |
 | boj | 1015 | [수열정렬](https://www.acmicpc.net/problem/1015) | 실버 4 | JS, sorting | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1015_%EC%88%98%EC%97%B4%EC%A0%95%EB%A0%AC) |
 | boj | 1251 | [단어나누기](https://www.acmicpc.net/problem/1251) | 실버 5 | Python, Brute Force | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1251_%EB%8B%A8%EC%96%B4%EB%82%98%EB%88%84%EA%B8%B0) |
@@ -59,7 +60,6 @@
 | boj | 10845 | [큐](https://www.acmicpc.net/problem/10845) | 실버 4 | Python, Queue | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_10845_%ED%81%90) |
 | boj | 9012 | [괄호](https://www.acmicpc.net/problem/9012) | 실버 4 | Python, Stack | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_9012_%EA%B4%84%ED%98%B8) |
 | boj | 4949 | [균형잡힌 세상](https://www.acmicpc.net/problem/4949) | 실버 4 | Python, Stack | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_4949_%EA%B7%A0%ED%98%95%EC%9E%A1%ED%9E%8C_%EC%84%B8%EC%83%81) |
-| boj | 2164 | [카드2](https://www.acmicpc.net/problem/2164) | 실버 4 | Python, queue | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_2164_%EC%B9%B4%EB%93%9C2) |
 
 ## 프로그래머스
 
