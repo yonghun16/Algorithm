@@ -10,6 +10,8 @@
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
+| boj | 1235 | [학생번호](https://www.acmicpc.net/problem/1235) | 실버 4 | Python, 구현 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1235_%ED%95%99%EC%83%9D%EB%B2%88%ED%98%B8) |
+| boj | 1268 | [임시반장정하기](https://www.acmicpc.net/problem/1268) | 실버 5 | Python, 구현 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1268_%EC%9E%84%EC%8B%9C%EB%B0%98%EC%9E%A5%EC%A0%95%ED%95%98%EA%B8%B0) |
 | boj | 3273 | [두수의합](https://www.acmicpc.net/problem/3273) | 실버 3 | JS, sort | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_3273_%EB%91%90%EC%88%98%EC%9D%98%ED%95%A9) |
 | boj | 1120 | [문자열](https://www.acmicpc.net/problem/) | 실버 4 | JS, brute force | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1120_%EB%AC%B8%EC%9E%90%EC%97%B4) |
 | boj | 1015 | [수열정렬](https://www.acmicpc.net/problem/1015) | 실버 4 | JS, sorting | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1015_%EC%88%98%EC%97%B4%EC%A0%95%EB%A0%AC) |
@@ -58,8 +60,6 @@
 | boj | 18110 | [solved ac](https://www.acmicpc.net/problem/18110) | 실버 4 | Python, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_18110_solved_ac) |
 | boj | 11866 | [요세푸스 문제0](https://www.acmicpc.net/problem/11866) | 실버 4 | JS, Queue | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_11866_%EC%9A%94%EC%84%B8%ED%91%B8%EC%8A%A4_%EB%AC%B8%EC%A0%9C0) |
 | boj | 10845 | [큐](https://www.acmicpc.net/problem/10845) | 실버 4 | Python, Queue | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_10845_%ED%81%90) |
-| boj | 9012 | [괄호](https://www.acmicpc.net/problem/9012) | 실버 4 | Python, Stack | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_9012_%EA%B4%84%ED%98%B8) |
-| boj | 4949 | [균형잡힌 세상](https://www.acmicpc.net/problem/4949) | 실버 4 | Python, Stack | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_4949_%EA%B7%A0%ED%98%95%EC%9E%A1%ED%9E%8C_%EC%84%B8%EC%83%81) |
 
 ## 프로그래머스
 
