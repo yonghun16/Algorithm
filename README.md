@@ -10,6 +10,7 @@
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
+| boj | 1063 | [킹](https://www.acmicpc.net/problem/1063) | 실버 3 | Python, 구현 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1063_%ED%82%B9) |
 | boj | 1224 | [스위치켜고끄기](https://www.acmicpc.net/problem/1224) | 실버 4 | Python, 구현 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1224_%EC%8A%A4%EC%9C%84%EC%B9%98%EC%BC%9C%EA%B3%A0%EB%81%84%EA%B8%B0) |
 | boj | 1235 | [학생번호](https://www.acmicpc.net/problem/1235) | 실버 4 | Python, 구현 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1235_%ED%95%99%EC%83%9D%EB%B2%88%ED%98%B8) |
 | boj | 1268 | [임시반장정하기](https://www.acmicpc.net/problem/1268) | 실버 5 | Python, 구현 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1268_%EC%9E%84%EC%8B%9C%EB%B0%98%EC%9E%A5%EC%A0%95%ED%95%98%EA%B8%B0) |
@@ -59,7 +60,6 @@
 | boj | 17609 | [회문](https://www.acmicpc.net/problem/17609) | 골드 5 | JS, greedy, string | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_17609_%ED%9A%8C%EB%AC%B8) |
 | boj | 19939 | [박 터뜨리기](https://www.acmicpc.net/problem/19939) | 실버 4 | JS, greedy | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_19939_%EB%B0%95_%ED%84%B0%EB%9C%A8%EB%A6%AC%EA%B8%B0) |
 | boj | 18110 | [solved ac](https://www.acmicpc.net/problem/18110) | 실버 4 | Python, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_18110_solved_ac) |
-| boj | 11866 | [요세푸스 문제0](https://www.acmicpc.net/problem/11866) | 실버 4 | JS, Queue | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_11866_%EC%9A%94%EC%84%B8%ED%91%B8%EC%8A%A4_%EB%AC%B8%EC%A0%9C0) |
 
 ## 프로그래머스
 
