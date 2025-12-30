@@ -10,6 +10,7 @@
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
+| boj | 1304 | [연도진행바](https://www.acmicpc.net/problem/1304) | 실버 5 | JS, 구현 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1304_%EC%97%B0%EB%8F%84%EC%A7%84%ED%96%89%EB%B0%94) |
 | boj | 1308 | [Dday](https://www.acmicpc.net/problem/1308) | 실버 5 | Python, 구현 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1308_Dday) |
 | boj | 1312 | [소수](https://www.acmicpc.net/problem/1312) | Silver 4 | Python, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1312_%EC%86%8C%EC%88%98) |
 | boj | 1063 | [킹](https://www.acmicpc.net/problem/1063) | 실버 3 | Python, 구현 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1063_%ED%82%B9) |
@@ -59,7 +60,6 @@
 | boj | 11723 | [집합]() |  |  | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_11723_%EC%A7%91%ED%95%A9) |
 | boj | 1874 | [스택 수열](https://www.acmicpc.net/problem/1874) | 실버 2 | Python, Stack | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1874_%EC%8A%A4%ED%83%9D_%EC%88%98%EC%97%B4) |
 | boj | 1966 | [프린터 큐](https://www.acmicpc.net/problem/1966) | 실버 3 | JS, queue | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1966_%ED%94%84%EB%A6%B0%ED%84%B0_%ED%81%90) |
-| boj | 17609 | [회문](https://www.acmicpc.net/problem/17609) | 골드 5 | JS, greedy, string | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_17609_%ED%9A%8C%EB%AC%B8) |
 
 ## 프로그래머스
 
