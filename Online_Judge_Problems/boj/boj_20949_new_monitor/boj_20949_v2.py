@@ -27,20 +27,19 @@ input = iter(lines).__next__
 
 
 def solve():
-    try:
-        N = int(input())
-        monitors = []
-        for i in range(1, N + 1):
-            W, H = map(int, input().split())
-            monitors.append((W**2 + H**2, i))
+    # input
+    N = int(input())
+    monitors = []
 
-        # 정렬 및 출력 로직...
-        monitors.sort(key=lambda x: (-x[0], x[1]))
-        print("\n".join(str(m[1]) for m in monitors))
+    for i in range(1, N + 1):
+        W, H = map(int, input().split())
+        monitors.append((W**2 + H**2, i))
 
-    except (StopIteration, ValueError):
-        # 데이터가 없거나 입력이 끝났을 때 에러 방지
-        pass
+    # sort
+    monitors.sort(key=lambda x: (-x[0], x[1]))
+
+    # print
+    print("\n".join(str(m[1]) for m in monitors))
 
 
 if __name__ == "__main__":
