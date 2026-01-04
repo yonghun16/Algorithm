@@ -20,34 +20,31 @@ if (process.platform === "linux") {
   input = require("fs").readFileSync(filePath, "utf-8").trim().split("\n");
 }
 
-const D = 77;
-
-// calculate PPI
-const calculatePPi = (W, H) => {
-  return Math.sqrt(W * W + H * H) / D;
-};
-
 // input
-const N = Number(input[0]);
-const monitor = [];
-const sortMonitor = [[0, 0]];
+const N = parseInt(input[0]);
+const monitors = [];
 
 for (let i = 1; i <= N; i++) {
   const [W, H] = input[i].split(" ").map(Number);
-  monitor.push([i, calculatePPi(W, H)]);
+
+  // (일반 Number 타입으로도 이 범위는 커버 가능하지만 정확성을 위해 권장)
+  const ppiValue = BigInt(W) * BigInt(W) + BigInt(H) * BigInt(H);
+
+  monitors.push({
+    id: i,
+    ppiValue: ppiValue,
+  });
 }
 
 // sort
-for (let i = 0; i < N; i++) {
-  for (let j = 0; j < sortMonitor.length; j++) {
-    if (monitor[i][1] > sortMonitor[j][1]) {
-      sortMonitor.splice(j, 0, monitor[i]);
-      break;
-    }
-  }
-}
+monitors.sort((a, b) => {
+  if (b.ppiValue > a.ppiValue) return 1;
+  if (b.ppiValue < a.ppiValue) return -1;
+
+  // PPI가 같으면 번호(id)가 작은 순서대로
+  return a.id - b.id;
+});
 
 // print
-for (let i = 0; i < N; i++) {
-  console.log(sortMonitor[i][0]);
-}
+// console.log(monitors.map((m) => m.id).join("\n"));
+console.log(monitors.map((m) => m.id).join("\n"));
