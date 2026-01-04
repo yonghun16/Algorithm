@@ -33,10 +33,12 @@ def solve():
 
     for i in range(1, N + 1):
         W, H = map(int, input().split())
-        monitors.append((W**2 + H**2, i))
+        monitors.append((W**2 + H**2, i))  # 자료형으로 '튜플' 사용 (데이터 역할)
 
     # sort
-    monitors.sort(key=lambda x: (-x[0], x[1]))
+    monitors.sort(
+        key=lambda x: (-x[0], x[1])
+    )  # sort에 람다 함수에 정렬 순서를 묶어주기 위해 '튜플' 사용 (기준표 역할)
 
     # print
     print("\n".join(str(m[1]) for m in monitors))
