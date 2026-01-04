@@ -46,5 +46,4 @@ monitors.sort((a, b) => {
 });
 
 // print
-// console.log(monitors.map((m) => m.id).join("\n"));
 console.log(monitors.map((m) => m.id).join("\n"));
