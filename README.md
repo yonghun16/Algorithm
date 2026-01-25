@@ -10,6 +10,7 @@
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
+| boj | 2003 | [수들의합2](https://www.acmicpc.net/problem/2003) | 실버 4 | Python, math, brute force | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_2003_%EC%88%98%EB%93%A4%EC%9D%98%ED%95%A92) |
 | boj | 20949 | [new monitor](https://www.acmicpc.net/problem/20949) | 실버 5 | Python, sort | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_20949_new_monitor) |
 | boj | 20154 | [who is winner](https://www.acmicpc.net/problem/20154) | bronze 1 | Python, implement | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_20154_who_is_winner) |
 | boj | 4383 | [jolly jumper](https://www.acmicpc.net/problem/4383) | 실버 5 | JS, 구현 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_4383_jolly_jumper) |
@@ -59,7 +60,6 @@
 | boj | 1003 | [피보나치 함수](https://www.acmicpc.net/problem/1003) | 실버 3 | Python, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1003_%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98_%ED%95%A8%EC%88%98) |
 | boj | 11282 | [한글]() |  |  | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_11282_%ED%95%9C%EA%B8%80) |
 | boj | 1764 | [듣보잡](https://www.acmicpc.net/problem/1764) | 실버 4 | JS, map, 자료구조 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1764_%EB%93%A3%EB%B3%B4%EC%9E%A1) |
-| boj | 1620 | [포멧몬 마스터 이다솜](https://www.acmicpc.net/problem/1620) | 실버 4 |  | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1620_%ED%8F%AC%EB%A9%A7%EB%AA%AC_%EB%A7%88%EC%8A%A4%ED%84%B0_%EC%9D%B4%EB%8B%A4%EC%86%9C) |
 
 ## 프로그래머스
 
