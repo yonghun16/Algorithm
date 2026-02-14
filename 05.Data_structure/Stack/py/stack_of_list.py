@@ -1,38 +1,38 @@
 class Stack:
     # 스택 생성(List)
     def __init__(self):
-        self.stack = []
+        self.items = []
 
     # 1. 스텍에 원소 추가(append)
     def push(self, data):
-        self.stack.append(data)
+        self.items.append(data)
 
     # 2.스텍에서 원소 추출(pop)
     def pop(self):
         if self.is_empty():
             return None
-        return self.stack.pop()
+        return self.items.pop()
 
     # 3. 스텍의 최상단 원소 반환(index -1)
     def peek(self):
         if self.is_empty():
             return None
-        return self.stack[-1]
+        return self.items[-1]
 
     # 4. 스택의 원소 개수 반환(len)
     def size(self):
-        return len(self.stack)
+        return len(self.items)
 
     # 스텍 출력
     def display(self):
         print("\n   ↓ 스택의 최상단 ")
         print("│     │")
-        for i in range(len(self.stack) - 1, -1, -1):
-            print("│%4d │" % self.stack[i])
+        for i in range(len(self.items) - 1, -1, -1):
+            print("│%4d │" % self.items[i])
         print("└─────┘")
 
     def is_empty(self):
-        return len(self.stack) == 0
+        return len(self.items) == 0
 
 
 print("───────────────────────────────\n")

@@ -10,6 +10,7 @@
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
+| boj | 1406 | [에디터](https://www.acmicpc.net/problem/1406) | Silver 2 | Python, Stack | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1406_%EC%97%90%EB%94%94%ED%84%B0) |
 | boj | 14606 | [피자](https://www.acmicpc.net/problem/14606) | Silver 5 | Python, implement | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_14606_%ED%94%BC%EC%9E%90) |
 | boj | 9047 | [6174](https://www.acmicpc.net/problem/9047) | Silver 5 | JS, Math | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_9047_6174) |
 | boj | 3048 | [개미](https://www.acmicpc.net/problem/3048) | 실버 4 | Python, 구현 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_3048_%EA%B0%9C%EB%AF%B8) |
@@ -59,7 +60,6 @@
 | boj | 9095 | [123더하기](https://www.acmicpc.net/problem/9095) | 실버 3 | C, DP | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_9095_123%EB%8D%94%ED%95%98%EA%B8%B0) |
 | boj | 2751 | [수 정렬하기 2](https://www.acmicpc.net/problem/2751) | 실버 5 | JS, sort | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_2751_%EC%88%98_%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0_2) |
 | boj | 2775 | [부녀회장이 될꺼야](https://www.acmicpc.net/problem/2775) | Bronze 1 | C, Dynamic Programming | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_2775_%EB%B6%80%EB%85%80%ED%9A%8C%EC%9E%A5%EC%9D%B4_%EB%90%A0%EA%BA%BC%EC%95%BC) |
-| boj | 28074 | [모비스](https://www.acmicpc.net/problem/28074) |  | JS, String | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_28074_%EB%AA%A8%EB%B9%84%EC%8A%A4) |
 
 ## 프로그래머스
 
