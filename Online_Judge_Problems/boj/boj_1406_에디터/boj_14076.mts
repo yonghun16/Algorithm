@@ -1,6 +1,6 @@
 /** * -----------------------------------------------------------
  * Sub    : [BOJ] 에디터
- * Link   : https://www.acmicpc.net/problem/1406
+ * Link   : https://www.acmicpc.net/problem/14076
  * Level  : 실버 2
  * Tag    : TS, Stack
  * ------------------------------------------------------------
