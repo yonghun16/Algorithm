@@ -43,9 +43,32 @@ function createStack() {
   };
 }
 
+// 클래스 기반 스택
+class Stack {
+  // #은 이 변수가 클래스 내부에서만 쓰인다는 '비밀' 표시. (Private)
+  #items = [];
+
+  push(x) {
+    this.#items.push(x);
+  }
+  pop() {
+    return this.#items.length === 0 ? -1 : this.#items.pop();
+  }
+  size() {
+    return this.#items.length;
+  }
+  isEmpty() {
+    return this.#items.length === 0 ? 1 : 0;
+  }
+  peek() {
+    return this.#items.length === 0 ? -1 : this.#items[this.#items.length - 1];
+  }
+}
+
 // input
 const N = parseInt(input[inputIdx++]);
 const stack = createStack();
+// const stack = new Stack();
 const results = [];
 
 // solve
