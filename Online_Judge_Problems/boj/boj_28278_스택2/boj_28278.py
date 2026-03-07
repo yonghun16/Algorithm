@@ -17,11 +17,11 @@ file_path = os.path.join(os.path.dirname(__file__), "input_test.txt")
 
 if os.path.exists(file_path):
     with open(file_path, "r", encoding="utf-8") as f:
-        lines = f.read().splitlines()
+        tokens = f.read().split()
 else:
-    lines = sys.stdin.read().splitlines()
+    tokens = sys.stdin.read().split()
 
-input = iter(lines).__next__
+input = iter(tokens).__next__
 
 
 # 스택
@@ -53,14 +53,10 @@ results = []
 
 # solve
 for _ in range(N):
-    command = input().split()
-    if not command:
-        continue
-
-    cmd_type = command[0]
+    cmd_type = input()
 
     if cmd_type == "1":
-        stack.push(command[1])
+        stack.push(input())
     elif cmd_type == "2":
         results.append(str(stack.pop()))
     elif cmd_type == "3":

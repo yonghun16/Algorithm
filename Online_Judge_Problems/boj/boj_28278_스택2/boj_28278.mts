@@ -1,35 +1,45 @@
-/**
+/** 
  * -----------------------------------------------------------
  * Sub    : [BOJ] 스택2
  * Link   : https://www.acmicpc.net/problem/28278
- * Level  : 실버 4
- * Tag    : JS, Stack, Closure
+ * Level  : Silver 4
+ * Tag    : TS, Stack
  * ------------------------------------------------------------
  * Details
  * 
  * ------------------------------------------------------------
  */
 
-const fs = require("fs");
-const path = require("path");
+import * as fs from "fs";
+import * as path from "path";
 
-const filePath = path.join(process.cwd(), "input_test.txt");
-const input = fs.existsSync(filePath)
+const filePath: string = path.join(process.cwd(), "input_test.txt");
+const input: string[] = fs.existsSync(filePath)
   ? fs.readFileSync(filePath, "utf8").trim().split(/\s+/)
   : fs.readFileSync(0, "utf8").trim().split(/\s+/);
 
-let inputIdx = 0;
+let inputIdx: number = 0;
+
+// 스택 인터페이스 정의
+interface Stack {
+  push: (x: string) => void;
+  pop: () => string | number;
+  size: () => number;
+  isEmpty: () => 1 | 0;
+  peek: () => string | number;
+}
 
 // 클로저 기반 스택 생성 함수
-function createStack() {
-  const items = [];
+function createStack(): Stack {
+  const items: string[] = [];
 
   return {
-    push(x) {
+    push(x: string) {
       items.push(x);
     },
     pop() {
-      return items.length === 0 ? -1 : items.pop();
+      const popped = items.pop();
+      return popped === undefined ? -1 : popped;
     },
     size() {
       return items.length;
@@ -43,12 +53,11 @@ function createStack() {
   };
 }
 
-// input
-const N = parseInt(input[inputIdx++]);
+// Solve
+const N: number = parseInt(input[inputIdx++]);
 const stack = createStack();
-const results = [];
+const results: (string | number)[] = [];
 
-// solve
 for (let i = 0; i < N; i++) {
   const cmdType = input[inputIdx++];
 
@@ -71,5 +80,5 @@ for (let i = 0; i < N; i++) {
   }
 }
 
-// output
+// print
 process.stdout.write(results.join("\n") + "\n");
