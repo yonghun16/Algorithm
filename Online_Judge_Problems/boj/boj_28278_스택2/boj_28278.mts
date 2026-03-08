@@ -1,4 +1,4 @@
-/** 
+/**
  * -----------------------------------------------------------
  * Sub    : [BOJ] 스택2
  * Link   : https://www.acmicpc.net/problem/28278
@@ -6,7 +6,7 @@
  * Tag    : TS, Stack
  * ------------------------------------------------------------
  * Details
- * 
+ *
  * ------------------------------------------------------------
  */
 
@@ -30,7 +30,7 @@ interface Stack {
 }
 
 // 클로저 기반 스택 생성 함수
-function createStack(): Stack {
+const createStack = (): Stack => {
   const items: string[] = [];
 
   return {
@@ -51,7 +51,7 @@ function createStack(): Stack {
       return items.length === 0 ? -1 : items[items.length - 1];
     },
   };
-}
+};
 
 // Solve
 const N: number = parseInt(input[inputIdx++]);
