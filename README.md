@@ -10,7 +10,8 @@
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
-| boj | 28278 | [스택2](https://www.acmicpc.net/problem/28278) | Silver 4 | Python, Stack | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_28278_%EC%8A%A4%ED%83%9D2) |
+| boj | 17413 | [단어 뒤집기2](https://www.acmicpc.net/problem/17413) | Silver 3 | Python, String, Stack | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_17413_%EB%8B%A8%EC%96%B4_%EB%92%A4%EC%A7%91%EA%B8%B02) |
+| boj | 28278 | [스택2](https://www.acmicpc.net/problem/28278) | 실버 4 | JS, Stack, Closure | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_28278_%EC%8A%A4%ED%83%9D2) |
 | boj | 14612 | [김식당](https://www.acmicpc.net/problem/14612) | Silver 4 | Python, | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_14612_%EA%B9%80%EC%8B%9D%EB%8B%B9) |
 | boj | 1406 | [에디터](https://www.acmicpc.net/problem/1406) | Silver 2 | Python, Stack | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1406_%EC%97%90%EB%94%94%ED%84%B0) |
 | boj | 3048 | [개미](https://www.acmicpc.net/problem/3048) | 실버 4 | Python, 구현 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_3048_%EA%B0%9C%EB%AF%B8) |
@@ -59,7 +60,6 @@
 | boj | 11659 | [구간합 구하기4](https://www.acmicpc.net/problem/11659) | Silver 3 | Python, sum | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_11659_%EA%B5%AC%EA%B0%84%ED%95%A9_%EA%B5%AC%ED%95%98%EA%B8%B04) |
 | boj | 2606 | [바이러스](https://www.acmicpc.net/problem/2606) | 실버 3 | Python, DFS | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_2606_%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4) |
 | boj | 9095 | [123더하기](https://www.acmicpc.net/problem/9095) | 실버 3 | Python, DP | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_9095_123%EB%8D%94%ED%95%98%EA%B8%B0) |
-| boj | 9375 | [패션왕 신해빈](https://www.acmicpc.net/problem/9375) | 실버 3 | Python, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_9375_%ED%8C%A8%EC%85%98%EC%99%95_%EC%8B%A0%ED%95%B4%EB%B9%88) |
 
 ## 프로그래머스
 
