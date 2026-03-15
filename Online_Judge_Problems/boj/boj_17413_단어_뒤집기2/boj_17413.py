@@ -44,45 +44,46 @@ class Stack:
         return len(self.items) == 0
 
 
-# 단어를 뒤집기 위한 스택 선언
+# input & init
 words_stack = Stack()
 is_tag = False  # 현재 문자가 태그 안에 있는지 확인하는 플래그
+result = []  # result array for print
 
 # solve
 while True:
     char = next(tokens, None)
 
-    # 더 이상 읽을 문자가 없으면 루프 종료
     if char is None:
         while not words_stack.is_empty():
-            print(words_stack.pop(), end="")
+            result.append(words_stack.pop())
         break
 
     # 1. 태그의 시작인 경우
     if char == "<":
         # 태그 시작 전까지 쌓인 단어를 먼저 뒤집어서 출력
         while not words_stack.is_empty():
-            print(words_stack.pop(), end="")
+            result.append(words_stack.pop())
         is_tag = True
-        print(char, end="")
+        result.append(char)
 
     # 2. 태그의 끝인 경우
     elif char == ">":
         is_tag = False
-        print(char, end="")
+        result.append(char)
 
     # 3. 태그 내부인 경우
     elif is_tag:
-        print(char, end="")
+        result.append(char)
 
     # 4. 태그 밖의 일반 문자인 경우
     else:
         # 공백을 만나면 단어가 끝난 것이므로 스택을 비움
         if char == " ":
             while not words_stack.is_empty():
-                print(words_stack.pop(), end="")
-            print(char, end="")  # 공백은 그대로 출력
+                result.append(words_stack.pop())
+            result.append(char)
         else:
             words_stack.push(char)
 
-print()
+# print
+print("".join(result))
