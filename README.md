@@ -67,6 +67,7 @@
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
+| programmers | 250125 | [이웃한 칸]() |  |  | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/programmers/programmers_250125_%EC%9D%B4%EC%9B%83%ED%95%9C_%EC%B9%B8) |
 | programmers | 70128 | [내적](https://programmers.co.kr/learn/courses/30/lessons/70128) | 1 | JS, Math | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/programmers/programmers_70128_%EB%82%B4%EC%A0%81) |
 | programmers | 42840 | [모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840) | 1 | JS, 완전탐색 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/programmers/programmers_42840_%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC) |
 | programmers | 86051 | [없는숫자 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/86051) | 1 | C, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/programmers/programmers_86051_%EC%97%86%EB%8A%94%EC%88%AB%EC%9E%90_%EB%8D%94%ED%95%98%EA%B8%B0) |
