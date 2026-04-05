@@ -10,6 +10,8 @@
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
+| boj | 16497 | [대출요청](https://www.acmicpc.net/problem/16497) | Bronze 2 | JavaScript (Node.js) | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_16497_%EB%8C%80%EC%B6%9C%EC%9A%94%EC%B2%AD) |
+| boj | 2493 | [탑](https://www.acmicpc.net/problem/2493) | Gold 5 | Python, Stack | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_2493_%ED%83%91) |
 | boj | 3986 | [좋은단어](https://www.acmicpc.net/problem/3986) | 실버 3 | Python, Stack | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_3986_%EC%A2%8B%EC%9D%80%EB%8B%A8%EC%96%B4) |
 | boj | 17298 | [오큰수](https://www.acmicpc.net/problem/17298) | Gold 4 | Python, Stack | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_17298_%EC%98%A4%ED%81%B0%EC%88%98) |
 | boj | 17413 | [단어 뒤집기2](https://www.acmicpc.net/problem/17413) | Silver 3 | JS, String, Stack | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_17413_%EB%8B%A8%EC%96%B4_%EB%92%A4%EC%A7%91%EA%B8%B02) |
@@ -58,8 +60,6 @@
 | boj | 1012 | [유기농배추](https://www.acmicpc.net/problem/1012) | 실버 2 | Python, DFS | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1012_%EC%9C%A0%EA%B8%B0%EB%86%8D%EB%B0%B0%EC%B6%94) |
 | boj | 17626 | [Four Squares](https://www.acmicpc.net/problem/17626) | 실버 3 | Python, DP | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_17626_Four_Squares) |
 | boj | 11727 | [2xn타일링 2](https://www.acmicpc.net/problem/11727) | 실버 3 | Python, DP | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_11727_2xn%ED%83%80%EC%9D%BC%EB%A7%81_2) |
-| boj | 11726 | [2xn타일링](https://www.acmicpc.net/problem/11726) | Silver 3 | JS, DP | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_11726_2xn%ED%83%80%EC%9D%BC%EB%A7%81) |
-| boj | 11659 | [구간합 구하기4](https://www.acmicpc.net/problem/11659) | Silver 3 | Python, sum | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_11659_%EA%B5%AC%EA%B0%84%ED%95%A9_%EA%B5%AC%ED%95%98%EA%B8%B04) |
 
 ## 프로그래머스
 
