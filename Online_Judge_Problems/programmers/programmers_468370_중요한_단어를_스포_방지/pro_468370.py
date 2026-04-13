@@ -2,7 +2,7 @@
 -----------------------------------------------------------
 Sub    : [Programmers] 스포일러 방지
 Link   : https://school.programmers.co.kr/learn/courses/30/lessons/468370
-Level  : Kakao
+Level  : 1
 Tag    : Python, String, Implementation
 -----------------------------------------------------------
 Details
