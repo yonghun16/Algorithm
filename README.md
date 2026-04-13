@@ -10,8 +10,8 @@
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
+| boj | 2493 | [탑](https://www.acmicpc.net/problem/2493) | Gold 5 | JS, | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_2493_%ED%83%91) |
 | boj | 16497 | [대출요청](https://www.acmicpc.net/problem/16497) | Bronze 2 | JavaScript (Node.js) | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_16497_%EB%8C%80%EC%B6%9C%EC%9A%94%EC%B2%AD) |
-| boj | 2493 | [탑](https://www.acmicpc.net/problem/2493) | Gold 5 | Python, Stack | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_2493_%ED%83%91) |
 | boj | 3986 | [좋은단어](https://www.acmicpc.net/problem/3986) | 실버 3 | Python, Stack | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_3986_%EC%A2%8B%EC%9D%80%EB%8B%A8%EC%96%B4) |
 | boj | 17298 | [오큰수](https://www.acmicpc.net/problem/17298) | Gold 4 | Python, Stack | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_17298_%EC%98%A4%ED%81%B0%EC%88%98) |
 | boj | 17413 | [단어 뒤집기2](https://www.acmicpc.net/problem/17413) | Silver 3 | JS, String, Stack | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_17413_%EB%8B%A8%EC%96%B4_%EB%92%A4%EC%A7%91%EA%B8%B02) |
@@ -67,6 +67,7 @@
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
+| programmers | 468370 | [중요한 단어를 스포 방지](https://school.programmers.co.kr/learn/courses/30/lessons/468370) | Kakao | Python, String, Implementation | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/programmers/programmers_468370_%EC%A4%91%EC%9A%94%ED%95%9C_%EB%8B%A8%EC%96%B4%EB%A5%BC_%EC%8A%A4%ED%8F%AC_%EB%B0%A9%EC%A7%80) |
 | programmers | 250121 | [데이터 분석](https://school.programmers.co.kr/learn/courses/30/lessons/250121) | 1 | Python, | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/programmers/programmers_250121_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%B6%84%EC%84%9D) |
 | programmers | 250125 | [이웃한 칸](https://school.programmers.co.kr/learn/courses/30/lessons/250125) | 1 | Python, | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/programmers/programmers_250125_%EC%9D%B4%EC%9B%83%ED%95%9C_%EC%B9%B8) |
 | programmers | 70128 | [내적](https://programmers.co.kr/learn/courses/30/lessons/70128) | 1 | JS, Math | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/programmers/programmers_70128_%EB%82%B4%EC%A0%81) |
