@@ -1,4 +1,4 @@
-# 알고리즘 문제 목록 (온라인 저지 별 최근 50개)
+# 알고리즘 문제 목록 (최근 100개)
 
 최근에 해결한 온라인 저지 문제 목록입니다. 
 
@@ -6,7 +6,7 @@
 
 ## 백준 온라인 저지
 
-<p> <a href="https://solved.ac/profile/yonghun16"><img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=yonghun16" width="348em"></a> <a href="https://www.acmicpc.net/user/yonghun16"><img src="http://mazandi.herokuapp.com/api?handle=yonghun16&theme=warm" width="348em"></a> </p>
+<p> <a href="https://solved.ac/profile/yonghun16"><img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=yonghun16" width="348em"></a> </p>
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
