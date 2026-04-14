@@ -6,7 +6,9 @@
 
 ## 백준 온라인 저지
 
-<p> <a href="https://solved.ac/profile/yonghun16"><img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=yonghun16" width="348em"></a> </p>
+<a href="https://solved.ac/profile/yonghun16">
+  <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=yonghun16" width="400"/>
+</a>
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
@@ -63,7 +65,7 @@
 
 ## 프로그래머스
 
-<img src="https://github.com/yonghun16/Algorithm/blob/main/Online_Judge_Problems/programmers/score.png" width="350em">
+<img src="https://raw.githubusercontent.com/yonghun16/github-programmers-rank/master/lib/result.svg" width="400"/>
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
