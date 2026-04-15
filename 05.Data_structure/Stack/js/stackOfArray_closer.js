@@ -38,8 +38,8 @@ const createStack = () => {
       items.length = 0; // items=[] 으로 하면 클로저 안에서 참조하던 기존 배열과 연결이 끊김
     },
     print() {
-      console.log(items.join(' <- '));
-    }
+      console.log(items.join(" <- "));
+    },
   };
 };
 
@@ -50,11 +50,11 @@ stack.push(10);
 stack.push(20);
 stack.push(30);
 
-stack.print();        // 10 <- 20 <- 30
+stack.print(); // 10 <- 20 <- 30
 
-console.log(stack.pop());   // 30
-console.log(stack.peek());  // 20
-console.log(stack.size());  // 2
+console.log(stack.pop()); // 30
+console.log(stack.peek()); // 20
+console.log(stack.size()); // 2
 console.log(stack.isEmpty()); // false
 
 stack.clear();

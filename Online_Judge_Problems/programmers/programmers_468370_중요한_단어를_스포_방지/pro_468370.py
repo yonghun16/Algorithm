@@ -5,7 +5,7 @@ Link   : https://school.programmers.co.kr/learn/courses/30/lessons/468370
 Level  : 1
 Tag    : Python, String, Implementation
 -----------------------------------------------------------
-Details
+Solution
 1. 단어 추출 및 인덱스 범위 계산
 2. 스포일러 구간과 겹치는 단어 판별
 3. 중요 단어 조건 필터링 (일반 구간 미등장 & 중복 아님)
@@ -20,6 +20,7 @@ if os.path.exists(file_path):
     sys.stdin = open(file_path, "r", encoding="utf-8")
 
 
+# 📥 Get Input Data
 def get_input_data():
     raw_data = sys.stdin.read().splitlines()
 
@@ -41,6 +42,7 @@ def get_input_data():
     return message, spoiler_ranges
 
 
+# ⚙️Core Logic
 def solution(message, spoiler_ranges):
     if message is None:
         return 0
@@ -97,6 +99,7 @@ def solution(message, spoiler_ranges):
     return answer
 
 
+# 🚀 Run Program
 if __name__ == "__main__":
     msg, s_ranges = get_input_data()
 
