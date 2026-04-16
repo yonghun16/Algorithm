@@ -42,7 +42,7 @@ def get_input_data():
     return message, spoiler_ranges
 
 
-# ⚙️Core Logic
+# ⚙️ Core Logic
 def solution(message, spoiler_ranges):
     if message is None:
         return 0
