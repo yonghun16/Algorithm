@@ -1,4 +1,4 @@
-# 알고리즘 문제 목록 (최근 100개)
+# 알고리즘 문제 목록 (온라인 저지 별 최근 50개)
 
 최근에 해결한 온라인 저지 문제 목록입니다. 
 
@@ -6,12 +6,11 @@
 
 ## 백준 온라인 저지
 
-<a href="https://solved.ac/profile/yonghun16">
-  <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=yonghun16" width="400"/>
-</a>
+<p> <a href="https://solved.ac/profile/yonghun16"><img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=yonghun16" width="348em"></a> <a href="https://www.acmicpc.net/user/yonghun16"><img src="http://mazandi.herokuapp.com/api?handle=yonghun16&theme=warm" width="348em"></a> </p>
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
+| boj | 10823 | [더하기 2](https://www.acmicpc.net/problem/10823) | Bronze 1 | Python, String, Parsing | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_10823_%EB%8D%94%ED%95%98%EA%B8%B0_2) |
 | boj | 2493 | [탑](https://www.acmicpc.net/problem/2493) | Gold 5 | JS, | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_2493_%ED%83%91) |
 | boj | 16497 | [대출요청](https://www.acmicpc.net/problem/16497) | Bronze 2 | JavaScript (Node.js) | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_16497_%EB%8C%80%EC%B6%9C%EC%9A%94%EC%B2%AD) |
 | boj | 3986 | [좋은단어](https://www.acmicpc.net/problem/3986) | 실버 3 | Python, Stack | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_3986_%EC%A2%8B%EC%9D%80%EB%8B%A8%EC%96%B4) |
@@ -61,11 +60,10 @@
 | boj | 1654 | [랜선자르기](https://www.acmicpc.net/problem/1654) | 실버 2 | Python, Binary search | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1654_%EB%9E%9C%EC%84%A0%EC%9E%90%EB%A5%B4%EA%B8%B0) |
 | boj | 1012 | [유기농배추](https://www.acmicpc.net/problem/1012) | 실버 2 | Python, DFS | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1012_%EC%9C%A0%EA%B8%B0%EB%86%8D%EB%B0%B0%EC%B6%94) |
 | boj | 17626 | [Four Squares](https://www.acmicpc.net/problem/17626) | 실버 3 | Python, DP | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_17626_Four_Squares) |
-| boj | 11727 | [2xn타일링 2](https://www.acmicpc.net/problem/11727) | 실버 3 | Python, DP | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_11727_2xn%ED%83%80%EC%9D%BC%EB%A7%81_2) |
 
 ## 프로그래머스
 
-<img src="https://raw.githubusercontent.com/yonghun16/github-programmers-rank/master/lib/result.svg" width="400"/>
+<img src="https://github.com/yonghun16/Algorithm/blob/main/Online_Judge_Problems/programmers/score.png" width="350em">
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
