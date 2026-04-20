@@ -3,7 +3,7 @@ import re
 import urllib.parse
 from collections import defaultdict
 
-MAX_COUNT = 50
+MAX_COUNT = 100
 OJ_LIST = ["boj", "programmers"]
 
 # ✅ 문제 루트 디렉토리 (수동으로 지정)
@@ -35,7 +35,9 @@ def extract_info_from_file(folder_path):
                     # 주석 블록 추출
                     if filename.endswith(".py"):
                         block = re.search(
-                            r"(?:'''|\"\"\")(.*?)(?:'''|\"\"\")", content, re.DOTALL
+                            r"(?:'''|\"\"\")(.*?)(?:'''|\"\"\")",
+                            content,
+                            re.DOTALL,
                         )
                     else:  # C, C++, Java, JS
                         block = re.search(r"/\*(.*?)\*/", content, re.DOTALL)
@@ -90,12 +92,12 @@ def write_readme(path, title, problems_by_oj):
             if oj == "boj":
                 f.write(f"## 백준 온라인 저지\n\n")
                 f.write(
-                    '<p> <a href="https://solved.ac/profile/yonghun16"><img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=yonghun16" width="348em"></a> <a href="https://www.acmicpc.net/user/yonghun16"><img src="http://mazandi.herokuapp.com/api?handle=yonghun16&theme=warm" width="348em"></a> </p>\n\n'
+                    '<p> <a href="https://solved.ac/profile/yonghun16"> <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=yonghun16" width="400"/></a></p>\n\n'
                 )
             elif oj == "programmers":
                 f.write(f"## 프로그래머스\n\n")
                 f.write(
-                    '<img src="https://github.com/yonghun16/Algorithm/blob/main/Online_Judge_Problems/programmers/score.png" width="350em">\n\n'
+                    '<img src="https://raw.githubusercontent.com/yonghun16/github-programmers-rank/master/lib/result.svg" width="400"/>\n\n'
                 )
             # elif oj == 'goorm':
             #     f.write(f'## 구름\n\n')
@@ -126,7 +128,7 @@ def main():
 
     write_readme(
         "README.md",
-        f"알고리즘 문제 목록 (온라인 저지 별 최근 {MAX_COUNT}개)",
+        f"알고리즘 문제 목록 (최근 {MAX_COUNT}개)",
         problems_by_oj,
     )
 
