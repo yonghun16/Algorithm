@@ -113,7 +113,7 @@
 
 ## 프로그래머스
 
-<img src="https://raw.githubusercontent.com/yonghun16/github-programmers-rank/master/lib/result.svg" width="400"/>
+<img src="https://raw.githubusercontent.com/yonghun16/github-programmers-rank/master/lib/result.svg" width="450"/>
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|

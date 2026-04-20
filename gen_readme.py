@@ -97,7 +97,7 @@ def write_readme(path, title, problems_by_oj):
             elif oj == "programmers":
                 f.write(f"## 프로그래머스\n\n")
                 f.write(
-                    '<img src="https://raw.githubusercontent.com/yonghun16/github-programmers-rank/master/lib/result.svg" width="400"/>\n\n'
+                    '<img src="https://raw.githubusercontent.com/yonghun16/github-programmers-rank/master/lib/result.svg" width="450"/>\n\n'
                 )
             # elif oj == 'goorm':
             #     f.write(f'## 구름\n\n')
