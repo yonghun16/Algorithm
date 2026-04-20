@@ -10,6 +10,7 @@
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
+| boj | 1105 | [팔](https://www.acmicpc.net/problem/1105) | Silver 1 | Python, Greedy, Math | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1105_%ED%8C%94) |
 | boj | 10823 | [더하기 2](https://www.acmicpc.net/problem/10823) | Bronze 1 | Python, String, Parsing | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_10823_%EB%8D%94%ED%95%98%EA%B8%B0_2) |
 | boj | 2493 | [탑](https://www.acmicpc.net/problem/2493) | Gold 5 | JS, | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_2493_%ED%83%91) |
 | boj | 16497 | [대출요청](https://www.acmicpc.net/problem/16497) | Bronze 2 | JavaScript (Node.js) | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_16497_%EB%8C%80%EC%B6%9C%EC%9A%94%EC%B2%AD) |
@@ -109,7 +110,6 @@
 | boj | 1427 | [소트인사이드](https://www.acmicpc.net/problem/1427) | 실버 5 | JS, 정렬, 문자열 | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1427_%EC%86%8C%ED%8A%B8%EC%9D%B8%EC%82%AC%EC%9D%B4%EB%93%9C) |
 | boj | 18870 | [좌표 압축](https://www.acmicpc.net/problem/18870) | 실버 2 | JS, Array, Sort | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_18870_%EC%A2%8C%ED%91%9C_%EC%95%95%EC%B6%95) |
 | boj | 1181 | [단어 정렬](https://www.acmicpc.net/problem/1181) | 실버 5 | JS, Sort | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_1181_%EB%8B%A8%EC%96%B4_%EC%A0%95%EB%A0%AC) |
-| boj | 11651 | [좌표 정렬하기 2](https://www.acmicpc.net/problem/11651) | 실버 5 | JS, Sort | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/boj/boj_11651_%EC%A2%8C%ED%91%9C_%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0_2) |
 
 ## 프로그래머스
 
