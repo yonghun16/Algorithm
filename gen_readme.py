@@ -88,11 +88,11 @@ def write_readme(path, title, problems_by_oj):
             "최근에 해결한 온라인 저지 문제 목록입니다. \n\n**Online_Judge_Problems** 디렉토리에 문제 풀이 소스가 있습니다.\n\n"
         )
 
-        f.write(
-            '<a href="https://solved.ac/profile/yonghun16"> <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=yonghun16" width="330"/></a> '
-            '<img src="https://raw.githubusercontent.com/yonghun16/github-programmers-rank/master/lib/result.svg" width="380"/>'
-            "\n\n"
-        )
+        f.write("""| 백준 (Solved.ac) | 프로그래머스 (Programmers) |
+        | :---: | :---: |
+        | <a href="https://solved.ac/profile/yonghun16"><img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=yonghun16" width="330"/></a> | <img src="https://raw.githubusercontent.com/yonghun16/github-programmers-rank/master/lib/result.svg" width="380"/> |
+
+        """)
 
         for oj, problems in problems_by_oj.items():
             if oj == "boj":

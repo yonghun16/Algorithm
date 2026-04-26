@@ -4,9 +4,11 @@
 
 **Online_Judge_Problems** 디렉토리에 문제 풀이 소스가 있습니다.
 
-<a href="https://solved.ac/profile/yonghun16"> <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=yonghun16" width="330"/></a> <img src="https://raw.githubusercontent.com/yonghun16/github-programmers-rank/master/lib/result.svg" width="380"/>
+| 백준 (Solved.ac) | 프로그래머스 (Programmers) |
+        | :---: | :---: |
+        | <a href="https://solved.ac/profile/yonghun16"><img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=yonghun16" width="330"/></a> | <img src="https://raw.githubusercontent.com/yonghun16/github-programmers-rank/master/lib/result.svg" width="380"/> |
 
-## 백준 온라인 저지
+        ## 백준 온라인 저지
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
