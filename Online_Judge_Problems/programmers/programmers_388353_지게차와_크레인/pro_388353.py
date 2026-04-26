@@ -39,14 +39,14 @@ def solution(storage, requests):
 
     board = [list(row) for row in storage]
 
-    #  지게차
+    # 지게차
     def remove_by_forklift(target):
         visited = [[False] * m for _ in range(n)]
         q = []  # deque 대신 list 사용
 
         removable = set()
 
-        # 1️⃣ 테두리 탐색
+        # 테두리 탐색
         for i in range(n):
             for j in range(m):
                 if i in (0, n - 1) or j in (0, m - 1):
@@ -58,7 +58,7 @@ def solution(storage, requests):
                     elif board[i][j] == target:
                         removable.add((i, j))
 
-        # 2️⃣ BFS (list 기반)
+        # BFS (list 기반)
         directions = [(-1, 0), (1, 0), (0, -1), (0, 1)]
 
         while q:
@@ -76,7 +76,7 @@ def solution(storage, requests):
                     elif board[nx][ny] == target:
                         removable.add((nx, ny))
 
-        # 3️⃣ 제거
+        # 제거
         for x, y in removable:
             board[x][y] = "."
 
@@ -84,14 +84,14 @@ def solution(storage, requests):
     for req in requests:
         target = req[0]
 
-        #  크레인
+        # 크레인
         if len(req) == 2:
             for i in range(n):
                 for j in range(m):
                     if board[i][j] == target:
                         board[i][j] = "."
 
-        #  지게차
+        # 지게차
         else:
             remove_by_forklift(target)
 
