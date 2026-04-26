@@ -2,6 +2,7 @@
 -----------------------------------------------------------
 Sub    : [Programmers] 지게차와 크레인
 Link   : https://school.programmers.co.kr/learn/courses/30/lessons/
+Level  : 2
 Tag    : BFS, Simulation
 -----------------------------------------------------------
 핵심 아이디어
