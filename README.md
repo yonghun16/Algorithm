@@ -118,7 +118,7 @@
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
-| programmers | 388353 | [지게차와 크레인]() |  |  | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/programmers/programmers_388353_%EC%A7%80%EA%B2%8C%EC%B0%A8%EC%99%80_%ED%81%AC%EB%A0%88%EC%9D%B8) |
+| programmers | 388353 | [지게차와 크레인](https://school.programmers.co.kr/learn/courses/30/lessons/388353) | 2 | BFS, Simulation | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/programmers/programmers_388353_%EC%A7%80%EA%B2%8C%EC%B0%A8%EC%99%80_%ED%81%AC%EB%A0%88%EC%9D%B8) |
 | programmers | 468370 | [중요한 단어를 스포 방지](https://school.programmers.co.kr/learn/courses/30/lessons/468370) | 1 | Python, String, Implementation | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/programmers/programmers_468370_%EC%A4%91%EC%9A%94%ED%95%9C_%EB%8B%A8%EC%96%B4%EB%A5%BC_%EC%8A%A4%ED%8F%AC_%EB%B0%A9%EC%A7%80) |
 | programmers | 250121 | [데이터 분석](https://school.programmers.co.kr/learn/courses/30/lessons/250121) | 1 | Python, | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/programmers/programmers_250121_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%B6%84%EC%84%9D) |
 | programmers | 250125 | [이웃한 칸](https://school.programmers.co.kr/learn/courses/30/lessons/250125) | 1 | Python, | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/programmers/programmers_250125_%EC%9D%B4%EC%9B%83%ED%95%9C_%EC%B9%B8) |
