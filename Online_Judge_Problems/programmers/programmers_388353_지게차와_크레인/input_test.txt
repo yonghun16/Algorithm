@@ -1,0 +1,2 @@
+["AZWQY", "CAABX", "BBDDA", "ACACA"]
+["A", "BB", "A"]
