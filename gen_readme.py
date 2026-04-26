@@ -88,17 +88,17 @@ def write_readme(path, title, problems_by_oj):
             "최근에 해결한 온라인 저지 문제 목록입니다. \n\n**Online_Judge_Problems** 디렉토리에 문제 풀이 소스가 있습니다.\n\n"
         )
 
+        f.write(
+            '<a href="https://solved.ac/profile/yonghun16"> <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=yonghun16" width="350"/></a> '
+            '<img src="https://raw.githubusercontent.com/yonghun16/github-programmers-rank/master/lib/result.svg" width="350"/>'
+            "\n\n"
+        )
+
         for oj, problems in problems_by_oj.items():
             if oj == "boj":
                 f.write(f"## 백준 온라인 저지\n\n")
-                f.write(
-                    '<p> <a href="https://solved.ac/profile/yonghun16"> <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=yonghun16" width="400"/></a></p>\n\n'
-                )
             elif oj == "programmers":
                 f.write(f"## 프로그래머스\n\n")
-                f.write(
-                    '<img src="https://raw.githubusercontent.com/yonghun16/github-programmers-rank/master/lib/result.svg" width="450"/>\n\n'
-                )
             # elif oj == 'goorm':
             #     f.write(f'## 구름\n\n')
             #     f.write('<img src="https://github.com/yonghun16/Algorithm/blob/main/Online_Judge_Problems/goorm/score.png">\n\n')
