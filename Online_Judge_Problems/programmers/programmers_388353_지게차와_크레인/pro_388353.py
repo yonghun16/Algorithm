@@ -27,8 +27,8 @@ if os.path.exists(file_path):
 
 # 📥 Get Input Data
 def get_input_data():
-    storage = ["AZWQY", "CAABX", "BBDDA", "ACACA"]
-    requests = ["A", "BB", "A"]
+    storage = list(map(str, input().split()))
+    requests = list(map(str, input().split()))
     return storage, requests
 
 
