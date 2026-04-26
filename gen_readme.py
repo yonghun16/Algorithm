@@ -89,8 +89,8 @@ def write_readme(path, title, problems_by_oj):
         )
 
         f.write(
-            '<a href="https://solved.ac/profile/yonghun16"> <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=yonghun16" width="350"/></a> '
-            '<img src="https://raw.githubusercontent.com/yonghun16/github-programmers-rank/master/lib/result.svg" width="350"/>'
+            '<a href="https://solved.ac/profile/yonghun16"> <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=yonghun16" width="330"/></a> '
+            '<img src="https://raw.githubusercontent.com/yonghun16/github-programmers-rank/master/lib/result.svg" width="380"/>'
             "\n\n"
         )
 
