@@ -118,6 +118,8 @@
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
+| programmers | 389478 | [택배 상자 꺼내기](https://school.programmers.co.kr/learn/courses/30/lessons/389478) | 1 | Python, | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/programmers/programmers_389478_%ED%83%9D%EB%B0%B0_%EC%83%81%EC%9E%90_%EA%BA%BC%EB%82%B4%EA%B8%B0) |
+| programmers | 161990 | [바탕화면 정리](https://school.programmers.co.kr/learn/courses/30/lessons/161990) | 1 | Python, | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/programmers/programmers_161990_%EB%B0%94%ED%83%95%ED%99%94%EB%A9%B4_%EC%A0%95%EB%A6%AC) |
 | programmers | 468371 | [노란불 신호등](https://www.acmicpc.net/problem/468371) | 1 | Python | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/programmers/programmers_468371_%EB%85%B8%EB%9E%80%EB%B6%88_%EC%8B%A0%ED%98%B8%EB%93%B1) |
 | programmers | 388353 | [지게차와 크레인](https://school.programmers.co.kr/learn/courses/30/lessons/388353) | 2 | BFS, Simulation | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/programmers/programmers_388353_%EC%A7%80%EA%B2%8C%EC%B0%A8%EC%99%80_%ED%81%AC%EB%A0%88%EC%9D%B8) |
 | programmers | 161989 | [덧칠하기](https://school.programmers.co.kr/learn/courses/30/lessons/161989) | Lv.1 | JS, Greedy | [코드](https://github.com/yonghun16/Algorithm/tree/main/Online_Judge_Problems/programmers/programmers_161989_%EB%8D%A7%EC%B9%A0%ED%95%98%EA%B8%B0) |
