@@ -3,17 +3,12 @@
 Sub    : [Programmers] 택배 상자 꺼내기
 Link   : https://school.programmers.co.kr/learn/courses/30/lessons/389478
 Level  : 1
-Tag    : Python,
+Tag    : Python, Math
 -----------------------------------------------------------
-Solution
-1. '타겟 상자'와 '마지막 상자'의 (행, 열) 위치를 각각 계산
-2. 꼭대기 바로 전 층까지 '확실하게 쌓여 있는' 상자 개수 확보
-3. 맨 꼭대기 층(last_row)의 '동일한 열(col)'에 위치할 '꼭대기 상자 번호' 연산
-    : 짝수 층: 왼쪽 -> 오른쪽 방향 역산
-    : 홀수 층: 오른쪽 -> 왼쪽 방향 역산
-4. 역산한 '꼭대기 상자 번호'가 실제 존재하는 상자(<= n)인지 검증
-    : 존재한다면 맨 꼭대기 상자까지 포함하여 카운트 증가
-5. 카운트된 상자 개수 반환 및 출력
+Approach
+- 타겟 상자와 마지막 상자의 (row, col) 좌표를 계산한다.
+- 타겟 상자 위에 반드시 존재하는 상자의 개수를 계산한다.
+- 마지막 층의 같은 열에 상자가 실제 존재하는지 확인한다.
 -----------------------------------------------------------
 """
 
@@ -26,41 +21,61 @@ if os.path.exists(file_path):
     sys.stdin = open(file_path, "r", encoding="utf-8")
 
 
-# 📥 Get Input Data
-def get_input_data():
+# 📥 Input
+def get_input_data() -> tuple[int, int, int]:
     n, w, num = map(int, input().split())
     return n, w, num
 
 
-# 위치 계산 보조 함수
-def get_coords(num, w):
-    # 상자 번호 num이 몇 번째 층(row), 몇 번째 열(col)에 있는지 구하는 함수 (0-index 기반)
+# ⚙️ Logic
+def get_coords(num: int, w: int) -> tuple[int, int]:
+    """
+    상자 번호를 지그재그 적재 기준의 (row, col) 좌표로 변환한다.
+
+    Args:
+        num: 상자 번호 (1-indexed)
+        w: 한 줄에 배치되는 상자 개수
+
+    Returns:
+        상자의 (row, col) 좌표 (0-indexed)
+    """
+
     row = (num - 1) // w
     remainder = (num - 1) % w
 
     if row % 2 == 0:
-        col = remainder  # 짝수 층: 왼쪽 -> 오른쪽
+        col = remainder
     else:
-        col = w - 1 - remainder  # 홀수 층: 오른쪽 -> 왼쪽
+        col = w - 1 - remainder
 
     return row, col
 
 
-# ⚙️ Core Logic
-def solution(n, w, num):
-    row, col = get_coords(num, w)
-    last_row, last_col = get_coords(n, w)
+def solution(n: int, w: int, num: int) -> int:
+    """
+    타겟 상자를 꺼내기 위해 제거해야 하는 상자의 개수를 계산한다.
 
-    # 꼭대기 바로 전 층까지 확실하게 존재하는 상자의 개수
+    Args:
+        n: 전체 상자 개수
+        w: 한 줄에 배치되는 상자 개수
+        num: 꺼낼 상자 번호
+
+    Returns:
+        제거해야 하는 상자의 개수
+    """
+
+    row, col = get_coords(num, w)
+    last_row, _ = get_coords(n, w)
+
+    # 꼭대기 바로 전 층까지는 반드시 상자가 존재한다.
     answer = last_row - row
 
-    # 맨 꼭대기 층(last_row)의 같은 열(col)에 상자가 있는지 확인
     if last_row % 2 == 0:
         top_box_num = last_row * w + col + 1
     else:
         top_box_num = last_row * w + (w - 1 - col) + 1
 
-    # 꼭대기 층에 있는 상자 번호가 전체 상자 개수 n 이하라면 실재하는 상자임
+    # 가장 윗층의 같은 열에도 상자가 존재하는 경우
     if top_box_num <= n:
         answer += 1
 
