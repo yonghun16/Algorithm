@@ -19,7 +19,7 @@ const filePath: string = fs.existsSync("./input_test.txt")
 
 const input: string[] = fs.readFileSync(filePath, "utf-8").trim().split(/\s+/);
 
-/* 📥 Get Input Data */
+/* 📥 Input */
 const getInputData = () => {
   const [n, w, num] = input.map(Number);
 
