@@ -6,7 +6,13 @@ Level  : 1
 Tag    : Python,
 -----------------------------------------------------------
 Solution
-
+1. '타겟 상자'와 '마지막 상자'의 (행, 열) 위치를 각각 계산
+2. 꼭대기 바로 전 층까지 '확실하게 쌓여 있는' 상자 개수 확보
+3. 맨 꼭대기 층(last_row)의 '동일한 열(col)'에 위치할 상자 번호 역산
+    : 짝수 층: 왼쪽 -> 오른쪽 방향 역산
+    : 홀수 층: 오른쪽 -> 왼쪽 방향 역산
+4. 역산한 꼭대기 상자 번호가 실제 존재하는 상자(<= n)인지 검증
+    : 존재한다면 맨 꼭대기 상자까지 포함하여 카운트 증가
 -----------------------------------------------------------
 """
 
@@ -21,26 +27,20 @@ if os.path.exists(file_path):
 
 # 📥 Get Input Data
 def get_input_data():
-    global n, w, num
-    # 파일이나 표준 입력으로부터 한 줄을 읽어 공백으로 분리합니다.
-    line = sys.stdin.read().split()
-    if line:
-        n = int(line[0])
-        w = int(line[1])
-        num = int(line[2])
+    n, w, num = map(int, input().split())
     return n, w, num
 
 
-# ⚙️ 위치 계산 보조 함수
-def get_coords(x, w_val):
-    """상자 번호 x가 몇 번째 층(row), 몇 번째 열(col)에 있는지 구하는 함수 (0-index 기반)"""
-    row = (x - 1) // w_val
-    remainder = (x - 1) % w_val
+# 위치 계산 보조 함수
+def get_coords(x, w):
+    # 상자 번호 x가 몇 번째 층(row), 몇 번째 열(col)에 있는지 구하는 함수 (0-index 기반)
+    row = (x - 1) // w
+    remainder = (x - 1) % w
 
     if row % 2 == 0:
         col = remainder  # 짝수 층: 왼쪽 -> 오른쪽
     else:
-        col = w_val - 1 - remainder  # 홀수 층: 오른쪽 -> 왼쪽
+        col = w - 1 - remainder  # 홀수 층: 오른쪽 -> 왼쪽
 
     return row, col
 
@@ -48,22 +48,20 @@ def get_coords(x, w_val):
 # ⚙️ Core Logic
 def solution(n, w, num):
     row, col = get_coords(num, w)
+    last_row, last_col = get_coords(n, w)
 
-    answer = 0
-    # 전체 상자 중 가장 높은 층을 구합니다.
-    max_row = (n - 1) // w
+    # 꼭대기 바로 전 층까지 확실하게 존재하는 상자의 개수
+    answer = last_row - row
 
-    # 타겟 상자가 있는 층부터 가장 꼭대기 층까지 탐색
-    for r in range(row, max_row + 1):
-        # 현재 층(r)과 타겟 열(target_col)에 위치한 상자의 실제 번호를 역산
-        if r % 2 == 0:
-            current_num = r * w + col + 1
-        else:
-            current_num = r * w + (w - 1 - col) + 1
+    # 맨 꼭대기 층(last_row)의 같은 열(col)에 상자가 있는지 확인
+    if last_row % 2 == 0:
+        top_box_num = last_row * w + col + 1
+    else:
+        top_box_num = last_row * w + (w - 1 - col) + 1
 
-        # 역산한 상자 번호가 전체 상자 개수 n 이하 인지 확인
-        if current_num <= n:
-            answer += 1
+    # 꼭대기 방에 있는 상자 번호가 전체 상자 개수 n 이하라면 실재하는 상자임
+    if top_box_num <= n:
+        answer += 1
 
     return answer
 
