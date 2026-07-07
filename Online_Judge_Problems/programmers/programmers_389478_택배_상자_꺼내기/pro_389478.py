@@ -32,10 +32,10 @@ def get_input_data():
 
 
 # 위치 계산 보조 함수
-def get_coords(x, w):
+def get_coords(num, w):
     # 상자 번호 x가 몇 번째 층(row), 몇 번째 열(col)에 있는지 구하는 함수 (0-index 기반)
-    row = (x - 1) // w
-    remainder = (x - 1) % w
+    row = (num - 1) // w
+    remainder = (num - 1) % w
 
     if row % 2 == 0:
         col = remainder  # 짝수 층: 왼쪽 -> 오른쪽
