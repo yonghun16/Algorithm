@@ -3,7 +3,10 @@ name: Replace Spaces with Underscores
 on:
   push:
     branches:
-      - main  # 만약 내 기본 브랜치가 master라면 master로 수정해 주세요
+      - main  # 내 브랜치가 master라면 master로 수정
+
+permissions:
+  contents: write
 
 jobs:
   rename-folders:
@@ -16,19 +19,32 @@ jobs:
 
       - name: Rename spaces to underscores in directories
         run: |
-          # 공백이 포함된 디렉토리를 찾아서 _로 치환하는 정규식 루프
-          find . -mindepth 1 -maxdepth 3 -type d -name "* *" | while read -r dir; do
-            new_dir=$(echo "$dir" | sed 's/ /_/g')
-            echo "Renaming '$dir' to '$new_dir'"
-            mv "$dir" "$new_dir"
+          if [[ "${{ github.event.head_commit.message }}" == *"chore: 디렉토리 공백을 언더바로 변경"* ]]; then
+            echo "Already renamed by Bot. Exiting."
+            exit 0
+          fi
+
+          # 한글 유니코드 공백까지 모두 포함하는 정규식([[:blank:]]) 기반 탐색
+          find . -type d | while read -r dir; do
+            parent=$(dirname "$dir")
+            base=$(basename "$dir")
+            
+            # 폴더명에 공백이나 특수 공백이 포함되어 있는지 확인
+            if echo "$base" | grep -q '[[:blank:]]'; then
+              # 모든 종류의 공백을 언더바(_)로 치환합니다.
+              new_base=$(echo "$base" | sed 's/[[:blank:]]/_/g')
+              
+              echo "Renaming '$dir' to '$parent/$new_base'"
+              mv "$dir" "$parent/$new_base"
+            fi
           done
 
       - name: Commit and Push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
           git add -A
-          # 변경사항이 있을 때만 커밋 및 푸시
           if ! git diff-index --quiet HEAD; then
             git commit -m "chore: 디렉토리 공백을 언더바로 변경"
             git push origin HEAD
