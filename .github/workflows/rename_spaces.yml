@@ -3,7 +3,7 @@ name: Replace Spaces with Underscores
 on:
   push:
     branches:
-      - main  # 내 브랜치가 master라면 master로 수정
+      - main  # 내 기본 브랜치명이 master라면 master로 수정해 주세요
 
 permissions:
   contents: write
@@ -19,25 +19,31 @@ jobs:
 
       - name: Rename spaces to underscores in directories
         run: |
+          # 무한루프 방지 안전 장치
           if [[ "${{ github.event.head_commit.message }}" == *"chore: 디렉토리 공백을 언더바로 변경"* ]]; then
             echo "Already renamed by Bot. Exiting."
             exit 0
           fi
 
-          # 한글 유니코드 공백까지 모두 포함하는 정규식([[:blank:]]) 기반 탐색
-          find . -type d | while read -r dir; do
-            parent=$(dirname "$dir")
-            base=$(basename "$dir")
-            
-            # 폴더명에 공백이나 특수 공백이 포함되어 있는지 확인
-            if echo "$base" | grep -q '[[:blank:]]'; then
-              # 모든 종류의 공백을 언더바(_)로 치환합니다.
-              new_base=$(echo "$base" | sed 's/[[:blank:]]/_/g')
-              
-              echo "Renaming '$dir' to '$parent/$new_base'"
-              mv "$dir" "$parent/$new_base"
-            fi
-          done
+          # 파이썬 정규식을 활용하여 눈에 보이지 않는 모든 유니코드 공백(\s)을 _로 완전히 치환
+          python3 -c '
+          import os, re, subprocess
+
+          # 변경이 필요한 폴더들을 수집 (깊은 폴더부터 처리하기 위해 topdown=False 필수)
+          for root, dirs, files in os.walk(".", topdown=False):
+              for d in dirs:
+                  # 일반 스페이스뿐 아니라 유니코드 특수 공백(\s)이 포함되어 있는지 확인
+                  if re.search(r"\s", d):
+                      old_path = os.path.join(root, d)
+                      # 모든 종류의 공백을 언더바(_)로 교체
+                      new_name = re.sub(r"\s+", "_", d)
+                      new_path = os.path.join(root, new_name)
+                      
+                      # 만약 이름 변경 후 중복되는 폴더가 없다면 이름 변경 실행
+                      if not os.path.exists(new_path):
+                          print(f"Renaming: {old_path} -> {new_path}")
+                          os.rename(old_path, new_path)
+          '
 
       - name: Commit and Push changes
         run: |
