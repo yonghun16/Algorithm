@@ -1,0 +1,37 @@
+name: Replace Spaces with Underscores
+
+on:
+  push:
+    branches:
+      - main  # 만약 내 기본 브랜치가 master라면 master로 수정해 주세요
+
+jobs:
+  rename-folders:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Rename spaces to underscores in directories
+        run: |
+          # 공백이 포함된 디렉토리를 찾아서 _로 치환하는 정규식 루프
+          find . -mindepth 1 -maxdepth 3 -type d -name "* *" | while read -r dir; do
+            new_dir=$(echo "$dir" | sed 's/ /_/g')
+            echo "Renaming '$dir' to '$new_dir'"
+            mv "$dir" "$new_dir"
+          done
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          # 변경사항이 있을 때만 커밋 및 푸시
+          if ! git diff-index --quiet HEAD; then
+            git commit -m "chore: 디렉토리 공백을 언더바로 변경"
+            git push origin HEAD
+          else
+            echo "No spaces found in folder names."
+          fi
