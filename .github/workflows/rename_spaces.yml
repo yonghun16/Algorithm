@@ -3,29 +3,26 @@ name: Replace Spaces with Underscores
 on:
   push:
     branches:
-      - main # 기본 브랜치가 master라면 master로 변경
+      - main
 
 permissions:
   contents: write
 
 jobs:
   rename-files-and-folders:
+    # GitHub Actions가 만든 커밋이면 다시 실행하지 않음
+    if: github.actor != 'github-actions[bot]'
+
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Code
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 2
 
       - name: Rename spaces to underscores
         run: |
-          # 무한 루프 방지
-          if [[ "${{ github.event.head_commit.message }}" == *"chore: replace spaces with underscores"* ]]; then
-            echo "Already renamed by bot."
-            exit 0
-          fi
-
           python3 <<'PY'
           import os
           import unicodedata
@@ -77,16 +74,18 @@ jobs:
                           os.rename(old_path, new_path)
           PY
 
-      - name: Commit and Push changes
+      - name: Commit and Push
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
           git add -A
 
-          if ! git diff-index --quiet HEAD; then
-            git commit -m "chore: replace spaces with underscores"
-            git push origin HEAD
+          if ! git diff --cached --quiet; then
+            ORIGINAL_MSG=$(git log -1 --pretty=%B)
+
+            git commit -m "$ORIGINAL_MSG"
+            git push
           else
-            echo "No files or directories to rename."
+            echo "Nothing to rename."
           fi
