@@ -117,10 +117,10 @@
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
+| 프로그래머스 | 389478 | [택배 상자 꺼내기](https://school.programmers.co.kr/learn/courses/30/lessons/389478) | 1 | TS, Math | [코드](https://github.com/yonghun16/Algorithm/tree/main/프로그래머스/1/389478_%ED%83%9D%EB%B0%B0_%EC%83%81%EC%9E%90_%EA%BA%BC%EB%82%B4%EA%B8%B0) |
 | 프로그래머스 | 86051 | [없는숫자 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/86051) | 1 | C, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/프로그래머스/1/86051_%EC%97%86%EB%8A%94%EC%88%AB%EC%9E%90_%EB%8D%94%ED%95%98%EA%B8%B0) |
 | 프로그래머스 | 12977 | [소수 만들기](https://programmers.co.kr/learn/courses/30/lessons/12977) | 1 | Python, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/프로그래머스/1/12977_%EC%86%8C%EC%88%98_%EB%A7%8C%EB%93%A4%EA%B8%B0) |
 | 프로그래머스 | 70128 | [내적](https://programmers.co.kr/learn/courses/30/lessons/70128) | 1 | JS, Math | [코드](https://github.com/yonghun16/Algorithm/tree/main/프로그래머스/1/70128_%EB%82%B4%EC%A0%81) |
-| 프로그래머스 | 389478 | [택배 상자 꺼내기](https://school.programmers.co.kr/learn/courses/30/lessons/389478) | 1 | TS, Math | [코드](https://github.com/yonghun16/Algorithm/tree/main/프로그래머스/1/389478_%ED%83%9D%EB%B0%B0_%EC%83%81%EC%9E%90_%EA%BA%BC%EB%82%B4%EA%B8%B0) |
 | 프로그래머스 | 42840 | [모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840) | 1 | JS, 완전탐색 | [코드](https://github.com/yonghun16/Algorithm/tree/main/프로그래머스/1/42840_%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC) |
 | 프로그래머스 | 161990 | [바탕화면 정리](https://school.programmers.co.kr/learn/courses/30/lessons/161990) | 1 | Python, | [코드](https://github.com/yonghun16/Algorithm/tree/main/프로그래머스/1/161990_%EB%B0%94%ED%83%95%ED%99%94%EB%A9%B4_%EC%A0%95%EB%A6%AC) |
 | 프로그래머스 | 468371 | [노란불 신호등](https://www.acmicpc.net/problem/468371) | 1 | Python | [코드](https://github.com/yonghun16/Algorithm/tree/main/프로그래머스/1/468371_%EB%85%B8%EB%9E%80%EB%B6%88_%EC%8B%A0%ED%98%B8%EB%93%B1) |
