@@ -1,5 +1,26 @@
+name: Replace Spaces with Underscores
+
+on:
+  push:
+    branches:
+      - main # 기본 브랜치가 master라면 master로 변경
+
+permissions:
+  contents: write
+
+jobs:
+  rename-folders:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
       - name: Rename spaces to underscores in directories
         run: |
+          # 무한 루프 방지
           if [[ "${{ github.event.head_commit.message }}" == *"chore: 디렉토리 공백을 언더바로 변경"* ]]; then
             echo "Already renamed by Bot. Exiting."
             exit 0
@@ -9,11 +30,12 @@
           import os
           import unicodedata
 
-          # 자주 등장하는 특수 공백들
+          # 공백처럼 보이는 문자들
           EXTRA_SPACES = {
-              "\u200b",  # Zero Width Space
-              "\u200c",  # Zero Width Non-Joiner
-              "\u200d",  # Zero Width Joiner
+              "\u200b",  # ZERO WIDTH SPACE
+              "\u200c",  # ZERO WIDTH NON-JOINER
+              "\u200d",  # ZERO WIDTH JOINER
+              "\u2060",  # WORD JOINER
               "\ufeff",  # BOM
           }
 
@@ -21,10 +43,11 @@
               result = []
 
               for ch in name:
-                  # Unicode Separator(Zs/Zl/Zp)
-                  if unicodedata.category(ch).startswith("Z"):
-                      result.append("_")
-                  elif ch in EXTRA_SPACES:
+                  if (
+                      ch.isspace()
+                      or unicodedata.category(ch).startswith("Z")
+                      or ch in EXTRA_SPACES
+                  ):
                       result.append("_")
                   else:
                       result.append(ch)
@@ -39,7 +62,24 @@
                       old_path = os.path.join(root, d)
                       new_path = os.path.join(root, new_name)
 
-                      if not os.path.exists(new_path):
-                          print(f"{old_path} -> {new_path}")
-                          os.rename(old_path, new_path)
+                      if os.path.exists(new_path):
+                          print(f"Skip (already exists): {new_path}")
+                          continue
+
+                      print(f"Renaming: {old_path} -> {new_path}")
+                      os.rename(old_path, new_path)
           PY
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add -A
+
+          if ! git diff-index --quiet HEAD; then
+            git commit -m "chore: 디렉토리 공백을 언더바로 변경"
+            git push origin HEAD
+          else
+            echo "No spaces found in folder names."
+          fi
