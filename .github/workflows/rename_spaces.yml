@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 jobs:
-  rename-folders:
+  rename-files-and-folders:
     runs-on: ubuntu-latest
 
     steps:
@@ -18,11 +18,11 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Rename spaces to underscores in directories
+      - name: Rename spaces to underscores
         run: |
           # 무한 루프 방지
-          if [[ "${{ github.event.head_commit.message }}" == *"chore: 디렉토리 공백을 언더바로 변경"* ]]; then
-            echo "Already renamed by Bot. Exiting."
+          if [[ "${{ github.event.head_commit.message }}" == *"chore: replace spaces with underscores"* ]]; then
+            echo "Already renamed by bot."
             exit 0
           fi
 
@@ -30,7 +30,6 @@ jobs:
           import os
           import unicodedata
 
-          # 공백처럼 보이는 문자들
           EXTRA_SPACES = {
               "\u200b",  # ZERO WIDTH SPACE
               "\u200c",  # ZERO WIDTH NON-JOINER
@@ -40,21 +39,20 @@ jobs:
           }
 
           def normalize(name):
-              result = []
-
-              for ch in name:
+              return "".join(
+                  "_"
                   if (
                       ch.isspace()
                       or unicodedata.category(ch).startswith("Z")
                       or ch in EXTRA_SPACES
-                  ):
-                      result.append("_")
-                  else:
-                      result.append(ch)
-
-              return "".join(result)
+                  )
+                  else ch
+                  for ch in name
+              )
 
           for root, dirs, files in os.walk(".", topdown=False):
+
+              # 디렉토리 이름 변경
               for d in dirs:
                   new_name = normalize(d)
 
@@ -62,12 +60,21 @@ jobs:
                       old_path = os.path.join(root, d)
                       new_path = os.path.join(root, new_name)
 
-                      if os.path.exists(new_path):
-                          print(f"Skip (already exists): {new_path}")
-                          continue
+                      if not os.path.exists(new_path):
+                          print(f"DIR : {old_path} -> {new_path}")
+                          os.rename(old_path, new_path)
 
-                      print(f"Renaming: {old_path} -> {new_path}")
-                      os.rename(old_path, new_path)
+              # 파일 이름 변경
+              for f in files:
+                  new_name = normalize(f)
+
+                  if new_name != f:
+                      old_path = os.path.join(root, f)
+                      new_path = os.path.join(root, new_name)
+
+                      if not os.path.exists(new_path):
+                          print(f"FILE: {old_path} -> {new_path}")
+                          os.rename(old_path, new_path)
           PY
 
       - name: Commit and Push changes
@@ -78,8 +85,8 @@ jobs:
           git add -A
 
           if ! git diff-index --quiet HEAD; then
-            git commit -m "chore: 디렉토리 공백을 언더바로 변경"
+            git commit -m "chore: replace spaces with underscores"
             git push origin HEAD
           else
-            echo "No spaces found in folder names."
+            echo "No files or directories to rename."
           fi
