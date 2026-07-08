@@ -84,5 +84,4 @@ def solution(n: int, w: int, num: int) -> int:
 
 # 🚀 Run Program
 if __name__ == "__main__":
-    n, w, num = get_input_data()
-    print(solution(n, w, num))
+    print(solution(*get_input_data()))

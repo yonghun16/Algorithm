@@ -83,6 +83,5 @@ const solution = (n: number, w: number, num: number): number => {
 
 /* 🚀 Run Program */
 (() => {
-  const [n, w, num] = getInputData();
-  console.log(solution(n, w, num));
+  console.log(solution(...getInputData()));
 })();
