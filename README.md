@@ -1,4 +1,4 @@
-# 알고리즘 문제 목록 (최근 100개)
+# 알고리즘 문제 목록 (최근 50개)
 
 최근에 해결한 온라인 저지 문제 목록입니다.
 
@@ -62,56 +62,6 @@
 | 백준 | 1205 | [등수구하기](https://www.acmicpc.net/problem/1205) | Silver | C, 구현 | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Silver/1205_%EB%93%B1%EC%88%98%EA%B5%AC%ED%95%98%EA%B8%B0) |
 | 백준 | 28074 | [모비스](https://www.acmicpc.net/problem/) | Bronze | Python, String | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Bronze/28074_%E1%84%86%E1%85%A9%E1%84%87%E1%85%B5%E1%84%89%E1%85%B3) |
 | 백준 | 1094 | [막대기](https://www.acmicpc.net/problem/1094) | Silver | C, 수학 | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Silver/1094_%EB%A7%89%EB%8C%80%EA%B8%B0) |
-| 백준 | 9012 | [괄호](https://www.acmicpc.net/problem/9012) | Silver | Python, Stack | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Silver/9012_%EA%B4%84%ED%98%B8) |
-| 백준 | 2292 | [벌집](https://www.acmicpc.net/problem/2292) | Bronze | JS, 수학 | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Bronze/2292_%EB%B2%8C%EC%A7%91) |
-| 백준 | 9375 | [패션왕 신해빈](https://www.acmicpc.net/problem/9375) | Silver | Python, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Silver/9375_%ED%8C%A8%EC%85%98%EC%99%95_%EC%8B%A0%ED%95%B4%EB%B9%88) |
-| 백준 | 4673 | [셀프 넘버](https://www.acmicpc.net/problem/4673) | Silver | JS, Brute Force | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Silver/4673_%EC%85%80%ED%94%84_%EB%84%98%EB%B2%84) |
-| 백준 | 1105 | [팔](https://www.acmicpc.net/problem/1105) | Silver | JS, Greedy, Math | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Silver/1105_%ED%8C%94) |
-| 백준 | 1308 | [Dday](https://www.acmicpc.net/problem/1308) | Silver | Python, 구현 | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Silver/1308_Dday) |
-| 백준 | 2775 | [부녀회장이 될꺼야](https://www.acmicpc.net/problem/2775) | Bronze | C, Dynamic Programming | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Bronze/2775_%EB%B6%80%EB%85%80%ED%9A%8C%EC%9E%A5%EC%9D%B4_%EB%90%A0%EA%BA%BC%EC%95%BC) |
-| 백준 | 19939 | [박 터뜨리기](https://www.acmicpc.net/problem/19939) | Silver | JS, greedy | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Silver/19939_%EB%B0%95_%ED%84%B0%EB%9C%A8%EB%A6%AC%EA%B8%B0) |
-| 백준 | 17219 | [비밀번호 찾기](https://www.acmicpc.net/problem/17219) | Silver | Python, map | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Silver/17219_%EB%B9%84%EB%B0%80%EB%B2%88%ED%98%B8_%EC%B0%BE%EA%B8%B0) |
-| 백준 | 17626 | [Four Squares](https://www.acmicpc.net/problem/17626) | Silver | Python, DP | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Silver/17626_Four_Squares) |
-| 백준 | 4358 | [생태학](https://www.acmicpc.net/problem/4358) | Silver | JS, Map | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Silver/4358_%EC%83%9D%ED%83%9C%ED%95%99) |
-| 백준 | 1427 | [소트인사이드](https://www.acmicpc.net/problem/1427) | Silver | JS, 정렬, 문자열 | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Silver/1427_%EC%86%8C%ED%8A%B8%EC%9D%B8%EC%82%AC%EC%9D%B4%EB%93%9C) |
-| 백준 | 1946 | [신입 사원](https://www.acmicpc.net/problem/1946) | Silver | JS, greedy | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Silver/1946_%EC%8B%A0%EC%9E%85_%EC%82%AC%EC%9B%90) |
-| 백준 | 15874 | [CaesarCipher](https://www.acmicpc.net/problem/15874) | Bronze | Python, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Bronze/15874_CaesarCipher) |
-| 백준 | 1235 | [학생번호](https://www.acmicpc.net/problem/1235) | Silver | Python, 구현 | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Silver/1235_%ED%95%99%EC%83%9D%EB%B2%88%ED%98%B8) |
-| 백준 | 1406 | [에디터](https://www.acmicpc.net/problem/1406) | Silver | Python, Stack | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Silver/1406_%EC%97%90%EB%94%94%ED%84%B0) |
-| 백준 | 1620 | [포멧몬 마스터 이다솜](https://www.acmicpc.net/problem/1620) | Silver |  | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Silver/1620_%ED%8F%AC%EB%A9%A7%EB%AA%AC_%EB%A7%88%EC%8A%A4%ED%84%B0_%EC%9D%B4%EB%8B%A4%EC%86%9C) |
-| 백준 | 1874 | [스택 수열](https://www.acmicpc.net/problem/1874) | Silver | Python, Stack | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Silver/1874_%EC%8A%A4%ED%83%9D_%EC%88%98%EC%97%B4) |
-| 백준 | 1010 | [다리놓기](https://www.acmicpc.net/problem/1010) | Bronze | Python, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Bronze/1010_%EB%8B%A4%EB%A6%AC%EB%86%93%EA%B8%B0) |
-| 백준 | 1064 | [평행사변형](https://www.acmicpc.net/problem/1064) | Silver | Python, | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Silver/1064_%ED%8F%89%ED%96%89%EC%82%AC%EB%B3%80%ED%98%95) |
-| 백준 | 17614 | [369](https://www.acmicpc.net/problem/17614) | Bronze | JS, 브루투포스 | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Bronze/17614_369) |
-| 백준 | 18110 | [solved ac](https://www.acmicpc.net/problem/18110) | Silver | Python, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Silver/18110_solved_ac) |
-| 백준 | 1057 | [토너먼트](https://www.acmicpc.net/problem/1057) | Silver | JS, Math | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Silver/1057_%ED%86%A0%EB%84%88%EB%A8%BC%ED%8A%B8) |
-| 백준 | 1676 | [팩토리얼 0의 개수](https://www.acmicpc.net/problem/1676) | Silver | Python, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Silver/1676_%ED%8C%A9%ED%86%A0%EB%A6%AC%EC%96%BC_0%EC%9D%98_%EA%B0%9C%EC%88%98) |
-| 백준 | 1966 | [프린터 큐](https://www.acmicpc.net/problem/1966) | Silver | JS, queue | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Silver/1966_%ED%94%84%EB%A6%B0%ED%84%B0_%ED%81%90) |
-| 백준 | 1546 | [average](https://www.acmicpc.net/problem/1546) | Bronze | Python, | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Bronze/1546_average) |
-| 백준 | 2231 | [분해합](https://www.acmicpc.net/problem/2231) | Bronze | JS, Math, Brute-Force | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Bronze/2231_%EB%B6%84%ED%95%B4%ED%95%A9) |
-| 백준 | 28278 | [스택2](https://www.acmicpc.net/problem/28278) | Silver | Python, Stack | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Silver/28278_%EC%8A%A4%ED%83%9D2) |
-| 백준 | 1051 | [숫자 정사각형](https://www.acmicpc.net/problem/1051) | Silver | Python, brute force | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Silver/1051_%EC%88%AB%EC%9E%90_%EC%A0%95%EC%82%AC%EA%B0%81%ED%98%95) |
-| 백준 | 28702 | [FizzBuzz](https://www.acmicpc.net/problem/28702) | Bronze | JS, 문자열 | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Bronze/28702_FizzBuzz) |
-| 백준 | 13305 | [주유소](https://www.acmicpc.net/problem/13305) | Silver | JS, greedy | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Silver/13305_%EC%A3%BC%EC%9C%A0%EC%86%8C) |
-| 백준 | 1654 | [랜선자르기](https://www.acmicpc.net/problem/1654) | Silver | Python, Binary search | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Silver/1654_%EB%9E%9C%EC%84%A0%EC%9E%90%EB%A5%B4%EA%B8%B0) |
-| 백준 | 10989 | [수 정렬하기3](https://www.acmicpc.net/problem/10989) | Bronze | Python, sort | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Bronze/10989_%EC%88%98_%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B03) |
-| 백준 | 2805 | [나무자르기](https://www.acmicpc.net/problem/2805) | Silver | JS, 이분 탐색 | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Silver/2805_%EB%82%98%EB%AC%B4%EC%9E%90%EB%A5%B4%EA%B8%B0) |
-| 백준 | 11047 | [동전 0](https://www.acmicpc.net/problem/11047) | Silver | JS, 그리디 | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Silver/11047_%EB%8F%99%EC%A0%84_0) |
-| 백준 | 17413 | [단어 뒤집기2](https://www.acmicpc.net/problem/17413) | Silver | JS, String, Stack | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Silver/17413_%EB%8B%A8%EC%96%B4_%EB%92%A4%EC%A7%91%EA%B8%B02) |
-| 백준 | 9047 | [6174](https://www.acmicpc.net/problem/9047) | Silver | TS, Math | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Silver/9047_6174) |
-| 백준 | 1304 | [연도진행바](https://www.acmicpc.net/problem/1304) | Silver | JS, 구현 | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Silver/1304_%EC%97%B0%EB%8F%84%EC%A7%84%ED%96%89%EB%B0%94) |
-| 백준 | 7568 | [덩치](https://www.acmicpc.net/problem/7568) | Silver | Python, brute force | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Silver/7568_%EB%8D%A9%EC%B9%98) |
-| 백준 | 2609 | [GCDLCM](https://www.acmicpc.net/problem/2609) | Bronze | C, | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Bronze/2609_GCDLCM) |
-| 백준 | 1224 | [스위치켜고끄기](https://www.acmicpc.net/problem/1224) | Silver | Python, 구현 | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Silver/1224_%EC%8A%A4%EC%9C%84%EC%B9%98%EC%BC%9C%EA%B3%A0%EB%81%84%EA%B8%B0) |
-| 백준 | 1268 | [임시반장정하기](https://www.acmicpc.net/problem/1268) | Silver | Python, 구현 | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Silver/1268_%EC%9E%84%EC%8B%9C%EB%B0%98%EC%9E%A5%EC%A0%95%ED%95%98%EA%B8%B0) |
-| 백준 | 4383 | [jolly jumper](https://www.acmicpc.net/problem/4383) | Silver | JS, 구현 | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Silver/4383_jolly_jumper) |
-| 백준 | 2776 | [암기왕](https://www.acmicpc.net/problem/2776) | Silver | Python, 이진 탐색 | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Silver/2776_%EC%95%94%EA%B8%B0%EC%99%95) |
-| 백준 | 2839 | [설탕 배달](https://www.acmicpc.net/problem/2839) | Silver | JS, 그리디 | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Silver/2839_%EC%84%A4%ED%83%95_%EB%B0%B0%EB%8B%AC) |
-| 백준 | 1920 | [수 찾기](https://www.acmicpc.net/problem/1920) | Silver | Python, 이진 탐색 | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Silver/1920_%EC%88%98_%EC%B0%BE%EA%B8%B0) |
-| 백준 | 4949 | [균형잡힌 세상](https://www.acmicpc.net/problem/4949) | Silver | Python, Stack | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Silver/4949_%EA%B7%A0%ED%98%95%EC%9E%A1%ED%9E%8C_%EC%84%B8%EC%83%81) |
-| 백준 | 3273 | [두수의합](https://www.acmicpc.net/problem/3273) | Silver | JS, sort | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Silver/3273_%EB%91%90%EC%88%98%EC%9D%98%ED%95%A9) |
-| 백준 | 11282 | [한글]() | Bronze |  | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Bronze/11282_%ED%95%9C%EA%B8%80) |
-| 백준 | 18870 | [좌표 압축](https://www.acmicpc.net/problem/18870) | Silver | JS, Array, Sort | [코드](https://github.com/yonghun16/Algorithm/tree/main/백준/Silver/18870_%EC%A2%8C%ED%91%9C_%EC%95%95%EC%B6%95) |
 
 ## 프로그래머스
 

@@ -3,7 +3,7 @@ import re
 import urllib.parse
 from collections import defaultdict
 
-MAX_COUNT = 100
+MAX_COUNT = 50
 OJ_LIST = ["백준", "프로그래머스"]
 
 
