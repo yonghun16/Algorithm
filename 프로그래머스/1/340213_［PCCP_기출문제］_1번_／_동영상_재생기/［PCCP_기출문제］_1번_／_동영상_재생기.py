@@ -36,6 +36,7 @@ def get_input_data():
     return video_len, pos, op_start, op_end, commands
 
 
+# ⚙️ Logic
 def to_sec(time):
     m, s = map(int, time.split(":"))
     return m * 60 + s
@@ -45,7 +46,6 @@ def to_time(sec):
     return f"{sec // 60:02}:{sec % 60:02}"
 
 
-# ⚙️ Logic
 def solution(video_len, pos, op_start, op_end, commands):
     answer = ""
 
