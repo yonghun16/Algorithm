@@ -67,6 +67,7 @@
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
+| 프로그래머스 | 340198 | [공원](https://school.programmers.co.kr/learn/courses/30/lessons/340198) | 1 | Python, Simulation | [코드](https://github.com/yonghun16/Algorithm/tree/main/프로그래머스/1/340198_%EA%B3%B5%EC%9B%90) |
 | 프로그래머스 | 340199 | [지폐 접기](https://school.programmers.co.kr/learn/courses/30/lessons/340199) | 1 | Python, Simulation | [코드](https://github.com/yonghun16/Algorithm/tree/main/프로그래머스/1/340199_%EC%A7%80%ED%8F%90_%EC%A0%91%EA%B8%B0) |
 | 프로그래머스 | 340213 | [［PCCP 기출문제］ 1번 ／ 동영상 재생기](https://school.programmers.co.kr/learn/courses/30/lessons/) | 1 | TS, Simulation, Math | [코드](https://github.com/yonghun16/Algorithm/tree/main/프로그래머스/1/340213_%EF%BC%BBPCCP_%EA%B8%B0%EC%B6%9C%EB%AC%B8%EC%A0%9C%EF%BC%BD_1%EB%B2%88_%EF%BC%8F_%EB%8F%99%EC%98%81%EC%83%81_%EC%9E%AC%EC%83%9D%EA%B8%B0) |
 | 프로그래머스 | 389478 | [택배 상자 꺼내기](https://school.programmers.co.kr/learn/courses/30/lessons/389478) | 1 | TS, Math | [코드](https://github.com/yonghun16/Algorithm/tree/main/프로그래머스/1/389478_%ED%83%9D%EB%B0%B0_%EC%83%81%EC%9E%90_%EA%BA%BC%EB%82%B4%EA%B8%B0) |
