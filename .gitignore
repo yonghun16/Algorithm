@@ -66,3 +66,7 @@ tags
 
 # Aider
 .aider*
+
+package-lock.json
+package.json
+tsconfig.json
