@@ -4,7 +4,9 @@ import urllib.parse
 from collections import defaultdict
 
 MAX_COUNT = 50
-OJ_LIST = ["백준", "프로그래머스"]
+OJ_LIST = ["백준", "프로그래머스", "정올"]
+
+SOURCE_EXTS = (".c", ".cpp", ".java", ".py", ".js", ".ts", ".rs")
 
 
 def parse_problem_folder(folder_name):
@@ -12,6 +14,7 @@ def parse_problem_folder(folder_name):
     문제 폴더명 예시
     - 1000_A+B
     - 178871_달리기_경주
+    - 5545_연필_공장
     """
     match = re.match(r"^(\d+)_(.+)$", folder_name)
     if match:
@@ -25,28 +28,15 @@ def extract_info_from_file(folder_path):
         for filename in os.listdir(folder_path):
             file_path = os.path.join(folder_path, filename)
 
-            if os.path.isfile(file_path) and filename.endswith(
-                (".c", ".cpp", ".java", ".py", ".js", ".ts")
-            ):
+            if os.path.isfile(file_path) and filename.endswith(SOURCE_EXTS):
                 with open(file_path, "r", encoding="utf-8") as f:
                     content = "".join(f.readlines()[:20])
 
-                # 주석 블록 추출
-                if filename.endswith(".py"):
-                    block = re.search(
-                        r"(?:'''|\"\"\")(.*?)(?:'''|\"\"\")",
-                        content,
-                        re.DOTALL,
-                    )
-                else:
-                    block = re.search(r"/\*(.*?)\*/", content, re.DOTALL)
+                # 주석 형식(/* */, """ """, #)과 상관없이 상단 20줄에서 바로 찾음
+                tags = re.search(r"Tag\s*:\s*(.+)", content)
+                link = re.search(r"Link\s*:\s*(.+)", content)
 
-                if block:
-                    comment = block.group(1)
-
-                    tags = re.search(r"Tag\s*:\s*(.+)", comment)
-                    link = re.search(r"Link\s*:\s*(.+)", comment)
-
+                if tags or link:
                     return (
                         tags.group(1).strip() if tags else "",
                         link.group(1).strip() if link else "",
@@ -108,7 +98,7 @@ def write_readme(path, title, problems_by_oj):
         f.write(f"# {title}\n\n")
         f.write(
             "최근에 해결한 온라인 저지 문제 목록입니다.\n\n"
-            "**백준**, **프로그래머스** 디렉토리에 문제 풀이 소스가 있습니다.\n\n"
+            "**백준**, **프로그래머스**, **정올** 디렉토리에 문제 풀이 소스가 있습니다.\n\n"
         )
 
         f.write(
@@ -117,19 +107,26 @@ def write_readme(path, title, problems_by_oj):
             '| <a href="https://solved.ac/profile/yonghun16"><img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=yonghun16" width="330"/></a> | <img src="https://raw.githubusercontent.com/yonghun16/github-programmers-rank/master/lib/result.svg" width="380"/> |\n\n'
         )
 
-        for oj, problems in problems_by_oj.items():
+        # OJ_LIST 순서대로 섹션 출력
+        for oj in OJ_LIST:
+            problems = problems_by_oj.get(oj)
+            if not problems:
+                continue
+
             f.write(f"## {oj}\n\n")
 
             f.write("| 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |\n")
             f.write("|------|------|------|--------|------|------|\n")
 
-            for oj, number, title, level, tags, link, _ in problems:
+            for oj_name, number, title, level, tags, link, _ in problems:
                 visible_title = title.replace("_", " ")
                 encoded_title = urllib.parse.quote(title)
+                encoded_oj = urllib.parse.quote(oj_name)
+                encoded_level = urllib.parse.quote(level)
 
                 f.write(
-                    f"| {oj} | {number} | [{visible_title}]({link}) | {level} | {tags} | "
-                    f"[코드](https://github.com/yonghun16/Algorithm/tree/main/{oj}/{level}/{number}_{encoded_title}) |\n"
+                    f"| {oj_name} | {number} | [{visible_title}]({link}) | {level} | {tags} | "
+                    f"[코드](https://github.com/yonghun16/Algorithm/tree/main/{encoded_oj}/{encoded_level}/{number}_{encoded_title}) |\n"
                 )
 
             f.write("\n")
