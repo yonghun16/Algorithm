@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="152" viewBox="0 0 350 152">
+  <style>
+    .title { font: 700 15px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #1F2937; }
+    .id { font: 400 12px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #6B7280; }
+    .num { font: 700 26px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #1F2937; }
+    .label { font: 400 12px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #6B7280; }
+    .legend { font: 400 12px 'Segoe UI', Ubuntu, 'Helvetica Neue', sans-serif; fill: #374151; }
+  </style>
+  <rect x="0.5" y="0.5" width="349" height="151" rx="8" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <text x="20" y="32" class="title">JUNGOL</text>
+  <text x="330" y="32" class="id" text-anchor="end">yonghun16</text>
+  <text x="20" y="72" class="num">1</text>
+  <text x="49" y="72" class="label">solved</text>
+  <clipPath id="bar"><rect x="20" y="92" width="310" height="12" rx="6"/></clipPath>
+  <g clip-path="url(#bar)">
+    <rect x="20.00" y="92" width="310.00" height="12" fill="#435F7A"/>
+  </g>
+  <circle cx="25.00" cy="126" r="5" fill="#435F7A"/><text x="36.00" y="130" class="legend">Silver 1</text>
+</svg>
