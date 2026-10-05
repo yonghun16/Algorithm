@@ -9,11 +9,11 @@
   <rect x="0.5" y="0.5" width="349" height="151" rx="8" fill="#FFFFFF" stroke="#E5E7EB"/>
   <text x="20" y="32" class="title">JUNGOL</text>
   <text x="330" y="32" class="id" text-anchor="end">yonghun16</text>
-  <text x="20" y="72" class="num">1</text>
+  <text x="20" y="72" class="num">2</text>
   <text x="49" y="72" class="label">solved</text>
   <clipPath id="bar"><rect x="20" y="92" width="310" height="12" rx="6"/></clipPath>
   <g clip-path="url(#bar)">
-    <rect x="20.00" y="92" width="310.00" height="12" fill="#435F7A"/>
+    <rect x="20.00" y="92" width="155.00" height="12" fill="#AD5600"/><rect x="175.00" y="92" width="155.00" height="12" fill="#435F7A"/>
   </g>
-  <circle cx="25.00" cy="126" r="5" fill="#435F7A"/><text x="36.00" y="130" class="legend">Silver 1</text>
+  <circle cx="25.00" cy="126" r="5" fill="#AD5600"/><text x="36.00" y="130" class="legend">Bronze 1</text><circle cx="128.33" cy="126" r="5" fill="#435F7A"/><text x="139.33" y="130" class="legend">Silver 1</text>
 </svg>

@@ -90,5 +90,6 @@
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
+| 정올 | 2809 | [약수](https://www.acmicpc.net/problem/) | Bronze | C++, Math | [코드](https://github.com/yonghun16/Algorithm/tree/main/%EC%A0%95%EC%98%AC/Bronze/2809_%EC%95%BD%EC%88%98) |
 | 정올 | 5545 | [연필 공장](https://jungol.co.kr/problem/5545) | Silver | Rust, Math | [코드](https://github.com/yonghun16/Algorithm/tree/main/%EC%A0%95%EC%98%AC/Silver/5545_%EC%97%B0%ED%95%84_%EA%B3%B5%EC%9E%A5) |
 
