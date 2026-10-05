@@ -6,7 +6,7 @@
 
 | 백준 (Solved.ac) | 프로그래머스 (Programmers) | 정올 (JUNGOL) |
 | :---: | :---: | :---: |
-| <a href="https://solved.ac/profile/yonghun16"><img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=yonghun16" width="330"/></a> | <img src="https://raw.githubusercontent.com/yonghun16/github-programmers-rank/master/lib/result.svg" width="380"/> | <a href="https://jungol.co.kr/account/71256"><img src="jungol_badge.svg" width="330"/></a> |
+| <a href="https://solved.ac/profile/yonghun16"><img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=yonghun16" width="330"/></a> | <img src="programmers_badge.svg" width="330"/> | <a href="https://jungol.co.kr/account/71256"><img src="jungol_badge.svg" width="330"/></a> |
 
 ## 백준
 
@@ -90,6 +90,6 @@
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
-| 정올 | 2809 | [약수](https://www.acmicpc.net/problem/) | Bronze | C++, Math | [코드](https://github.com/yonghun16/Algorithm/tree/main/%EC%A0%95%EC%98%AC/Bronze/2809_%EC%95%BD%EC%88%98) |
+| 정올 | 2809 | [약수](https://www.acmicpc.net/problem/2809) | Bronze | C++, Math | [코드](https://github.com/yonghun16/Algorithm/tree/main/%EC%A0%95%EC%98%AC/Bronze/2809_%EC%95%BD%EC%88%98) |
 | 정올 | 5545 | [연필 공장](https://jungol.co.kr/problem/5545) | Silver | Rust, Math | [코드](https://github.com/yonghun16/Algorithm/tree/main/%EC%A0%95%EC%98%AC/Silver/5545_%EC%97%B0%ED%95%84_%EA%B3%B5%EC%9E%A5) |
 
