@@ -1,7 +1,7 @@
 /* ------------------------------------------------------------
- * Sub    : [BOJ] 문제 제목
- * Date   : 2026-10-06
- * Link   : https://www.acmicpc.net/problem/
+ * Sub    : [BOJ] 약수
+ * Date   : 2026-10-05
+ * Link   : https://www.acmicpc.net/problem/2809
  * Level  : Bronze 4
  * Tag    : C++, Math
  * ------------------------------------------------------------
