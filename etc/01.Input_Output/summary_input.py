@@ -1,100 +1,91 @@
+"""파이썬 입력 패턴 모음 (Python 3.9+). 필요한 함수만 복사해서 사용."""
+
 import sys
+from collections.abc import Callable
+from itertools import islice
+from typing import TypeVar
 
 input = sys.stdin.readline
 
-
-# === 1. 하나를 입력 받아 숫자형 변수에 저장 ===
-# 입력
-# 3
-num = int(input().strip())
-
-print(num)
+T = TypeVar("T")
 
 
-# === 2. 한 줄 입력받아 각각의 숫자형 변수에 저장 ===
-# 입력
-# 3 5
-num1, num2 = map(
-    int, input().strip().split()
-)  # 문자열 처리 흐름은: 입력 → 공백 제거 → 나누기 → 변환
-
-print(num1, num2)
+# --- 한 줄 입력 ---
+def read_int() -> int:
+    """3 -> 3"""
+    return int(input())
 
 
-# === 3. 한 줄 입력 받아 리스트로 저장 ===
-# 1 2 3 4 5 6 7 8 9
-arr = list(map(int, input().strip().split()))
+def read_ints() -> list[int]:
+    """'3 5' -> [3, 5]  (언패킹: a, b = read_ints())"""
+    return list(map(int, input().split()))
 
 
-# === 4. 한 줄 입력받아 각각의 문자열 변수에 저장 ===
-# abc def
-str1, str2 = input().strip().split()
-
-print(str1, str2)
+def read_words() -> list[str]:
+    """'abc def' -> ['abc', 'def']"""
+    return input().split()
 
 
-# === 5. 문자열 여러 줄을 입력받아 1차원 리스트에 저장 ===
-# 1차원 배열 형태로 저장, n개의 줄을 입력 받을 지 정할 수 있음. -> range(n)
-# 리스트 컴프리핸션을 사용하시오.
-# 입력
-# ABCDEF
-# BCDEFA
-# CDEFAB
-str = [input().strip() for _ in range(3)]
-
-print(str)
+def read_chars() -> list[str]:
+    """'ABC' -> ['A', 'B', 'C']"""
+    return list(input().strip())
 
 
-# === 6. 공백이 없는 숫자 데이터 여러 줄을 입력받아 2차원 리스트에 저장 ===
-# 숫자열 데이터로 변환 후, 2차원 배열 형태로 저장,
-# n개의 줄을 입력 받을 지 정할 수 있음. -> range(n)
-# 리스트 컴프리핸션을 사용하시오.
-# 입력
-# 0101
-# 1010
-# 2020
-str = [list(map(int, input().strip())) for _ in range(3)]
-
-print(str)
+# --- 여러 줄 입력 (줄 수를 아는 경우) ---
+def read_lines(n: int) -> list[str]:
+    """n줄 문자열 -> 1차원 리스트"""
+    return [input().strip() for _ in range(n)]
 
 
-# === 7. 숫자 데이터의 2차원 배열을 입력받기 ===
-# 한 줄에 띄어쓰기가 있는 배열을, 여려 개의 줄을 통해 입력 받을 때, 2차원 배열 형태로 저장
-# 리스트 컴프리핸션을 사용하시오.
-# 입력
-# 0 1 0 1
-# 1 0 1 0
-# 2 0 2 0
-arr = [list(map(int, input().strip().split())) for _ in range(3)]
+def read_digit_grid(n: int) -> list[list[int]]:
+    """공백 없는 숫자 n줄 ('0101') -> 2차원 int 리스트"""
+    return [list(map(int, input().strip())) for _ in range(n)]
 
-print(arr)
 
-# === 8. 문자 데이터의 2차원 배열(가변길이)을 입력받기 ===
-# 한 줄에 띄어쓰기가 있는 배열을, 여려 개의 줄을 통해 입력 받을 때, 2차원 배열 형태로 저장
-# 리스트 컴프리핸션을 사용하시오.
-# 입력
-# A -1 B -1
-# A -1 C -1
-# B -1 D -1
+def read_char_grid(n: int) -> list[list[str]]:
+    """공백 없는 문자 n줄 -> 2차원 문자 리스트"""
+    return [list(input().strip()) for _ in range(n)]
 
-str_arr: list[list[str]] = [line.split() for line in sys.stdin if line.strip()]
 
-# === 9. 파일 여러 줄씩 읽기 ===
-# 리스트 컴프리핸션을 사용하시오.
-# 예: 첫 줄에 테스트 케이스 개수, 이후 줄마다 숫자 한 개씩 들어 있다고 가정
-"""--------------
-# input.txt 
-3
-1
-2
-3
---------------"""
-file = open("input.txt", "r")
-lines = file.readlines()
-T = int(lines[0].strip())
+def read_int_grid(n: int) -> list[list[int]]:
+    """공백으로 구분된 숫자 n줄 -> 2차원 int 리스트"""
+    return [read_ints() for _ in range(n)]
 
-numbers = [int(lines[i].strip()) for i in range(1, T + 1)]
 
-print(numbers)
+def read_rows(n: int, cast: Callable[[str], T]) -> list[list[T]]:
+    """공백 구분 n줄 -> cast(int, float, str ...) 적용한 2차원 리스트"""
+    return [[cast(x) for x in input().split()] for _ in range(n)]
 
-file.close()
+
+# --- 줄 수를 모르는 경우 ---
+def read_token_rows() -> list[list[str]]:
+    """EOF까지 전부 읽어 줄별 토큰 리스트로 (가변 길이 가능)"""
+    return [line.split() for line in sys.stdin if line.strip()]
+
+
+def read_all_tokens() -> list[str]:
+    """입력이 아주 클 때: 전부 읽어 공백 기준 토큰으로 분리"""
+    return sys.stdin.read().split()
+
+
+# --- 파일 입력 ---
+def read_file_numbers(path: str) -> list[int]:
+    """첫 줄 T, 이후 T줄에 숫자 하나씩"""
+    with open(path, encoding="utf-8") as f:
+        t = int(next(f))
+        return list(map(int, islice(f, t)))
+
+
+# --- 사용 예 ---
+def solve(n: int, arr: list[int]) -> int:
+    return sum(arr[:n])
+
+
+def main() -> None:
+    n = read_int()
+    arr = read_ints()
+    print(solve(n, arr))
+
+
+if __name__ == "__main__":
+    main()

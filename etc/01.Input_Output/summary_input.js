@@ -1,88 +1,118 @@
-const input = require("fs").readFileSync(0, "utf-8").trim().split("\n");
+"use strict";
 
-// === 1. 하나를 입력 받아 숫자형 변수에 저장 ===
-// 입력
+// 입력 패턴 모음 (Node.js). 패턴별로 필요한 부분만 복사해서 사용.
+// 백준 등에서 0 번 fd가 안 되면 readFileSync("/dev/stdin") 으로 교체.
+const { readFileSync } = require("fs");
+
+// ───────────── 공통 헬퍼 (작은 순수 함수들) ─────────────
+const readLines = (source = 0) =>
+  readFileSync(source, "utf-8").trim().split(/\r?\n/); // Windows(CRLF)도 안전하게 처리
+
+const toWords = (line) => line.trim().split(/\s+/); // 'abc def' -> ['abc','def']
+const toNumbers = (line) => toWords(line).map(Number); // '3 5' -> [3, 5]
+const toChars = (line) => [...line.trim()]; // 'ABC' -> ['A','B','C']
+const toDigits = (line) => toChars(line).map(Number); // '0101' -> [0,1,0,1]
+
+const take = (n, lines, start = 0) => lines.slice(start, start + n);
+
+const lines = readLines();
+
+// ───────────── 1. 숫자 하나 ─────────────
 // 3
-const num = Number(input[0]);
-//const [num] = input.map(Number);
+{
+  const num = Number(lines[0]);
+  console.log(num);
+}
 
-console.log(num);
-
-// === 2. 한 줄 입력받아 각각의 숫자형 변수에 저장 ===
-// 입력
+// ───────────── 2. 한 줄 → 각각의 숫자 변수 ─────────────
 // 3 5
-const [a, b] = input[0].split(" ").map(Number);
+{
+  const [a, b] = toNumbers(lines[0]);
+  console.log(a, b);
+}
 
-console.log(a, b);
-
-// === 3. 한 줄 입력 받아 어레이로 저장 ===
+// ───────────── 3. 한 줄 → 숫자 배열 ─────────────
 // 1 2 3 4 5 6 7 8 9
-const arr = input[0].split(" ").map(Number);
+{
+  const arr = toNumbers(lines[0]);
+  console.log(arr);
+}
 
-console.log(arr);
-
-// === 4. 한 줄 입력받아 각각의 문자열 변수에 저장 ===
+// ───────────── 4. 한 줄 → 각각의 문자열 변수 ─────────────
 // abc def
-const [a, b] = input[0].split(" ");
+{
+  const [s1, s2] = toWords(lines[0]);
+  console.log(s1, s2);
+}
 
-console.log(a, b);
-
-// === 5. 문자열 여러 줄을 입력받아 1차원 리스트에 저장 ===
-// 1차원 배열 형태로 저장, n개의 줄을 입력 받을 지 정할 수 있음. -> range(n)
-// node는 Ctrl+ D 를 누르기 전까지 누적해서 입력데이터가 쌓임
-// 선언형으로 작성하시오.
-// 입력
+// ───────────── 5. 문자열 n줄 → 1차원 배열 ─────────────
 // ABCDEF
 // BCDEFA
-// CDEFAB  (Ctrl + D)
-const str = Array.from({ length: 3 }, (_, i) => input[i].trim());
+// CDEFAB
+{
+  const n = 3;
+  const strs = take(n, lines).map((line) => line.trim());
+  console.log(strs);
+}
 
-console.log(str);
-
-// === 6. 공백이 없는 숫자 데이터 여러 줄을 입력받아 2차원 리스트에 저장 ===
-// 숫자열 데이터로 변환 후, 2차원 배열 형태로 저장,
-// n개의 줄을 입력 받을 지 정할 수 있음. -> range(n)
-// 선언형으로 작성하시오.
-// 입력
+// ───────────── 6. 공백 없는 숫자 n줄 → 2차원 배열 ─────────────
 // 0101
 // 1010
 // 2020
-const grid = Array.from({ length: 3 }, (_, i) =>
-  Array.from(input[i].trim(), Number),
-);
+{
+  const n = 3;
+  const grid = take(n, lines).map(toDigits);
+  console.log(grid);
+}
 
-console.log(grid);
-
-// === 7. 숫자 데이터의 2차원 배열을 입력받기 ===
-// 한 줄에 띄어쓰기가 있는 배열을, 여려 개의 줄을 통해 입력 받을 때, 2차원 배열 형태로 저장
-// 선언형으로 작성하시오.
-// 입력
+// ───────────── 7. 공백 구분 숫자 n줄 → 2차원 배열 ─────────────
 // 0 1 0 1
 // 1 0 1 0
 // 2 0 2 0
-const arr = Array.from({ length: 3 }, (_, i) =>
-  Array.from(input[i].trim().split(" "), Number),
-);
+{
+  const n = 3;
+  const matrix = take(n, lines).map(toNumbers);
+  console.log(matrix);
+}
 
-console.log(arr);
+// ───────────── 8. 첫 줄 T, 이후 T줄에 숫자 하나씩 ─────────────
+// 3
+// 1
+// 2
+// 3
+{
+  const [first, ...rest] = lines; // 구조 분해 + 나머지 요소
+  const numbers = take(Number(first), rest).map(Number);
+  console.log(numbers);
+}
 
-// === 8. 파일 여러 줄씩 읽기 ===
-// 예: 첫 줄에 테스트 케이스 개수, 이후 줄마다 숫자 한 개씩 들어 있다고 가정
-// 선언형으로 작성하시오.
-/* -----------
-// input.txt 
-3
-1
-2
-3
---------------*/
-const filePath = require("path").join(__dirname, "input.txt");
-const lines = require("fs").readFileSync(filePath, "utf-8").trim().split("\n");
+// ───────────── 9. 첫 줄 "n m", 이어서 n줄 격자 ─────────────
+{
+  const [[n, m], ...rows] = lines.map(toNumbers);
+  const board = take(n, rows);
+  console.log(n, m, board);
+}
 
-const T = Number(lines[0]);
+// ───────────── 10. 줄 수를 모를 때 (끝까지) ─────────────
+{
+  const rows = lines.map(toWords); // 가변 길이 2차원 배열
+  console.log(rows);
+}
 
-const numbers = Array.from({ length: T }, (_, i) =>
-  Number(lines[i + 1].trim()),
-);
+// ───────────── 11. 입력이 아주 클 때: 토큰 단위 이터레이터 ─────────────
+{
+  const tokens = readFileSync(0, "utf-8").split(/\s+/).filter(Boolean);
+  const iter = tokens.values();
+  const next = () => iter.next().value;
+  const n = Number(next());
+  const arr = Array.from({ length: n }, () => Number(next()));
+  console.log(arr);
+}
 
-console.log(numbers);
+// ───────────── 12. 입력 파일을 직접 읽기 (로컬 테스트용) ─────────────
+{
+  const { join } = require("path");
+  const fileLines = readLines(join(__dirname, "input.txt"));
+  const [t, ...rest] = fileLines;
+  console.log(take(Number(t), rest).map(Number));
+}
