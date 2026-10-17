@@ -209,14 +209,15 @@ def write_jungol_badge(problems, path=JUNGOL_BADGE_PATH):
   <text x="{pad + 14 + len(str(total)) * 15}" y="72" class="label">solved</text>
   <clipPath id="bar"><rect x="{pad}" y="{bar_y}" width="{bar_w}" height="{bar_h}" rx="6"/></clipPath>
   <g clip-path="url(#bar)">
-    {''.join(bar_parts)}
+    {"".join(bar_parts)}
   </g>
-  {''.join(legend_parts)}
+  {"".join(legend_parts)}
 </svg>
 """
 
     with open(path, "w", encoding="utf-8") as f:
         f.write(svg)
+        print("정올: 배지를 갱신했습니다.")
 
 
 def fetch_programmers_record(email, password):
@@ -312,7 +313,7 @@ def write_programmers_badge(path=PROGRAMMERS_BADGE_PATH):
   <rect x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="8" fill="#FFFFFF" stroke="#E5E7EB"/>
   <text x="{pad}" y="32" class="title">PROGRAMMERS</text>
   <text x="{width - pad}" y="32" class="id" text-anchor="end">{escape(PROGRAMMERS_NAME)}</text>
-  {''.join(card_parts)}
+  {"".join(card_parts)}
 </svg>
 """
 
