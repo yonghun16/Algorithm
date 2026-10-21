@@ -43,8 +43,7 @@ def solution(data: list) -> None:
 
     for i in range(2, len(data)):
         gcd = get_gcd(gcd, data[i])
-        gcd_lcm_data = get_gcd(lcm, data[i])
-        lcm = get_lcm(lcm, data[i], gcd_lcm_data)
+        lcm = get_lcm(lcm, data[i], get_gcd(lcm, data[i]))
 
     print(gcd, lcm)
 
