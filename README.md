@@ -90,6 +90,7 @@
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
 |------|------|------|--------|------|------|
+| 정올 | 1002 | [최대공약수,최소공배수](https://jungol.co.kr/problem/1002) | Bronze | Python, Math, 정수론, 유클리드 | [코드](https://github.com/yonghun16/Algorithm/tree/main/%EC%A0%95%EC%98%AC/Bronze/1002_%EC%B5%9C%EB%8C%80%EA%B3%B5%EC%95%BD%EC%88%98%2C%EC%B5%9C%EC%86%8C%EA%B3%B5%EB%B0%B0%EC%88%98) |
 | 정올 | 1658 | [최대공약수와최소공배수](https://jungol.co.kr/problem/1658) | Bronze | Python, Math | [코드](https://github.com/yonghun16/Algorithm/tree/main/%EC%A0%95%EC%98%AC/Bronze/1658_%EC%B5%9C%EB%8C%80%EA%B3%B5%EC%95%BD%EC%88%98%EC%99%80%EC%B5%9C%EC%86%8C%EA%B3%B5%EB%B0%B0%EC%88%98) |
 | 정올 | 5545 | [연필 공장](https://jungol.co.kr/problem/5545) | Silver | Rust, Math | [코드](https://github.com/yonghun16/Algorithm/tree/main/%EC%A0%95%EC%98%AC/Silver/5545_%EC%97%B0%ED%95%84_%EA%B3%B5%EC%9E%A5) |
 | 정올 | 2809 | [약수](https://www.acmicpc.net/problem/2809) | Bronze | C++, Math | [코드](https://github.com/yonghun16/Algorithm/tree/main/%EC%A0%95%EC%98%AC/Bronze/2809_%EC%95%BD%EC%88%98) |
