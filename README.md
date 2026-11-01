@@ -4,9 +4,9 @@
 
 **백준**, **프로그래머스**, **정올** 디렉토리에 문제 풀이 소스가 있습니다.
 
-| 백준 (Solved.ac) | 프로그래머스 (Programmers) | 정올 (JUNGOL) |
+| 백준 (Solved.ac) | 정올 (JUNGOL) | 프로그래머스 (Programmers) |
 | :---: | :---: | :---: |
-| <a href="https://solved.ac/profile/yonghun16"><img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=yonghun16" width="330"/></a> | <img src="programmers_badge.svg" width="330"/> | <a href="https://jungol.co.kr/account/71256"><img src="jungol_badge.svg" width="330"/></a> |
+| <a href="https://solved.ac/profile/yonghun16"><img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=yonghun16" width="330"/></a> | <a href="https://jungol.co.kr/account/71256"><img src="jungol_badge.svg" width="330"/></a> | <img src="programmers_badge.svg" width="330"/> |
 
 ## 백준
 
@@ -63,29 +63,6 @@
 | 백준 | 2805 | [나무자르기](https://www.acmicpc.net/problem/2805) | Silver | JS, 이분 탐색 | [코드](https://github.com/yonghun16/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Silver/2805_%EB%82%98%EB%AC%B4%EC%9E%90%EB%A5%B4%EA%B8%B0) |
 | 백준 | 28278 | [스택2](https://www.acmicpc.net/problem/28278) | Silver | JS, Stack, Closure | [코드](https://github.com/yonghun16/Algorithm/tree/main/%EB%B0%B1%EC%A4%80/Silver/28278_%EC%8A%A4%ED%83%9D2) |
 
-## 프로그래머스
-
-| 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
-|------|------|------|--------|------|------|
-| 프로그래머스 | 12977 | [소수 만들기](https://programmers.co.kr/learn/courses/30/lessons/12977) | 1 | Python, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/12977_%EC%86%8C%EC%88%98_%EB%A7%8C%EB%93%A4%EA%B8%B0) |
-| 프로그래머스 | 161989 | [덧칠하기](https://school.programmers.co.kr/learn/courses/30/lessons/161989) | 1 | JS, Greedy | [코드](https://github.com/yonghun16/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/161989_%EB%8D%A7%EC%B9%A0%ED%95%98%EA%B8%B0) |
-| 프로그래머스 | 161990 | [바탕화면 정리](https://school.programmers.co.kr/learn/courses/30/lessons/161990) | 1 | Python, | [코드](https://github.com/yonghun16/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/161990_%EB%B0%94%ED%83%95%ED%99%94%EB%A9%B4_%EC%A0%95%EB%A6%AC) |
-| 프로그래머스 | 178871 | [달리기 경주]() | 1 |  | [코드](https://github.com/yonghun16/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/178871_%EB%8B%AC%EB%A6%AC%EA%B8%B0_%EA%B2%BD%EC%A3%BC) |
-| 프로그래머스 | 250121 | [데이터 분석](https://school.programmers.co.kr/learn/courses/30/lessons/250121) | 1 | Python, | [코드](https://github.com/yonghun16/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/250121_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%B6%84%EC%84%9D) |
-| 프로그래머스 | 250125 | [이웃한 칸](https://school.programmers.co.kr/learn/courses/30/lessons/250125) | 1 | Python, | [코드](https://github.com/yonghun16/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/250125_%EC%9D%B4%EC%9B%83%ED%95%9C_%EC%B9%B8) |
-| 프로그래머스 | 340198 | [공원](https://school.programmers.co.kr/learn/courses/30/lessons/340198) | 1 | Python, Simulation | [코드](https://github.com/yonghun16/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/340198_%EA%B3%B5%EC%9B%90) |
-| 프로그래머스 | 340199 | [지폐 접기](https://school.programmers.co.kr/learn/courses/30/lessons/340199) | 1 | Python, Simulation | [코드](https://github.com/yonghun16/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/340199_%EC%A7%80%ED%8F%90_%EC%A0%91%EA%B8%B0) |
-| 프로그래머스 | 340213 | [［PCCP 기출문제］ 1번 ／ 동영상 재생기](https://school.programmers.co.kr/learn/courses/30/lessons/340213) | 1 | Python, Simulation | [코드](https://github.com/yonghun16/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/340213_%EF%BC%BBPCCP_%EA%B8%B0%EC%B6%9C%EB%AC%B8%EC%A0%9C%EF%BC%BD_1%EB%B2%88_%EF%BC%8F_%EB%8F%99%EC%98%81%EC%83%81_%EC%9E%AC%EC%83%9D%EA%B8%B0) |
-| 프로그래머스 | 388351 | [유연근무제]() | 1 |  | [코드](https://github.com/yonghun16/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/388351_%EC%9C%A0%EC%97%B0%EA%B7%BC%EB%AC%B4%EC%A0%9C) |
-| 프로그래머스 | 388353 | [지게차와 크레인](https://school.programmers.co.kr/learn/courses/30/lessons/388353) | 1 | BFS, Simulation | [코드](https://github.com/yonghun16/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/388353_%EC%A7%80%EA%B2%8C%EC%B0%A8%EC%99%80_%ED%81%AC%EB%A0%88%EC%9D%B8) |
-| 프로그래머스 | 389478 | [택배 상자 꺼내기](https://school.programmers.co.kr/learn/courses/30/lessons/389478) | 1 | Python, Math | [코드](https://github.com/yonghun16/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/389478_%ED%83%9D%EB%B0%B0_%EC%83%81%EC%9E%90_%EA%BA%BC%EB%82%B4%EA%B8%B0) |
-| 프로그래머스 | 42840 | [모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840) | 1 | JS, 완전탐색 | [코드](https://github.com/yonghun16/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/42840_%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC) |
-| 프로그래머스 | 468370 | [중요한 단어를 스포 방지](https://school.programmers.co.kr/learn/courses/30/lessons/468370) | 1 | Python, String, Implementation | [코드](https://github.com/yonghun16/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/468370_%EC%A4%91%EC%9A%94%ED%95%9C_%EB%8B%A8%EC%96%B4%EB%A5%BC_%EC%8A%A4%ED%8F%AC_%EB%B0%A9%EC%A7%80) |
-| 프로그래머스 | 468371 | [노란불 신호등](https://www.acmicpc.net/problem/468371) | 1 | Python | [코드](https://github.com/yonghun16/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/468371_%EB%85%B8%EB%9E%80%EB%B6%88_%EC%8B%A0%ED%98%B8%EB%93%B1) |
-| 프로그래머스 | 68644 | [두 개 뽑아서 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/68644) | 1 | JS, | [코드](https://github.com/yonghun16/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/68644_%EB%91%90_%EA%B0%9C_%EB%BD%91%EC%95%84%EC%84%9C_%EB%8D%94%ED%95%98%EA%B8%B0) |
-| 프로그래머스 | 70128 | [내적](https://programmers.co.kr/learn/courses/30/lessons/70128) | 1 | JS, Math | [코드](https://github.com/yonghun16/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/70128_%EB%82%B4%EC%A0%81) |
-| 프로그래머스 | 86051 | [없는숫자 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/86051) | 1 | C, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/86051_%EC%97%86%EB%8A%94%EC%88%AB%EC%9E%90_%EB%8D%94%ED%95%98%EA%B8%B0) |
-
 ## 정올
 
 | 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
@@ -96,4 +73,27 @@
 | 정올 | 1009 | [각자리수의 역과 합](https://jungol.co.kr/problem/1009) | Bronze | Python, Math | [코드](https://github.com/yonghun16/Algorithm/tree/main/%EC%A0%95%EC%98%AC/Bronze/1009_%EA%B0%81%EC%9E%90%EB%A6%AC%EC%88%98%EC%9D%98_%EC%97%AD%EA%B3%BC_%ED%95%A9) |
 | 정올 | 1002 | [최대공약수,최소공배수](https://jungol.co.kr/problem/1002) | Bronze | Python, Math, 정수론, 유클리드 | [코드](https://github.com/yonghun16/Algorithm/tree/main/%EC%A0%95%EC%98%AC/Bronze/1002_%EC%B5%9C%EB%8C%80%EA%B3%B5%EC%95%BD%EC%88%98%2C%EC%B5%9C%EC%86%8C%EA%B3%B5%EB%B0%B0%EC%88%98) |
 | 정올 | 2809 | [약수](https://www.acmicpc.net/problem/2809) | Bronze | C++, Math | [코드](https://github.com/yonghun16/Algorithm/tree/main/%EC%A0%95%EC%98%AC/Bronze/2809_%EC%95%BD%EC%88%98) |
+
+## 프로그래머스
+
+| 온라인 저지 | 번호 | 문제 | 난이도 | 태그 | 풀이 |
+|------|------|------|--------|------|------|
+| 프로그래머스 | 12977 | [소수 만들기](https://programmers.co.kr/learn/courses/30/lessons/12977) | 1 | Python, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/12977_%EC%86%8C%EC%88%98_%EB%A7%8C%EB%93%A4%EA%B8%B0) |
+| 프로그래머스 | 161989 | [덧칠하기](https://school.programmers.co.kr/learn/courses/30/lessons/161989) | 1 | JS, Greedy | [코드](https://github.com/yonghun16/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/161989_%EB%8D%A7%EC%B9%A0%ED%95%98%EA%B8%B0) |
+| 프로그래머스 | 161990 | [바탕화면 정리](https://school.programmers.co.kr/learn/courses/30/lessons/161990) | 1 | Python, | [코드](https://github.com/yonghun16/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/161990_%EB%B0%94%ED%83%95%ED%99%94%EB%A9%B4_%EC%A0%95%EB%A6%AC) |
+| 프로그래머스 | 178871 | 달리기 경주 | 1 |  | [코드](https://github.com/yonghun16/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/178871_%EB%8B%AC%EB%A6%AC%EA%B8%B0_%EA%B2%BD%EC%A3%BC) |
+| 프로그래머스 | 250121 | [데이터 분석](https://school.programmers.co.kr/learn/courses/30/lessons/250121) | 1 | Python, | [코드](https://github.com/yonghun16/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/250121_%EB%8D%B0%EC%9D%B4%ED%84%B0_%EB%B6%84%EC%84%9D) |
+| 프로그래머스 | 250125 | [이웃한 칸](https://school.programmers.co.kr/learn/courses/30/lessons/250125) | 1 | Python, | [코드](https://github.com/yonghun16/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/250125_%EC%9D%B4%EC%9B%83%ED%95%9C_%EC%B9%B8) |
+| 프로그래머스 | 340198 | [공원](https://school.programmers.co.kr/learn/courses/30/lessons/340198) | 1 | Python, Simulation | [코드](https://github.com/yonghun16/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/340198_%EA%B3%B5%EC%9B%90) |
+| 프로그래머스 | 340199 | [지폐 접기](https://school.programmers.co.kr/learn/courses/30/lessons/340199) | 1 | Python, Simulation | [코드](https://github.com/yonghun16/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/340199_%EC%A7%80%ED%8F%90_%EC%A0%91%EA%B8%B0) |
+| 프로그래머스 | 340213 | [［PCCP 기출문제］ 1번 ／ 동영상 재생기](https://school.programmers.co.kr/learn/courses/30/lessons/340213) | 1 | Python, Simulation | [코드](https://github.com/yonghun16/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/340213_%EF%BC%BBPCCP_%EA%B8%B0%EC%B6%9C%EB%AC%B8%EC%A0%9C%EF%BC%BD_1%EB%B2%88_%EF%BC%8F_%EB%8F%99%EC%98%81%EC%83%81_%EC%9E%AC%EC%83%9D%EA%B8%B0) |
+| 프로그래머스 | 388351 | 유연근무제 | 1 |  | [코드](https://github.com/yonghun16/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/388351_%EC%9C%A0%EC%97%B0%EA%B7%BC%EB%AC%B4%EC%A0%9C) |
+| 프로그래머스 | 388353 | [지게차와 크레인](https://school.programmers.co.kr/learn/courses/30/lessons/388353) | 1 | BFS, Simulation | [코드](https://github.com/yonghun16/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/388353_%EC%A7%80%EA%B2%8C%EC%B0%A8%EC%99%80_%ED%81%AC%EB%A0%88%EC%9D%B8) |
+| 프로그래머스 | 389478 | [택배 상자 꺼내기](https://school.programmers.co.kr/learn/courses/30/lessons/389478) | 1 | Python, Math | [코드](https://github.com/yonghun16/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/389478_%ED%83%9D%EB%B0%B0_%EC%83%81%EC%9E%90_%EA%BA%BC%EB%82%B4%EA%B8%B0) |
+| 프로그래머스 | 42840 | [모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840) | 1 | JS, 완전탐색 | [코드](https://github.com/yonghun16/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/42840_%EB%AA%A8%EC%9D%98%EA%B3%A0%EC%82%AC) |
+| 프로그래머스 | 468370 | [중요한 단어를 스포 방지](https://school.programmers.co.kr/learn/courses/30/lessons/468370) | 1 | Python, String, Implementation | [코드](https://github.com/yonghun16/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/468370_%EC%A4%91%EC%9A%94%ED%95%9C_%EB%8B%A8%EC%96%B4%EB%A5%BC_%EC%8A%A4%ED%8F%AC_%EB%B0%A9%EC%A7%80) |
+| 프로그래머스 | 468371 | [노란불 신호등](https://www.acmicpc.net/problem/468371) | 1 | Python | [코드](https://github.com/yonghun16/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/468371_%EB%85%B8%EB%9E%80%EB%B6%88_%EC%8B%A0%ED%98%B8%EB%93%B1) |
+| 프로그래머스 | 68644 | [두 개 뽑아서 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/68644) | 1 | JS, | [코드](https://github.com/yonghun16/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/68644_%EB%91%90_%EA%B0%9C_%EB%BD%91%EC%95%84%EC%84%9C_%EB%8D%94%ED%95%98%EA%B8%B0) |
+| 프로그래머스 | 70128 | [내적](https://programmers.co.kr/learn/courses/30/lessons/70128) | 1 | JS, Math | [코드](https://github.com/yonghun16/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/70128_%EB%82%B4%EC%A0%81) |
+| 프로그래머스 | 86051 | [없는숫자 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/86051) | 1 | C, math | [코드](https://github.com/yonghun16/Algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/86051_%EC%97%86%EB%8A%94%EC%88%AB%EC%9E%90_%EB%8D%94%ED%95%98%EA%B8%B0) |
 
